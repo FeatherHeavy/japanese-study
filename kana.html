@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日语五十音图 | 平假名 · 片假名 · 读音</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%231e3a5f'/><text x='50' y='68' text-anchor='middle' font-size='58' fill='white'>あ</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark serif">あ</span>日语速查</a>
+      <button class="menu-btn" type="button">菜单</button>
+      <nav class="nav">
+        <a href="index.html">首页</a>
+        <a class="active" href="kana.html">五十音图</a>
+        <a href="verbs.html">动词活用</a>
+        <a href="keigo.html">敬语速查</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="kana-root">
+    <section class="hero">
+      <div class="kicker">GOJŪON</div>
+      <h1>五十音图 · 完整版</h1>
+      <p class="lede">每个格子自上而下是平假名 / 片假名 / 罗马音。点击格子会朗读；把罗马音关掉就能当默写表用。</p>
+    </section>
+
+    <div class="toolbar">
+      <input class="search" id="kana-search" placeholder="搜索假名或罗马音，如 shi、つ">
+      <label class="toggle"><input type="checkbox" data-hide="hira" checked>平假名</label>
+      <label class="toggle"><input type="checkbox" data-hide="kata" checked>片假名</label>
+      <label class="toggle"><input type="checkbox" data-hide="roma" checked>罗马音</label>
+      <a class="btn ghost small" href="pdf/kana.pdf">下载 PDF</a>
+    </div>
+
+    <section class="section">
+      <h2>① 清音 <small>基本五十音，先把这一张背熟</small></h2>
+      <table class="kana-table" id="seion-table"></table>
+      <div class="grid-notes">
+        <div class="note">灰色空格表示该位置没有假名。を 作助词时通常读 <b>o</b>，很少读 wo。</div>
+        <div class="note">助词变读（必记）：<b>は → wa</b>（わたしは）、<b>へ → e</b>（がっこうへ）、<b>を → o</b>（みずを）。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>② 浊音 <small>゛　か→が　さ→ざ　た→だ　は→ば</small></h2>
+      <table class="kana-table" id="dakuon-table"></table>
+      <div class="note">じ 和 ぢ、ず 和 づ 现代音几乎相同。常用 じ / ず；ぢ / づ 多出现在连浊，如 ちかぢか、はなぢ、つづく。</div>
+    </section>
+
+    <section class="section">
+      <h2>③ 半浊音 <small>゜　は→ぱ</small></h2>
+      <table class="kana-table" id="handaku-table"></table>
+    </section>
+
+    <section class="section">
+      <h2>④ 特殊假名</h2>
+      <div class="special-grid">
+        <div class="pill"><div class="hira jp">っ / ッ</div><b>促音</b><p>把后面辅音发成堵住再放开，罗马音双写：かった = katta，がっこう = gakkou。</p></div>
+        <div class="pill"><div class="hira jp">ー</div><b>长音</b><p>片假名常用长音符号：コーヒー = koohii。平假名则加元音：おかあさん、おにいさん。</p></div>
+        <div class="pill"><div class="hira jp">ゃゅょ</div><b>小写拗音</b><p>跟い段假名组成一个拍：きゃ = kya，不是 ki + ya 两拍。</p></div>
+        <div class="pill"><div class="hira jp">ぁぃぅぇぉ</div><b>小写元音</b><p>多用于外来语：ファ fa、フィ fi、ウェ we、フォ fo。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>⑤ 拗音 <small>ゃ ゅ ょ　各算一拍</small></h2>
+      <table class="kana-table" id="youon-table"></table>
+    </section>
+
+    <section class="section">
+      <h2>⑥ 外来语常见扩展 <small>片假名</small></h2>
+      <div class="loan-grid" id="loan-grid"></div>
+      <div class="note" style="margin-top:12px">平假名写日语本身和语法；片假名写外来语、拟声词、强调。读音采用赫本式：し=shi、ち=chi、つ=tsu、ふ=fu。</div>
+    </section>
+
+    <section class="section">
+      <h2>易混假名</h2>
+      <table class="data">
+        <thead><tr><th>容易混</th><th>怎么记</th></tr></thead>
+        <tbody>
+          <tr><td class="jp">ね / れ / わ</td><td>ね 有一弯钩；れ 是竖折；わ 开口更大。</td></tr>
+          <tr><td class="jp">ぬ / め</td><td>ぬ 像「ぬ」里有个圈（ぬの的线穿过）；め 更像眼睛。</td></tr>
+          <tr><td class="jp">さ / き　ち / ら</td><td>さ 左右可断开；き 多一横。ち 像数字 5；ら 起笔更弯。</td></tr>
+          <tr><td class="jp">シ / ツ　ソ / ン</td><td>片假名：シ 点向右下、ツ 点向下；ソ 一撇较短，ン 更平。</td></tr>
+          <tr><td class="jp">ア / マ　ク / タ</td><td>ア 像尖帽子；マ 有横折。ク 开口向右，タ 多一折。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section quiz-box">
+      <h2>听写练习 <small>选对罗马音</small></h2>
+      <div class="toolbar" style="margin-top:0">
+        <label class="toggle"><input type="radio" name="quiz-mode" value="hira" checked>看平假名</label>
+        <label class="toggle"><input type="radio" name="quiz-mode" value="kata">看片假名</label>
+        <span class="score" id="score">答对 0 / 0</span>
+      </div>
+      <div class="quiz-char jp" id="quiz-char">あ</div>
+      <div class="choices" id="choices"></div>
+    </section>
+  </main>
+  <footer class="site-footer">点击假名即可朗读（需系统日语语音） · <a href="pdf/kana.pdf">下载五十音 PDF</a></footer>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/kana.js"></script>
+</body>
+</html>

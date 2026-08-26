@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日语动词十三种活用</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%231e3a5f'/><text x='50' y='68' text-anchor='middle' font-size='58' fill='white'>あ</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark serif">あ</span>日语速查</a>
+      <button class="menu-btn" type="button">菜单</button>
+      <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="kana.html">五十音图</a>
+        <a class="active" href="verbs.html">动词活用</a>
+        <a href="keigo.html">敬语速查</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">13 CONJUGATIONS</div>
+      <h1>动词「十三种」活用总表</h1>
+      <p class="lede">日语没有英语那种十二时态。常说的十三种，是动词的变形。时态感主要靠辞书/ます（非过去）＋た/ました（过去）＋ている（进行/状态）。</p>
+    </section>
+
+    <section class="section">
+      <h2>先分清三类动词</h2>
+      <div class="verb-types">
+        <article class="card type-card godan">
+          <span class="tag green">一类 · 五段</span>
+          <h2>词尾在う段</h2>
+          <p>書く・飲む・買う・待つ・話す・泳ぐ。词尾る但实际是一类：帰る・切る・知る・入る・走る・要る。</p>
+        </article>
+        <article class="card type-card ichidan">
+          <span class="tag navy">二类 · 一段</span>
+          <h2>词尾る，前为い/え段</h2>
+          <p>食べる・見る・起きる・教える・寝る・いる。去掉る，后面直接接ます/て/ない。</p>
+        </article>
+        <article class="card type-card fukisoku">
+          <span class="tag gold">三类 · 不规则</span>
+          <h2>只有两个家族</h2>
+          <p>する（勉強する、説明する……）和 来る（くる）。可能形：する→できる，来る→来られる。</p>
+        </article>
+      </div>
+      <div class="note warn" style="margin-top:12px">同音陷阱：<b>着る</b>（穿，二类：着ます）vs <b>切る</b>（切，一类：切ります）。看汉字，不能只看かな。</div>
+    </section>
+
+    <section class="section">
+      <h2>活用器 <small>输入辞书形，立刻出 13 种</small></h2>
+      <div class="conjugator">
+        <div class="conju-form card">
+          <label>辞书形</label>
+          <input id="verb-input" class="jp" placeholder="書く / 食べる / する">
+          <label>类型（可自动判断）</label>
+          <select id="verb-type">
+            <option value="0">自动判断</option>
+            <option value="1">一类（五段）</option>
+            <option value="2">二类（一段）</option>
+            <option value="3">三类（する / 来る）</option>
+          </select>
+          <button class="btn" id="go" type="button">变形</button>
+          <div class="score" id="guess"></div>
+          <div class="chips" id="chips"></div>
+        </div>
+        <div class="result-grid" id="result-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>十三种一览 <small>書く / 食べる / する / 来る</small></h2>
+      <div style="overflow:auto">
+        <table class="data">
+          <thead>
+            <tr><th>名称</th><th>一类 書く</th><th>二类 食べる</th><th>する</th><th>来る</th></tr>
+          </thead>
+          <tbody id="master-body"></tbody>
+        </table>
+      </div>
+      <div class="grid-notes">
+        <div class="note">教材有时把 なかった / たら / たい 也算进去，总数会变成 12～15 种，核心仍是上表。</div>
+        <div class="note">二类「被动」与「可能」同形（食べられる），口语可能常用 食べれる。一类使役被动常缩成 書かされる。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>て形音便 <small>一类最容易错，单独记</small></h2>
+      <table class="data">
+        <thead><tr><th>词尾</th><th>て形</th><th>た形</th><th>例子</th></tr></thead>
+        <tbody>
+          <tr><td>う・つ・る</td><td class="jp">って</td><td class="jp">った</td><td class="jp">買う→買って　待つ→待って　帰る→帰って</td></tr>
+          <tr><td>く</td><td class="jp">いて</td><td class="jp">いた</td><td class="jp">書く→書いて　例外：行く→行って</td></tr>
+          <tr><td>ぐ</td><td class="jp">いで</td><td class="jp">いだ</td><td class="jp">泳ぐ→泳いで　急ぐ→急いだ</td></tr>
+          <tr><td>ぬ・ぶ・む</td><td class="jp">んで</td><td class="jp">んだ</td><td class="jp">死ぬ→死んで　遊ぶ→遊んで　飲む→飲んで</td></tr>
+          <tr><td>す</td><td class="jp">して</td><td class="jp">した</td><td class="jp">話す→話して　出す→出した</td></tr>
+          <tr><td>二类 / する / 来る</td><td class="jp">て / して / 来て</td><td class="jp">た / した / 来た</td><td class="jp">食べて　して　来て</td></tr>
+        </tbody>
+      </table>
+      <div class="note" style="margin-top:12px">口诀：<b>うつつるって、くいて、ぐいで、ぬぶむんで、すして</b>。行く 永远单独记。</div>
+    </section>
+
+    <section class="section">
+      <h2>规则速记</h2>
+      <table class="data">
+        <thead><tr><th>形</th><th>一类</th><th>二类</th><th>三类</th></tr></thead>
+        <tbody>
+          <tr><td>ます形</td><td>う段→い段 + ます</td><td>去る + ます</td><td>します / 来ます</td></tr>
+          <tr><td>ない形</td><td>う段→あ段 + ない（う→わ）</td><td>去る + ない</td><td>しない / 来ない</td></tr>
+          <tr><td>可能形</td><td>う段→え段 + る</td><td>去る + られる</td><td>できる / 来られる</td></tr>
+          <tr><td>被动形</td><td>う段→あ段 + れる（う→わ）</td><td>去る + られる</td><td>される / 来られる</td></tr>
+          <tr><td>使役形</td><td>う段→あ段 + せる（う→わ）</td><td>去る + させる</td><td>させる / 来させる</td></tr>
+          <tr><td>意向形</td><td>う段→お段 + う</td><td>去る + よう</td><td>しよう / 来よう</td></tr>
+          <tr><td>命令形</td><td>う段→え段</td><td>去る + ろ／よ</td><td>しろ／せよ　／　来い</td></tr>
+          <tr><td>ば形</td><td>う段→え段 + ば</td><td>去る + れば</td><td>すれば / 来れば</td></tr>
+          <tr><td>禁止形</td><td colspan="3">辞书形 + な　（礼貌禁止用 ～ないでください）</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>和「时态」怎么对应</h2>
+      <table class="data">
+        <thead><tr><th>中文时间意义</th><th>日语例子</th><th>主要用的形</th></tr></thead>
+        <tbody>
+          <tr><td>现在／将来（普通）</td><td class="jp">食べる／行く</td><td>辞书形</td></tr>
+          <tr><td>现在／将来（礼貌）</td><td class="jp">食べます／行きます</td><td>ます形</td></tr>
+          <tr><td>过去（普通）</td><td class="jp">食べた／行った</td><td>た形</td></tr>
+          <tr><td>过去（礼貌）</td><td class="jp">食べました</td><td>ました</td></tr>
+          <tr><td>进行／状态</td><td class="jp">食べている</td><td>て形 + いる</td></tr>
+          <tr><td>否定现在</td><td class="jp">食べない／食べません</td><td>ない／ません</td></tr>
+          <tr><td>否定过去</td><td class="jp">食べなかった／食べませんでした</td><td>なかった／ませんでした</td></tr>
+          <tr><td>想做</td><td class="jp">食べたい／書きたい</td><td>ます词干 + たい</td></tr>
+          <tr><td>如果／一……就</td><td class="jp">食べたら／書いたら</td><td>た形 + ら</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="pdf/verbs.pdf">下载动词活用 PDF</a></footer>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/verbs.js"></script>
+</body>
+</html>

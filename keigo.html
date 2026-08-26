@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日语敬语高频速查</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Noto+Sans+SC:wght@400;600;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='18' width='100' height='100' fill='%231e3a5f'/><text x='50' y='68' text-anchor='middle' font-size='58' fill='white'>あ</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark serif">あ</span>日语速查</a>
+      <button class="menu-btn" type="button">菜单</button>
+      <nav class="nav">
+        <a href="index.html">首页</a>
+        <a href="kana.html">五十音图</a>
+        <a href="verbs.html">动词活用</a>
+        <a class="active" href="keigo.html">敬语速查</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">KEIGO</div>
+      <h1>敬语高频速查</h1>
+      <p class="lede">尊敬语抬对方，谦让语压自己，丁宁语对听者礼貌。先把方向搞对，再换高频动词；用反敬语，有时比只用です／ます更尴尬。</p>
+    </section>
+
+    <section class="section">
+      <h2>① 先分清三类</h2>
+      <div class="keigo-types">
+        <article class="card type-card sonkei">
+          <span class="tag navy">尊敬语 尊敬語</span>
+          <h2>抬高对方的行为</h2>
+          <p class="jp">いらっしゃる　おっしゃる　召し上がる　なさる　ご覧になる</p>
+        </article>
+        <article class="card type-card kenjo">
+          <span class="tag green">谦让语 謙譲語</span>
+          <h2>压低自己／己方</h2>
+          <p class="jp">参る／伺う　申す　拝見する　いたす　いただく</p>
+        </article>
+        <article class="card type-card teinei">
+          <span class="tag gold">丁宁语 丁寧語</span>
+          <h2>对听者表示礼貌</h2>
+          <p class="jp">です／ます　ございます　でしょうか　おります</p>
+        </article>
+      </div>
+      <div class="note" style="margin-top:12px">还有「美化语」：お金、お茶、ご飯。它不管谁做动作，只是把词说得更体面。</div>
+    </section>
+
+    <section class="section">
+      <h2>② 判断口诀</h2>
+      <table class="data">
+        <thead><tr><th>情况</th><th>用哪一类</th><th>例子</th></tr></thead>
+        <tbody>
+          <tr><td>对方做的事</td><td>尊敬语</td><td class="jp">先生がおっしゃいました</td></tr>
+          <tr><td>自己做的事</td><td>谦让语</td><td class="jp">私が申します／伺います</td></tr>
+          <tr><td>只是说得客气</td><td>丁宁语就够</td><td class="jp">行きます／わかりました</td></tr>
+          <tr><td>对方给我 / 我领受</td><td>くださる / いただく</td><td class="jp">教えてください／いただきます</td></tr>
+          <tr><td>我给对方</td><td>差し上げる</td><td class="jp">資料を差し上げます</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>③ 普通 → 尊敬 → 谦让 <small>点击假名可朗读</small></h2>
+      <div class="toolbar">
+        <input class="search" id="keigo-search" placeholder="搜索：行く、说、見る……">
+        <a class="btn ghost small" href="pdf/keigo.pdf">下载 PDF</a>
+      </div>
+      <div style="overflow:auto">
+        <table class="data">
+          <thead><tr><th>普通语</th><th>尊敬语（对方）</th><th>谦让语（自己）</th></tr></thead>
+          <tbody id="keigo-body"></tbody>
+        </table>
+      </div>
+      <div class="grid-notes">
+        <div class="note">いらっしゃる 可对应 行く／来る／いる，靠上下文判断。</div>
+        <div class="note">くださる＝对方给我；いただく＝我从对方那里领受。不要和「我给对方」搞混。</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>构成方式</h2>
+      <table class="data">
+        <thead><tr><th></th><th>尊敬</th><th>谦让</th></tr></thead>
+        <tbody>
+          <tr><td>A. 特殊动词</td><td class="jp">言う→おっしゃる　する→なさる</td><td class="jp">行く→参る／伺う　言う→申す</td></tr>
+          <tr><td>B. お／ご型</td><td class="jp">お書きになる　お待ちになる</td><td class="jp">お持ちする　ご案内する　お待ちいたします</td></tr>
+          <tr><td>C. れる／られる</td><td class="jp">行かれる　食べられる（商务常见）</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <p>お 多接训读和语：お金、お茶、お名前、お時間、お手紙。ご 多接音读汉语词：ご住所、ご意見、ご家族、ご都合、ご確認。例外要记：ご飯、ご年始；お返事。</p>
+      <div class="note warn">不是所有动词都能套「お～する」。为自己做的事乱加お／ご，可能显得奇怪甚至失礼。</div>
+    </section>
+
+    <section class="section">
+      <h2>授受三方向</h2>
+      <div class="triple">
+        <div class="pill"><b>我 → 对方</b><div class="hira jp">あげる → 差し上げる</div>我给别人</div>
+        <div class="pill"><b>对方 → 我</b><div class="hira jp">くれる → くださる</div>别人给我</div>
+        <div class="pill"><b>我 ← 从对方</b><div class="hira jp">もらう → いただく</div>我领受</div>
+      </div>
+      <table class="data" style="margin-top:12px">
+        <thead><tr><th>句型</th><th>含义</th><th>例子</th></tr></thead>
+        <tbody>
+          <tr><td class="jp">～てください</td><td>请你做……</td><td class="jp">見てください</td></tr>
+          <tr><td class="jp">～てくださいますか</td><td>您能帮我……吗</td><td class="jp">教えてくださいますか</td></tr>
+          <tr><td class="jp">～ていただけますか</td><td>能否请您……（很常用）</td><td class="jp">確認していただけますか</td></tr>
+          <tr><td class="jp">～ていただけませんか</td><td>更委婉请求</td><td class="jp">少々お待ちいただけませんか</td></tr>
+          <tr><td class="jp">～てさしあげます</td><td>我为您做……</td><td class="jp">案内してさしあげます</td></tr>
+          <tr><td class="jp">～させていただきます</td><td>请允许我做……</td><td class="jp">説明させていただきます</td></tr>
+        </tbody>
+      </table>
+      <div class="flow" style="margin-top:12px">
+        <span class="pill">てください</span><span class="arrow">→</span>
+        <span class="pill">てくださいますか</span><span class="arrow">→</span>
+        <span class="pill">ていただけますか</span><span class="arrow">→</span>
+        <span class="pill">ていただけませんか</span><span class="arrow">→</span>
+        <span class="pill">よろしいでしょうか</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>电话／邮件套话</h2>
+      <table class="data">
+        <thead><tr><th>场景</th><th>日语</th><th>中文</th></tr></thead>
+        <tbody id="mail-body"></tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>同一件事：普通 → 礼貌 → 敬语</h2>
+      <table class="data">
+        <thead><tr><th>场景</th><th>随便说</th><th>丁宁语</th><th>敬语</th></tr></thead>
+        <tbody>
+          <tr><td>老师在吗？</td><td class="jp">先生、いる？</td><td class="jp">先生はいますか。</td><td class="jp">先生はいらっしゃいますか。</td></tr>
+          <tr><td>我去贵公司。</td><td class="jp">会社へ行く。</td><td class="jp">会社へ行きます。</td><td class="jp">御社へ伺います。</td></tr>
+          <tr><td>老师说了。</td><td class="jp">先生が言った。</td><td class="jp">先生が言いました。</td><td class="jp">先生がおっしゃいました。</td></tr>
+          <tr><td>请看这个。</td><td class="jp">これ見て。</td><td class="jp">これを見てください。</td><td class="jp">これをご覧ください。</td></tr>
+          <tr><td>我看了资料。</td><td class="jp">資料を見た。</td><td class="jp">資料を見ました。</td><td class="jp">資料を拝見しました。</td></tr>
+          <tr><td>能告诉我吗？</td><td class="jp">教えて。</td><td class="jp">教えてください。</td><td class="jp">教えていただけますか。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>千万别用反</h2>
+      <table class="data">
+        <thead><tr><th>避免</th><th>更好</th><th>原因</th></tr></thead>
+        <tbody>
+          <tr><td class="jp">× 先生が参りました</td><td class="jp">○ 先生がいらっしゃいました</td><td>对方来 → 尊敬，不是谦让</td></tr>
+          <tr><td class="jp">× 私がおっしゃいます</td><td class="jp">○ 私が申します</td><td>自己说 → 谦让，不是尊敬</td></tr>
+          <tr><td class="jp">× 社長にこれを差し上げてください</td><td class="jp">○ 社長にお渡しください</td><td>请对方转交时，不要让对方「差し上げる」</td></tr>
+          <tr><td class="jp">× させていただきます 连发</td><td>适度使用</td><td>过度用会显得油滑</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>什么时候必须用敬语</h2>
+      <div class="triple">
+        <div class="pill"><b>必须偏高</b><p>公司客户、上司、老师、初次见面的长辈、正式邮件／电话</p></div>
+        <div class="pill"><b>礼貌即可</b><p>便利店、餐厅点餐、问路、同学同事日常：です／ます 足够</p></div>
+        <div class="pill"><b>可以普通体</b><p>家人、亲密朋友、日记、对内很熟的同事（注意关系）</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">原则：先正确，再恭敬 · <a href="pdf/keigo.pdf">下载敬语 PDF</a></footer>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/keigo.js"></script>
+</body>
+</html>
