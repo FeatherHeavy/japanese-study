@@ -30,6 +30,20 @@ const PAIRS = [
   },
   {
     q: {
+      ja: "N1なのに、なぜ会話がまだ難しいのですか。",
+      kana: "エヌいち なのに、なぜ かいわが まだ むずかしいのですか。",
+      roma: "N1 na no ni, naze kaiwa ga mada muzukashii no desu ka.",
+      zh: "都 N1 了，为什么口语还这么差？"
+    },
+    a: {
+      ja: "日本語能力試験には、話す試験がありません。読解、聴解、文法、語彙です。漢字は中国語と近いので、読み書きは先に上がりました。会話は来日してまだ短く、職場では中国語と英語が中心でした。ですからN1でも、話すスピードはまだ追いついていません。今日は日本語で答えます。正確さが必要なところは、英語でも説明できます。",
+      kana: "にほんごのうりょくしけんには、はなす しけんが ありません。どっかい、ちょうかい、ぶんぽう、ごいです。かんじは ちゅうごくごと ちかいので、よみかきは さきに あがりました。かいわは らいにして まだ みじかく、しょくばでは ちゅうごくごと えいごが ちゅうしんでした。ですから エヌいちでも、はなす スピードは まだ おいついていません。きょうは にほんごで こたえます。せいかくさが ひつような ところは、えいごでも せつめいできます。",
+      roma: "nihongo nouryoku shiken ni wa, hanasu shiken ga arimasen. dokkai, choukai, bunpou, goi desu. kanji wa chuugokugo to chikai node, yomikaki wa saki ni agarimashita. kaiwa wa rainichi shite mada mijikaku, shokuba de wa chuugokugo to eigo ga chuushin deshita. desu kara N1 demo, hanasu supiido wa mada oitsuite imasen. kyou wa nihongo de kotaemasu. seikakusa ga hitsuyou na tokoro wa, eigo demo setsumei dekimasu.",
+      zh: "能力考试不考口语，只考读、听、语法、词汇。汉字和中文近，所以读写先上去了。会话来日还短，公司里主要用中文和英语。所以即使是N1，语速还没跟上。今天用日语答；需要精确的地方也可以用英语说明。"
+    }
+  },
+  {
+    q: {
       ja: "なぜ日本で働きたいのですか。",
       kana: "なぜ にほんで はたらきたいのですか。",
       roma: "naze nihon de hatarakitai no desu ka.",
@@ -680,5 +694,17 @@ const WORDS = [
   ["足す","たす","tasu","加上"],
   ["歪む","ゆがむ","yugamu","歪掉"],
   ["フロー","フロー","furoo","流水、进出"],
-  ["解決する","かいけつする","kaiketsu suru","解决"]
+  ["解決する","かいけつする","kaiketsu suru","解决"],
+  ["読解","どっかい","dokkai","阅读理解"],
+  ["聴解","ちょうかい","choukai","听力"],
+  ["文法","ぶんぽう","bunpou","语法"],
+  ["語彙","ごい","goi","词汇"],
+  ["漢字","かんじ","kanji","汉字"],
+  ["近い","ちかい","chikai","接近"],
+  ["先に","さきに","saki ni","先、早一步"],
+  ["上がる","あがる","agaru","提高"],
+  ["短い","みじかい","mijikai","短"],
+  ["職場","しょくば","shokuba","职场"],
+  ["中心","ちゅうしん","chuushin","以…为主"],
+  ["追いつく","おいつく","oitsuku","赶上"]
 ].map(([ja,kana,roma,zh]) => ({ja,kana,roma,zh}));
