@@ -162,10 +162,178 @@ const PAIRS = [
       zh: "什么时候能入职？期望年收呢？"
     },
     a: {
-      ja: "選考が決まり次第、会社と調整します。年収は応相談です。",
-      kana: "せんこうが きまりしだい、かいしゃと ちょうせいします。ねんしゅうは おうそうだんです。",
-      roma: "senkou ga kimari shidai, kaisha to chousei shimasu. nenshuu wa ousoudan desu.",
-      zh: "选拔定了以后和现在公司协调。年收面议。"
+      ja: "いまの会社は九月末まで勤務します。十月から入社できます。年収は応相談です。",
+      kana: "いまの かいしゃは くがつまつまで きんむします。じゅうがつから にゅうしゃできます。ねんしゅうは おうそうだんです。",
+      roma: "ima no kaisha wa kugatsu matsu made kinmu shimasu. juugatsu kara nyuusha dekimasu. nenshuu wa ousoudan desu.",
+      zh: "现在公司做到九月底。十月能入职。年收面议。"
+    }
+  },
+  {
+    q: {
+      ja: "日本にはいつ来ましたか。",
+      kana: "にほんには いつ きましたか。",
+      roma: "nihon ni wa itsu kimashita ka.",
+      zh: "你是什么时候来日本的？"
+    },
+    a: {
+      ja: "七月十三日に日本に参りました。いま東京に住んでいます。",
+      kana: "しちがつ じゅうさんにち に にほんに まいりました。いま とうきょうに すんでいます。",
+      roma: "shichigatsu juusan nichi ni nihon ni mairimashita. ima toukyou ni sunde imasu.",
+      zh: "七月十三日来的日本。现在住在东京。"
+    }
+  },
+  {
+    q: {
+      ja: "ご家族について、教えてもらってもよいですか。",
+      kana: "ごかぞくについて、おしえてもらっても よいですか。",
+      roma: "gokazoku ni tsuite, oshiete moratte mo yoi desu ka.",
+      zh: "方便说一下家人吗？"
+    },
+    a: {
+      ja: "息子が一人います。離婚しています。いまは東京で仕事をしています。勤務と育児は両立できます。",
+      kana: "むすこが ひとり います。りこんしています。いまは とうきょうで しごとを しています。きんむと いくじは りょうりつできます。",
+      roma: "musuko ga hitori imasu. rikon shite imasu. ima wa toukyou de shigoto o shite imasu. kinmu to ikuji wa ryouritsu dekimasu.",
+      zh: "有一个儿子。离婚了。现在在东京工作。工作和带孩子可以兼顾。"
+    }
+  },
+  {
+    q: {
+      ja: "残業や転勤は可能ですか。",
+      kana: "ざんぎょうや てんきんは かのうですか。",
+      roma: "zangyou ya tenkin wa kanou desu ka.",
+      zh: "加班和调职可以吗？"
+    },
+    a: {
+      ja: "残業は可能です。勤務地は東京を希望します。転勤は相談させてください。",
+      kana: "ざんぎょうは かのうです。きんむちは とうきょうを きぼうします。てんきんは そうだんさせて ください。",
+      roma: "zangyou wa kanou desu. kinmuchi wa toukyou o kibou shimasu. tenkin wa soudan sasete kudasai.",
+      zh: "可以加班。希望工作地在东京。调职请让我商量一下。"
+    }
+  },
+  {
+    q: {
+      ja: "マッチングは、どう実装しましたか。なぜそのデータ構造ですか。",
+      kana: "マッチングは、どう じっそうしましたか。なぜ その データこうぞうですか。",
+      roma: "matchingu wa, dou jissou shimashita ka. naze sono deeta kouzou desu ka.",
+      zh: "撮合是怎么实现的？为什么用那种数据结构？"
+    },
+    a: {
+      ja: "単一インスタンスのメモリオーダブックです。売買板は順序付きのスキップリストにしました。挿入、削除、順番の取り出しが速いからです。指値、成行、ストップに対応しています。",
+      kana: "たんいつインスタンスの メモリオーダブックです。ばいばいいたは じゅんじょつきの スキップリストに しました。そうにゅう、さくじょ、じゅんばんの とりだしが はやいからです。さしね、なりゆき、ストップに たいおうしています。",
+      roma: "tan'itsu insutansu no memori oodabukku desu. baibai ita wa junjo tsuki no sukippu risuto ni shimashita. sounyuu, sakujo, junban no toridashi ga hayai kara desu. sashine, nariyuki, sutoppu ni taiou shite imasu.",
+      zh: "单实例内存订单簿。买卖盘用有序跳表，插入、删除、按顺序取出快。支持限价、市价、止盈止损。"
+    }
+  },
+  {
+    q: {
+      ja: "約定のあと、障害や再起動にはどう備えますか。",
+      kana: "やくじょうの あと、しょうがいや さいきどうには どう そなえますか。",
+      roma: "yakujou no ato, shougai ya saikidou ni wa dou sonaemasu ka.",
+      zh: "成交之后，故障和重启怎么防？"
+    },
+    a: {
+      ja: "約定後に残高を更新し、操作ログを書きます。再起動時はログから板と残高をリプレイして復旧します。約定、委託、残高の変化はキューへ出して、相場と履歴が消費します。",
+      kana: "やくじょうごに ざんだかを こうしんし、そうさログを かきます。さいきどうじは ログから いたと ざんだかを リプレイして ふっきゅうします。やくじょう、いたく、ざんだかの へんかは キューへ だして、そうばと りれきが しょうひします。",
+      roma: "yakujou go ni zandaka o koushin shi, sousa rogu o kakimasu. saikidou ji wa rogu kara ita to zandaka o ripurei shite fukkyuu shimasu. yakujou, itaku, zandaka no henka wa kyuu e dashite, souba to rireki ga shouhi shimasu.",
+      zh: "成交后改余额、写操作日志。重启按日志回放订单簿和余额。成交、委托、余额变化进队列，给行情和历史消费。"
+    }
+  },
+  {
+    q: {
+      ja: "当日損益は、入出金で数字が狂わないように、どう計算していますか。",
+      kana: "とうじつそんえきは、にゅうしゅっきんで すうじが くるわないように、どう けいさんしていますか。",
+      roma: "toujitsu son'eki wa, nyuushukkin de suuji ga kuruwanai you ni, dou keisan shite imasu ka.",
+      zh: "当日盈亏怎么算，才不会被入金出金弄歪？"
+    },
+    a: {
+      ja: "日次のスナップショットを期首にします。いまの保有を時価評価して、当日の入出と売買を控除します。入出金や振替だけで損益が動かないようにしています。資産種別は別計算してから合算します。公式の数字は書面では言いません。",
+      kana: "にちじの スナップショットを きしゅに します。いまの ほゆうを じかひょうかして、とうじつの にゅうしゅつと ばいばいを こうじょします。にゅうしゅっきんや ふりかえだけで そんえきが うごかないように しています。しさんしゅべつは べつけいさんしてから がっさんします。こうしきの すうじは しょめんでは いいません。",
+      roma: "nichiji no sunappushotto o kishu ni shimasu. ima no hoyuu o jika hyouka shite, toujitsu no nyuushutsu to baibai o koujo shimasu. nyuushukkin ya furikae dake de son'eki ga ugokanai you ni shite imasu. shisan shubetsu wa betsu keisan shite kara gassan shimasu. koushiki no suuji wa shomen de wa iimasen.",
+      zh: "用日终快照当期初。持仓按时价估值，再扣当天进出和买卖，避免充提、划转假造盈亏。分类分开算再加总。具体公式面试纸面上不报。"
+    }
+  },
+  {
+    q: {
+      ja: "履歴とネットアセットの曲線は、どう持っていますか。",
+      kana: "りれきと ネットアセットの きょくせんは、どう もっていますか。",
+      roma: "rireki to netto asetto no kyokusen wa, dou motte imasu ka.",
+      zh: "历史和净值曲线怎么存？"
+    },
+    a: {
+      ja: "マッチング側は現行と過去の注文、ストップ、約定明細、資金流水です。ページ、時間、ペア、資産種別で検索できます。口座側は約一年の純資産曲線で、日次スナップショットと保有明細を残します。",
+      kana: "マッチングがわは げんこうと かこの ちゅうもん、ストップ、やくじょうめいさい、しきんりゅうすいです。ページ、じかん、ペア、しさんしゅべつで けんさくできます。こうざがわは やくいちねんの じゅんしさんきょくせんで、にちじスナップショットと ほゆうめいさいを のこします。",
+      roma: "matchingu gawa wa genkou to kako no chuumon, sutoppu, yakujou meisai, shikin ryuusui desu. peeji, jikan, pea, shisan shubetsu de kensaku dekimasu. kouza gawa wa yaku ichinen no junshisan kyokusen de, nichiji sunappushotto to hoyuu meisai o nokoshimasu.",
+      zh: "撮合侧：当前/历史委托、止盈止损、成交明细、资金流水，可按时间、交易对、资产类型翻页。账户侧：大约一年净值曲线，每天快照和持仓明细。"
+    }
+  },
+  {
+    q: {
+      ja: "敦煌VRの同期は、具体的に何をサーバーで動かしていますか。",
+      kana: "とんこうブイアールの どうきは、ぐたいてきに なにを サーバーで うごかしていますか。",
+      roma: "Tonkou VR no douki wa, gutaiteki ni nani o saabaa de ugokashite imasu ka.",
+      zh: "敦煌VR的同步，服务器上具体跑什么？"
+    },
+    a: {
+      ja: "専用サーバーのレプリケーションです。座標と回転、スケルタルアニメ、VFXを複数プレイヤーで共有します。局内ボイスはクライアントからサーバーへ送り、他のプレイヤーへ中継します。クライアント側で入室から切断までの往復を閉じました。",
+      kana: "せんようサーバーの レプリケーションです。ざひょうと かいてん、スケルタルアニメ、ブイエフエックスを ふくすうプレイヤーで きょうゆうします。きょくないボイスは クライアントから サーバーへ おくり、ほかの プレイヤーへ ちゅうけいします。クライアントがわで にゅうしつから せつだんまでの おうふくを とじました。",
+      roma: "senyou saabaa no repurikeeshon desu. zahyou to kaiten, sukerutaru anime, VFX o fukusuu pureiyaa de kyouyuu shimasu. kyokunai boisu wa kuraianto kara saabaa e okuri, hoka no pureiyaa e chuukei shimasu. kuraianto gawa de nyuushitsu kara setsudan made no oufuku o tojimashita.",
+      zh: "Dedicated Server 的复制同步。坐标、旋转、骨骼动画、特效多人共享。局内语音从客户端到服务器再转给别人。客户端把入室到断开整条闭环。"
+    }
+  },
+  {
+    q: {
+      ja: "デジタルツインで、フロントとサーバーはどうつなぎましたか。",
+      kana: "デジタルツインで、フロントと サーバーは どう つなぎましたか。",
+      roma: "dejitaru tsuin de, furonto to saabaa wa dou tsunagimashita ka.",
+      zh: "数字孪生里，前端和服务器怎么接的？"
+    },
+    a: {
+      ja: "ブラウザのVueがボタン操作です。同じページにアンリアルのウェブ三次元を埋め込みます。Goがアカウントと権限を受け、Cプラスプラスのシーンサーバーが三次元状態を同期します。クライアント論理はユーイーのゲームプレイです。",
+      kana: "ブラウザの ヴューが ボタンそうさです。おなじ ページに アンリアルの ウェブさんじげんを うめこみます。ゴーが アカウントと けんげんを うけ、シープラスプラスの シーンサーバーが さんじげんじょうたいを どうきします。クライアントろんりは ユーイーの ゲームプレイです。",
+      roma: "burauza no Vue ga botan sousa desu. onaji peeji ni Anriaru no webu sanjigen o umekomimasu. Go ga akaunto to kengen o uke, C++ no shiin saabaa ga sanjigen joutai o douki shimasu. kuraianto ronri wa UE no geemupurei desu.",
+      zh: "浏览器里 Vue 做按钮。同一页嵌入 UE 网页3D。Go 接收账号权限，C++ 场景服同步三维状态。客户端逻辑是 UE Gameplay。"
+    }
+  },
+  {
+    q: {
+      ja: "アイオーシーピーサーバーは、何を自分で書きましたか。",
+      kana: "アイオーシーピーサーバーは、なにを じぶんで かきましたか。",
+      roma: "IOCP saabaa wa, nani o jibun de kakimashita ka.",
+      zh: "IOCP 服务器里哪些是你自己写的？"
+    },
+    a: {
+      ja: "ウィンドウズの完了ポートで、接続の受け付け、送受信、切断を自前で管理しました。その上にマルチプレイ同期とチャット、操作メッセージをティーシーピーで載せました。",
+      kana: "ウィンドウズの かんりょうポートで、せつぞくの うけつけ、そうじゅしん、せつだんを じまえで かんりしました。そのうえに マルチプレイどうきと チャット、そうさメッセージを ティーシーピーで のせました。",
+      roma: "Windowzu no kanryou pooto de, setsuzoku no uketsuke, soujushin, setsudan o jimae de kanri shimashita. sono ue ni maruchi purei douki to chatto, sousa messeeji o TCP de nosemashita.",
+      zh: "用 Windows 完成端口，接入、收发、断开自己管。上面再用 TCP 做多人同步、聊天和操作消息。"
+    }
+  },
+  {
+    q: {
+      ja: "ほかに三次元で出荷した仕事はありますか。",
+      kana: "ほかに さんじげんで しゅっかした しごとは ありますか。",
+      roma: "hoka ni sanjigen de shukka shita shigoto wa arimasu ka.",
+      zh: "三维上还有别的上线项目吗？"
+    },
+    a: {
+      ja: "あります。京東の裸眼三次元は、レンダーの画像をリアルタイムで取り、アルゴリズムで並べ替えて立体フレームを出しました。広聯達ではBIM内装の三次元測量、積算、レンダリング、VRを担当しました。",
+      kana: "あります。けいとうの らがんさんじげんは、レンダーの がぞうを リアルタイムで とり、アルゴリズムで ならべかえて りったいフレームを だしました。こうれんだでは ビムないそうの さんじげんそくりょう、せきさん、レンダリング、ブイアールを たんとうしました。",
+      roma: "arimasu. Keitou no ragan sanjigen wa, rendaa no gazou o riarutaimu de tori, arugorizumu de narabe kaete rittai fureemu o dashimashita. Kourenda de wa BIM naisou no sanjigen sokuryou, sekisan, renderingu, VR o tantou shimashita.",
+      zh: "有。京东裸眼3D：实时抓Render图，用算法重排成立体帧。广联达：BIM装饰的三维测量、算量、渲染、VR。"
+    }
+  },
+  {
+    q: {
+      ja: "いちばん困った技術的な問題は何ですか。",
+      kana: "いちばん こまった ぎじゅつてきな もんだいは なんですか。",
+      roma: "ichiban komatta gijutsuteki na mondai wa nan desu ka.",
+      zh: "最棘手的技术问题是什么？"
+    },
+    a: {
+      ja: "現物の当日損益です。入出金や振替をそのまま足すと、損益が歪みます。スナップショットを期首にして、当日フローを控除する形に分けて解決しました。",
+      kana: "げんぶつの とうじつそんえきです。にゅうしゅっきんや ふりかえを そのまま たすと、そんえきが ゆがみます。スナップショットを きしゅに して、とうじつフローを こうじょする かたちに わけて かいけつしました。",
+      roma: "genbutsu no toujitsu son'eki desu. nyuushukkin ya furikae o sono mama tasu to, son'eki ga yugamimasu. sunappushotto o kishu ni shite, toujitsu furoo o koujo suru katachi ni wakete kaiketsu shimashita.",
+      zh: "现货当日盈亏。进出和划转直接加进去会把盈亏算歪。改成快照当期初、当天流水另扣，分开解决。"
     }
   },
   {
@@ -401,5 +569,116 @@ const WORDS = [
   ["土木工学","どぼくこうがく","doboku kougaku","土木工程"],
   ["学士","がくし","gakushi","学士"],
   ["ネットワーク","ネットワーク","nettowaaku","网络"],
-  ["高負荷","こうふか","koufuka","高负载"]
+  ["高負荷","こうふか","koufuka","高负载"],
+  ["九月末","くがつまつ","kugatsu matsu","九月底"],
+  ["勤務","きんむ","kinmu","在职、上班"],
+  ["十月","じゅうがつ","juugatsu","十月"],
+  ["入社","にゅうしゃ","nyuusha","入职"],
+  ["七月十三日","しちがつじゅうさんにち","shichigatsu juusan nichi","七月十三日"],
+  ["参る","まいる","mairu","去（谦让，等于行く）"],
+  ["家族","かぞく","kazoku","家人"],
+  ["息子","むすこ","musuko","儿子"],
+  ["一人","ひとり","hitori","一个（人）"],
+  ["離婚","りこん","rikon","离婚"],
+  ["育児","いくじ","ikuji","带孩子、育儿"],
+  ["両立","りょうりつ","ryouritsu","兼顾"],
+  ["残業","ざんぎょう","zangyou","加班"],
+  ["転勤","てんきん","tenkin","调职、外派"],
+  ["可能","かのう","kanou","可能、可以"],
+  ["勤務地","きんむち","kinmuchi","工作地点"],
+  ["相談する","そうだんする","soudan suru","商量"],
+  ["データ構造","データこうぞう","deeta kouzou","数据结构"],
+  ["単一","たんいつ","tan'itsu","单一"],
+  ["インスタンス","インスタンス","insutansu","实例"],
+  ["売買板","ばいばいいた","baibai ita","买卖盘"],
+  ["順序","じゅんじょ","junjo","顺序"],
+  ["スキップリスト","スキップリスト","sukippu risuto","跳表"],
+  ["挿入","そうにゅう","sounyuu","插入"],
+  ["削除","さくじょ","sakujo","删除"],
+  ["速い","はやい","hayai","快"],
+  ["指値","さしね","sashine","限价"],
+  ["成行","なりゆき","nariyuki","市价"],
+  ["ストップ","ストップ","sutoppu","止盈止损"],
+  ["対応する","たいおうする","taiou suru","支持、对应"],
+  ["約定","やくじょう","yakujou","成交"],
+  ["障害","しょうがい","shougai","故障"],
+  ["再起動","さいきどう","saikidou","重启"],
+  ["備える","そなえる","sonaeru","防备"],
+  ["残高","ざんだか","zandaka","余额"],
+  ["更新する","こうしんする","koushin suru","更新"],
+  ["操作ログ","そうさログ","sousa rogu","操作日志"],
+  ["リプレイ","リプレイ","ripurei","回放"],
+  ["復旧","ふっきゅう","fukkyuu","恢复"],
+  ["委託","いたく","itaku","委托（订单）"],
+  ["変化","へんか","henka","变化"],
+  ["キュー","キュー","kyuu","队列"],
+  ["相場","そうば","souba","行情"],
+  ["消費する","しょうひする","shouhi suru","消费（数据）"],
+  ["入出金","にゅうしゅっきん","nyuushukkin","入金出金"],
+  ["数字","すうじ","suuji","数字"],
+  ["狂う","くるう","kuruu","乱掉、算歪"],
+  ["計算する","けいさんする","keisan suru","计算"],
+  ["日次","にちじ","nichiji","每日"],
+  ["スナップショット","スナップショット","sunappushotto","快照"],
+  ["期首","きしゅ","kishu","期初"],
+  ["保有","ほゆう","hoyuu","持有、持仓"],
+  ["時価評価","じかひょうか","jika hyouka","按市价估值"],
+  ["控除する","こうじょする","koujo suru","扣除"],
+  ["振替","ふりかえ","furikae","划转"],
+  ["動く","うごく","ugoku","变动"],
+  ["資産種別","しさんしゅべつ","shisan shubetsu","资产类型"],
+  ["合算","がっさん","gassan","加总"],
+  ["ネットアセット","ネットアセット","netto asetto","净资产"],
+  ["曲線","きょくせん","kyokusen","曲线"],
+  ["現行","げんこう","genkou","当前"],
+  ["過去","かこ","kako","过去"],
+  ["注文","ちゅうもん","chuumon","订单"],
+  ["明細","めいさい","meisai","明细"],
+  ["資金流水","しきんりゅうすい","shikin ryuusui","资金流水"],
+  ["検索","けんさく","kensaku","检索"],
+  ["純資産","じゅんしさん","junshisan","净资产"],
+  ["具体的","ぐたいてき","gutaiteki","具体"],
+  ["動かす","うごかす","ugokasu","运转、驱动"],
+  ["レプリケーション","レプリケーション","repurikeeshon","复制同步"],
+  ["回転","かいてん","kaiten","旋转"],
+  ["スケルタル","スケルタル","sukerutaru","骨骼"],
+  ["複数","ふくすう","fukusuu","多个"],
+  ["プレイヤー","プレイヤー","pureiyaa","玩家"],
+  ["共有する","きょうゆうする","kyouyuu suru","共享"],
+  ["局内","きょくない","kyokunai","局内、对局里"],
+  ["中継する","ちゅうけいする","chuukei suru","转发、中继"],
+  ["入室","にゅうしつ","nyuushitsu","进入房间"],
+  ["切断","せつだん","setsudan","断开"],
+  ["つなぐ","つなぐ","tsunagu","连接"],
+  ["ブラウザ","ブラウザ","burauza","浏览器"],
+  ["ボタン","ボタン","botan","按钮"],
+  ["アカウント","アカウント","akaunto","账号"],
+  ["権限","けんげん","kengen","权限"],
+  ["状態","じょうたい","joutai","状态"],
+  ["自分","じぶん","jibun","自己"],
+  ["完了ポート","かんりょうポート","kanryou pooto","完成端口 IOCP"],
+  ["接続","せつぞく","setsuzoku","连接"],
+  ["送受信","そうじゅしん","soujushin","收发"],
+  ["自前","じまえ","jimae","自己做、不靠现成库"],
+  ["メッセージ","メッセージ","messeeji","消息"],
+  ["TCP","ティーシーピー","TCP","TCP"],
+  ["載せる","のせる","noseru","放上去"],
+  ["裸眼","らがん","ragan","裸眼"],
+  ["レンダー","レンダー","rendaa","Render 渲染缓冲"],
+  ["画像","がぞう","gazou","图像"],
+  ["アルゴリズム","アルゴリズム","arugorizumu","算法"],
+  ["並べ替える","ならべかえる","narabe kaeru","重排"],
+  ["立体","りったい","rittai","立体"],
+  ["フレーム","フレーム","fureemu","帧"],
+  ["BIM","ビム","BIM","建筑信息模型"],
+  ["測量","そくりょう","sokuryou","测量"],
+  ["積算","せきさん","sekisan","算量"],
+  ["レンダリング","レンダリング","renderingu","渲染"],
+  ["困る","こまる","komaru","为难、卡住"],
+  ["技術的","ぎじゅつてき","gijutsuteki","技术上的"],
+  ["問題","もんだい","mondai","问题"],
+  ["足す","たす","tasu","加上"],
+  ["歪む","ゆがむ","yugamu","歪掉"],
+  ["フロー","フロー","furoo","流水、进出"],
+  ["解決する","かいけつする","kaiketsu suru","解决"]
 ].map(([ja,kana,roma,zh]) => ({ja,kana,roma,zh}));
