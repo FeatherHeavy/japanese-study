@@ -1,0 +1,2466 @@
+[
+{
+"count": 89,
+"kana": "システム",
+"phonetic": "希斯特姆",
+"en": "system",
+"cn": "系统",
+"roma": "shisutemu"
+},
+{
+"count": 82,
+"kana": "リスク",
+"phonetic": "利斯库",
+"en": "risk",
+"cn": "风险",
+"roma": "risuku"
+},
+{
+"count": 76,
+"kana": "ファイル",
+"phonetic": "法伊鲁",
+"en": "file",
+"cn": "文件",
+"roma": "fairu"
+},
+{
+"count": 72,
+"kana": "メール",
+"phonetic": "梅—鲁",
+"en": "mail / email",
+"cn": "邮件",
+"roma": "meeru"
+},
+{
+"count": 71,
+"kana": "データ",
+"phonetic": "德—塔",
+"en": "data",
+"cn": "数据",
+"roma": "deeta"
+},
+{
+"count": 59,
+"kana": "アクセス",
+"phonetic": "阿库塞斯",
+"en": "access",
+"cn": "访问、接入",
+"roma": "akusesu"
+},
+{
+"count": 58,
+"kana": "サーバ",
+"phonetic": "萨—巴",
+"en": "server",
+"cn": "服务器",
+"roma": "saaba"
+},
+{
+"count": 56,
+"kana": "サービス",
+"phonetic": "萨—比斯",
+"en": "service",
+"cn": "服务",
+"roma": "saabisu"
+},
+{
+"count": 43,
+"kana": "マルウェア",
+"phonetic": "玛鲁威阿",
+"en": "malware",
+"cn": "恶意软件",
+"roma": "maruwea"
+},
+{
+"count": 42,
+"kana": "セキュリティ",
+"phonetic": "塞丘利提",
+"en": "security",
+"cn": "安全",
+"roma": "sekyuriti"
+},
+{
+"count": 42,
+"kana": "サイト",
+"phonetic": "萨伊托",
+"en": "site",
+"cn": "网站、站点",
+"roma": "saito"
+},
+{
+"count": 32,
+"kana": "バックアップ",
+"phonetic": "巴库阿普",
+"en": "backup",
+"cn": "备份",
+"roma": "bakkuappu"
+},
+{
+"count": 28,
+"kana": "ネットワーク",
+"phonetic": "内托瓦—库",
+"en": "network",
+"cn": "网络",
+"roma": "nettowaaku"
+},
+{
+"count": 27,
+"kana": "パスワード",
+"phonetic": "帕斯瓦—多",
+"en": "password",
+"cn": "密码",
+"roma": "pasuwaado"
+},
+{
+"count": 23,
+"kana": "ファイルサーバ",
+"phonetic": "法伊鲁萨—巴",
+"en": "file server",
+"cn": "文件服务器",
+"roma": "fairusaaba"
+},
+{
+"count": 20,
+"kana": "データベース",
+"phonetic": "德—塔贝—斯",
+"en": "database",
+"cn": "数据库",
+"roma": "deetabeesu"
+},
+{
+"count": 20,
+"kana": "ソフト",
+"phonetic": "索夫托",
+"en": "software (abbr.)",
+"cn": "软件（略）",
+"roma": "sofuto"
+},
+{
+"count": 20,
+"kana": "プログラム",
+"phonetic": "普罗古拉姆",
+"en": "program",
+"cn": "程序",
+"roma": "puroguramu"
+},
+{
+"count": 19,
+"kana": "アカウント",
+"phonetic": "阿卡乌恩托",
+"en": "account",
+"cn": "账户",
+"roma": "akaunto"
+},
+{
+"count": 18,
+"kana": "メールアドレス",
+"phonetic": "梅—鲁阿多雷斯",
+"en": "email address",
+"cn": "电子邮箱地址",
+"roma": "meeruadoresu"
+},
+{
+"count": 17,
+"kana": "ログイン",
+"phonetic": "罗古伊恩",
+"en": "login",
+"cn": "登录",
+"roma": "roguin"
+},
+{
+"count": 16,
+"kana": "インターネット",
+"phonetic": "伊恩塔—内托",
+"en": "Internet",
+"cn": "互联网",
+"roma": "intaanetto"
+},
+{
+"count": 16,
+"kana": "メモ",
+"phonetic": "梅莫",
+"en": "memo",
+"cn": "备忘",
+"roma": "memo"
+},
+{
+"count": 15,
+"kana": "アドレス",
+"phonetic": "阿多雷斯",
+"en": "address",
+"cn": "地址",
+"roma": "adoresu"
+},
+{
+"count": 15,
+"kana": "セキュリティリーダー",
+"phonetic": "塞丘利提利—达—",
+"en": "security leader",
+"cn": "信息安全负责人",
+"roma": "sekyuritiriidaa"
+},
+{
+"count": 14,
+"kana": "ドメイン",
+"phonetic": "多梅伊恩",
+"en": "domain",
+"cn": "域名、领域",
+"roma": "domein"
+},
+{
+"count": 14,
+"kana": "プロセス",
+"phonetic": "普罗塞斯",
+"en": "process",
+"cn": "进程、过程",
+"roma": "purosesu"
+},
+{
+"count": 13,
+"kana": "ルール",
+"phonetic": "鲁—鲁",
+"en": "rule",
+"cn": "规则",
+"roma": "ruuru"
+},
+{
+"count": 12,
+"kana": "テープ",
+"phonetic": "特—普",
+"en": "tape",
+"cn": "磁带",
+"roma": "teepu"
+},
+{
+"count": 12,
+"kana": "スキャン",
+"phonetic": "斯恰恩",
+"en": "scan",
+"cn": "扫描",
+"roma": "sukyan"
+},
+{
+"count": 12,
+"kana": "エリア",
+"phonetic": "诶利阿",
+"en": "area",
+"cn": "区域",
+"roma": "eria"
+},
+{
+"count": 12,
+"kana": "フラッパーゲート",
+"phonetic": "夫拉帕—格—托",
+"en": "flapper gate",
+"cn": "速通门",
+"roma": "furappaageeto"
+},
+{
+"count": 11,
+"kana": "カード",
+"phonetic": "卡—多",
+"en": "card",
+"cn": "卡",
+"roma": "kaado"
+},
+{
+"count": 11,
+"kana": "デジタル",
+"phonetic": "德吉塔鲁",
+"en": "digital",
+"cn": "数字的",
+"roma": "dejitaru"
+},
+{
+"count": 11,
+"kana": "アプリ",
+"phonetic": "阿普利",
+"en": "app",
+"cn": "应用（App）",
+"roma": "apuri"
+},
+{
+"count": 10,
+"kana": "ハッシュ",
+"phonetic": "哈舒",
+"en": "hash",
+"cn": "哈希",
+"roma": "hasshu"
+},
+{
+"count": 10,
+"kana": "ブラウザ",
+"phonetic": "布拉乌扎",
+"en": "browser",
+"cn": "浏览器",
+"roma": "burauza"
+},
+{
+"count": 10,
+"kana": "セキュリティリスクアセスメント",
+"phonetic": "塞丘利提利斯库阿塞斯梅恩托",
+"en": "security risk assessment",
+"cn": "安全风险评估",
+"roma": "sekyuritirisukuasesumento"
+},
+{
+"count": 10,
+"kana": "ダウンロード",
+"phonetic": "达乌恩罗—多",
+"en": "download",
+"cn": "下载",
+"roma": "daunroodo"
+},
+{
+"count": 10,
+"kana": "ビル",
+"phonetic": "比鲁",
+"en": "building",
+"cn": "大楼",
+"roma": "biru"
+},
+{
+"count": 9,
+"kana": "コンピュータ",
+"phonetic": "科恩皮尤—塔",
+"en": "computer",
+"cn": "计算机",
+"roma": "konpyuuta"
+},
+{
+"count": 9,
+"kana": "ツール",
+"phonetic": "茨—鲁",
+"en": "tool",
+"cn": "工具",
+"roma": "tsuuru"
+},
+{
+"count": 8,
+"kana": "インシデント",
+"phonetic": "伊恩希德恩托",
+"en": "incident",
+"cn": "（安全）事件",
+"roma": "inshidento"
+},
+{
+"count": 8,
+"kana": "セキュリティリスク",
+"phonetic": "塞丘利提利斯库",
+"en": "security risk",
+"cn": "安全风险",
+"roma": "sekyuritirisuku"
+},
+{
+"count": 8,
+"kana": "ソフトウェア",
+"phonetic": "索夫托威阿",
+"en": "software",
+"cn": "软件",
+"roma": "sofutowea"
+},
+{
+"count": 8,
+"kana": "リソース",
+"phonetic": "利索—斯",
+"en": "resource",
+"cn": "资源",
+"roma": "risoosu"
+},
+{
+"count": 8,
+"kana": "ドア",
+"phonetic": "多阿",
+"en": "door",
+"cn": "门",
+"roma": "doa"
+},
+{
+"count": 7,
+"kana": "スマートフォン",
+"phonetic": "斯玛—托佛恩",
+"en": "smartphone",
+"cn": "智能手机",
+"roma": "sumaatofon"
+},
+{
+"count": 7,
+"kana": "チェック",
+"phonetic": "切库",
+"en": "check",
+"cn": "检查",
+"roma": "chekku"
+},
+{
+"count": 7,
+"kana": "クライアント",
+"phonetic": "库拉伊阿恩托",
+"en": "client",
+"cn": "客户端、客户",
+"roma": "kuraianto"
+},
+{
+"count": 7,
+"kana": "ロック",
+"phonetic": "罗库",
+"en": "lock",
+"cn": "锁定",
+"roma": "rokku"
+},
+{
+"count": 7,
+"kana": "ゲスト",
+"phonetic": "格斯托",
+"en": "guest",
+"cn": "访客、客人",
+"roma": "gesuto"
+},
+{
+"count": 6,
+"kana": "メールサーバ",
+"phonetic": "梅—鲁萨—巴",
+"en": "mail server",
+"cn": "邮件服务器",
+"roma": "meerusaaba"
+},
+{
+"count": 6,
+"kana": "メーカー",
+"phonetic": "梅—卡—",
+"en": "maker",
+"cn": "制造商",
+"roma": "meekaa"
+},
+{
+"count": 6,
+"kana": "キャビネット",
+"phonetic": "恰比内托",
+"en": "cabinet",
+"cn": "柜子、机柜",
+"roma": "kyabinetto"
+},
+{
+"count": 6,
+"kana": "リスト",
+"phonetic": "利斯托",
+"en": "list",
+"cn": "列表",
+"roma": "risuto"
+},
+{
+"count": 6,
+"kana": "コンテンツ",
+"phonetic": "科恩特恩茨",
+"en": "content",
+"cn": "内容",
+"roma": "kontentsu"
+},
+{
+"count": 6,
+"kana": "インストール",
+"phonetic": "伊恩斯托—鲁",
+"en": "install",
+"cn": "安装",
+"roma": "insutooru"
+},
+{
+"count": 6,
+"kana": "コード",
+"phonetic": "科—多",
+"en": "code",
+"cn": "代码",
+"roma": "koodo"
+},
+{
+"count": 6,
+"kana": "エレベーター",
+"phonetic": "诶雷贝—塔—",
+"en": "elevator",
+"cn": "电梯",
+"roma": "erebeetaa"
+},
+{
+"count": 6,
+"kana": "ヒアリング",
+"phonetic": "希阿利恩古",
+"en": "hearing / interview",
+"cn": "听取意见、面谈",
+"roma": "hiaringu"
+},
+{
+"count": 5,
+"kana": "セキュリティマネジメント",
+"phonetic": "塞丘利提玛内吉梅恩托",
+"en": "security management",
+"cn": "安全管理",
+"roma": "sekyuritimanejimento"
+},
+{
+"count": 5,
+"kana": "コントロール",
+"phonetic": "科恩托罗—鲁",
+"en": "control",
+"cn": "控制、管控措施",
+"roma": "kontorooru"
+},
+{
+"count": 5,
+"kana": "アプリケーション",
+"phonetic": "阿普利凯—肖恩",
+"en": "application",
+"cn": "应用程序",
+"roma": "apurikeeshon"
+},
+{
+"count": 5,
+"kana": "フォルダ",
+"phonetic": "佛鲁达",
+"en": "folder",
+"cn": "文件夹",
+"roma": "foruda"
+},
+{
+"count": 5,
+"kana": "ログ",
+"phonetic": "罗古",
+"en": "log",
+"cn": "日志",
+"roma": "rogu"
+},
+{
+"count": 5,
+"kana": "カメラ",
+"phonetic": "卡梅拉",
+"en": "camera",
+"cn": "相机、摄像头",
+"roma": "kamera"
+},
+{
+"count": 5,
+"kana": "アップロード",
+"phonetic": "阿普罗—多",
+"en": "upload",
+"cn": "上传",
+"roma": "appuroodo"
+},
+{
+"count": 5,
+"kana": "ビジネス",
+"phonetic": "比吉内斯",
+"en": "business",
+"cn": "业务、商业",
+"roma": "bijinesu"
+},
+{
+"count": 5,
+"kana": "ガイドライン",
+"phonetic": "加伊多拉伊恩",
+"en": "guideline",
+"cn": "指南、指引",
+"roma": "gaidorain"
+},
+{
+"count": 5,
+"kana": "ストレージ",
+"phonetic": "斯托雷—吉",
+"en": "storage",
+"cn": "存储器、存储",
+"roma": "sutoreeji"
+},
+{
+"count": 5,
+"kana": "グループ",
+"phonetic": "古鲁—普",
+"en": "group",
+"cn": "组",
+"roma": "guruupu"
+},
+{
+"count": 5,
+"kana": "ミドルウェア",
+"phonetic": "米多鲁威阿",
+"en": "middleware",
+"cn": "中间件",
+"roma": "midoruwea"
+},
+{
+"count": 4,
+"kana": "セキュリティマネジメントシステム",
+"phonetic": "塞丘利提玛内吉梅恩托希斯特姆",
+"en": "ISMS",
+"cn": "信息安全管理体系",
+"roma": "sekyuritimanejimentoshisutemu"
+},
+{
+"count": 4,
+"kana": "パケット",
+"phonetic": "帕凯托",
+"en": "packet",
+"cn": "数据包",
+"roma": "paketto"
+},
+{
+"count": 4,
+"kana": "リクエスト",
+"phonetic": "利库诶斯托",
+"en": "request",
+"cn": "请求",
+"roma": "rikuesuto"
+},
+{
+"count": 4,
+"kana": "ウィンドウ",
+"phonetic": "维恩多乌",
+"en": "window",
+"cn": "窗口",
+"roma": "windou"
+},
+{
+"count": 4,
+"kana": "レベル",
+"phonetic": "雷贝鲁",
+"en": "level",
+"cn": "级别",
+"roma": "reberu"
+},
+{
+"count": 4,
+"kana": "フロー",
+"phonetic": "夫罗—",
+"en": "flow",
+"cn": "流程、流",
+"roma": "furoo"
+},
+{
+"count": 4,
+"kana": "グラフ",
+"phonetic": "古拉夫",
+"en": "graph",
+"cn": "图表",
+"roma": "gurafu"
+},
+{
+"count": 4,
+"kana": "フルバックアップ",
+"phonetic": "夫鲁巴库阿普",
+"en": "full backup",
+"cn": "全量备份",
+"roma": "furubakkuappu"
+},
+{
+"count": 4,
+"kana": "ポート",
+"phonetic": "坡—托",
+"en": "port",
+"cn": "端口",
+"roma": "pooto"
+},
+{
+"count": 4,
+"kana": "オプトアウト",
+"phonetic": "欧普托阿乌托",
+"en": "opt-out",
+"cn": "选择退出",
+"roma": "oputoauto"
+},
+{
+"count": 4,
+"kana": "クラウドサービス",
+"phonetic": "库拉乌多萨—比斯",
+"en": "cloud service",
+"cn": "云服务",
+"roma": "kuraudosaabisu"
+},
+{
+"count": 4,
+"kana": "アプリケーションソフトウェア",
+"phonetic": "阿普利凯—肖恩索夫托威阿",
+"en": "application software",
+"cn": "应用软件",
+"roma": "apurikeeshonsofutowea"
+},
+{
+"count": 4,
+"kana": "カードリーダー",
+"phonetic": "卡—多利—达—",
+"en": "card reader",
+"cn": "读卡器",
+"roma": "kaadoriidaa"
+},
+{
+"count": 4,
+"kana": "ファイアウォール",
+"phonetic": "法伊阿沃—鲁",
+"en": "firewall",
+"cn": "防火墙",
+"roma": "faiawooru"
+},
+{
+"count": 4,
+"kana": "オープンリゾルバ",
+"phonetic": "欧—普恩利佐鲁巴",
+"en": "open resolver",
+"cn": "开放DNS解析器",
+"roma": "oopunrizoruba"
+},
+{
+"count": 4,
+"kana": "シート",
+"phonetic": "希—托",
+"en": "sheet",
+"cn": "表、页",
+"roma": "shiito"
+},
+{
+"count": 3,
+"kana": "セッション",
+"phonetic": "塞肖恩",
+"en": "session",
+"cn": "会话",
+"roma": "sesshon"
+},
+{
+"count": 3,
+"kana": "ベンダー",
+"phonetic": "贝恩达—",
+"en": "vendor",
+"cn": "厂商",
+"roma": "bendaa"
+},
+{
+"count": 3,
+"kana": "メッセージ",
+"phonetic": "梅塞—吉",
+"en": "message",
+"cn": "消息",
+"roma": "messeeji"
+},
+{
+"count": 3,
+"kana": "スパムメール",
+"phonetic": "斯帕姆梅—鲁",
+"en": "spam mail",
+"cn": "垃圾邮件",
+"roma": "supamumeeru"
+},
+{
+"count": 3,
+"kana": "ミス",
+"phonetic": "米斯",
+"en": "mistake",
+"cn": "失误",
+"roma": "misu"
+},
+{
+"count": 3,
+"kana": "ハードディスク",
+"phonetic": "哈—多迪斯库",
+"en": "hard disk",
+"cn": "硬盘",
+"roma": "haadodisuku"
+},
+{
+"count": 3,
+"kana": "リスクマネジメント",
+"phonetic": "利斯库玛内吉梅恩托",
+"en": "risk management",
+"cn": "风险管理",
+"roma": "risukumanejimento"
+},
+{
+"count": 3,
+"kana": "サイバー",
+"phonetic": "萨伊巴—",
+"en": "cyber",
+"cn": "网络（赛博）",
+"roma": "saibaa"
+},
+{
+"count": 3,
+"kana": "キャッシュ",
+"phonetic": "恰舒",
+"en": "cache",
+"cn": "缓存",
+"roma": "kyasshu"
+},
+{
+"count": 3,
+"kana": "ワンタイムパスワード",
+"phonetic": "瓦恩塔伊姆帕斯瓦—多",
+"en": "one-time password (OTP)",
+"cn": "一次性密码",
+"roma": "wantaimupasuwaado"
+},
+{
+"count": 3,
+"kana": "グローバル",
+"phonetic": "古罗—巴鲁",
+"en": "global",
+"cn": "全局、全球、公网",
+"roma": "guroobaru"
+},
+{
+"count": 3,
+"kana": "バックアップポリシー",
+"phonetic": "巴库阿普坡利希—",
+"en": "backup policy",
+"cn": "备份策略",
+"roma": "bakkuappuporishii"
+},
+{
+"count": 3,
+"kana": "テープメディア",
+"phonetic": "特—普梅迪阿",
+"en": "tape media",
+"cn": "磁带介质",
+"roma": "teepumedia"
+},
+{
+"count": 3,
+"kana": "バックアップテープ",
+"phonetic": "巴库阿普特—普",
+"en": "backup tape",
+"cn": "备份磁带",
+"roma": "bakkuapputeepu"
+},
+{
+"count": 3,
+"kana": "ロゴ",
+"phonetic": "罗戈",
+"en": "logo",
+"cn": "标志",
+"roma": "rogo"
+},
+{
+"count": 3,
+"kana": "キャッシュサーバ",
+"phonetic": "恰舒萨—巴",
+"en": "cache server",
+"cn": "缓存服务器",
+"roma": "kyasshusaaba"
+},
+{
+"count": 3,
+"kana": "アンケート",
+"phonetic": "阿恩凯—托",
+"en": "questionnaire / survey",
+"cn": "问卷调查",
+"roma": "ankeeto"
+},
+{
+"count": 3,
+"kana": "デジタルトランスフォーメーション",
+"phonetic": "德吉塔鲁托拉恩斯佛—梅—肖恩",
+"en": "digital transformation",
+"cn": "数字化转型",
+"roma": "dejitarutoransufoomeeshon"
+},
+{
+"count": 3,
+"kana": "デジタルデータ",
+"phonetic": "德吉塔鲁德—塔",
+"en": "digital data",
+"cn": "数字数据",
+"roma": "dejitarudeeta"
+},
+{
+"count": 3,
+"kana": "ライン",
+"phonetic": "拉伊恩",
+"en": "line",
+"cn": "线、产线",
+"roma": "rain"
+},
+{
+"count": 3,
+"kana": "ヘルスケアデータ",
+"phonetic": "黑鲁斯凯阿德—塔",
+"en": "healthcare data",
+"cn": "健康数据",
+"roma": "herusukeadeeta"
+},
+{
+"count": 3,
+"kana": "ビッグデータ",
+"phonetic": "比古德—塔",
+"en": "big data",
+"cn": "大数据",
+"roma": "biggudeeta"
+},
+{
+"count": 3,
+"kana": "カタログ",
+"phonetic": "卡塔罗古",
+"en": "catalog",
+"cn": "目录、产品册",
+"roma": "katarogu"
+},
+{
+"count": 3,
+"kana": "プロジェクト",
+"phonetic": "普罗杰库托",
+"en": "project",
+"cn": "项目",
+"roma": "purojekuto"
+},
+{
+"count": 3,
+"kana": "オフィス",
+"phonetic": "欧菲斯",
+"en": "office",
+"cn": "办公室",
+"roma": "ofisu"
+},
+{
+"count": 3,
+"kana": "レイアウト",
+"phonetic": "雷伊阿乌托",
+"en": "layout",
+"cn": "布局",
+"roma": "reiauto"
+},
+{
+"count": 3,
+"kana": "カードドア",
+"phonetic": "卡—多多阿",
+"en": "card-access door",
+"cn": "刷卡门",
+"roma": "kaadodoa"
+},
+{
+"count": 3,
+"kana": "リリース",
+"phonetic": "利利—斯",
+"en": "release",
+"cn": "发布",
+"roma": "ririisu"
+},
+{
+"count": 3,
+"kana": "テスト",
+"phonetic": "特斯托",
+"en": "test",
+"cn": "测试",
+"roma": "tesuto"
+},
+{
+"count": 2,
+"kana": "マネジメント",
+"phonetic": "玛内吉梅恩托",
+"en": "management",
+"cn": "管理",
+"roma": "manejimento"
+},
+{
+"count": 2,
+"kana": "デジタルフォレンジックス",
+"phonetic": "德吉塔鲁佛雷恩吉库斯",
+"en": "digital forensics",
+"cn": "数字取证",
+"roma": "dejitaruforenjikkusu"
+},
+{
+"count": 2,
+"kana": "セキュリティインシデント",
+"phonetic": "塞丘利提伊恩希德恩托",
+"en": "security incident",
+"cn": "安全事件",
+"roma": "sekyuritiinshidento"
+},
+{
+"count": 2,
+"kana": "プレースホルダ",
+"phonetic": "普雷—斯霍鲁达",
+"en": "placeholder",
+"cn": "占位符",
+"roma": "pureesuhoruda"
+},
+{
+"count": 2,
+"kana": "ルート",
+"phonetic": "鲁—托",
+"en": "root",
+"cn": "root权限/根",
+"roma": "ruuto"
+},
+{
+"count": 2,
+"kana": "クレーム",
+"phonetic": "库雷—姆",
+"en": "claim / complaint",
+"cn": "投诉、索赔",
+"roma": "kureemu"
+},
+{
+"count": 2,
+"kana": "リアルタイム",
+"phonetic": "利阿鲁塔伊姆",
+"en": "real time",
+"cn": "实时",
+"roma": "riarutaimu"
+},
+{
+"count": 2,
+"kana": "キャンペーン",
+"phonetic": "恰恩佩—恩",
+"en": "campaign",
+"cn": "活动、营销活动",
+"roma": "kyanpeen"
+},
+{
+"count": 2,
+"kana": "リスクアセスメント",
+"phonetic": "利斯库阿塞斯梅恩托",
+"en": "risk assessment",
+"cn": "风险评估",
+"roma": "risukuasesumento"
+},
+{
+"count": 2,
+"kana": "リスクベース",
+"phonetic": "利斯库贝—斯",
+"en": "risk-based",
+"cn": "基于风险的",
+"roma": "risukubeesu"
+},
+{
+"count": 2,
+"kana": "オンプレミス",
+"phonetic": "欧恩普雷米斯",
+"en": "on-premises",
+"cn": "本地部署",
+"roma": "onpuremisu"
+},
+{
+"count": 2,
+"kana": "コピー",
+"phonetic": "科皮—",
+"en": "copy",
+"cn": "复制",
+"roma": "kopii"
+},
+{
+"count": 2,
+"kana": "コンサルティング",
+"phonetic": "科恩萨鲁提恩古",
+"en": "consulting",
+"cn": "咨询",
+"roma": "konsarutingu"
+},
+{
+"count": 2,
+"kana": "アンインストール",
+"phonetic": "阿恩伊恩斯托—鲁",
+"en": "uninstall",
+"cn": "卸载",
+"roma": "aninsutooru"
+},
+{
+"count": 2,
+"kana": "トライアングル",
+"phonetic": "托拉伊阿恩古鲁",
+"en": "triangle",
+"cn": "三角",
+"roma": "toraianguru"
+},
+{
+"count": 2,
+"kana": "デジタライゼーション",
+"phonetic": "德吉塔拉伊泽—肖恩",
+"en": "digitalization",
+"cn": "数字化（流程）",
+"roma": "dejitaraizeeshon"
+},
+{
+"count": 2,
+"kana": "ヘルプデスク",
+"phonetic": "黑鲁普德斯库",
+"en": "help desk",
+"cn": "服务台/帮助台",
+"roma": "herupudesuku"
+},
+{
+"count": 2,
+"kana": "マーケティング",
+"phonetic": "玛—凯提恩古",
+"en": "marketing",
+"cn": "市场营销",
+"roma": "maaketingu"
+},
+{
+"count": 2,
+"kana": "パターン",
+"phonetic": "帕塔—恩",
+"en": "pattern",
+"cn": "模式、特征",
+"roma": "pataan"
+},
+{
+"count": 2,
+"kana": "ランダム",
+"phonetic": "拉恩达姆",
+"en": "random",
+"cn": "随机",
+"roma": "randamu"
+},
+{
+"count": 2,
+"kana": "セキュリティポリシー",
+"phonetic": "塞丘利提坡利希—",
+"en": "security policy",
+"cn": "安全策略",
+"roma": "sekyuritiporishii"
+},
+{
+"count": 2,
+"kana": "ニーズ",
+"phonetic": "尼—兹",
+"en": "needs",
+"cn": "需求",
+"roma": "niizu"
+},
+{
+"count": 2,
+"kana": "サブネットマスク",
+"phonetic": "萨布内托玛斯库",
+"en": "subnet mask",
+"cn": "子网掩码",
+"roma": "sabunettomasuku"
+},
+{
+"count": 2,
+"kana": "エントランスホール",
+"phonetic": "诶恩托拉恩斯霍—鲁",
+"en": "entrance hall",
+"cn": "入口大厅",
+"roma": "entoransuhooru"
+},
+{
+"count": 2,
+"kana": "リーダー",
+"phonetic": "利—达—",
+"en": "reader / leader",
+"cn": "读取器；领导（依语境）",
+"roma": "riidaa"
+},
+{
+"count": 2,
+"kana": "リストア",
+"phonetic": "利斯托阿",
+"en": "restore",
+"cn": "恢复",
+"roma": "risutoa"
+},
+{
+"count": 2,
+"kana": "シュレッダー",
+"phonetic": "舒雷达—",
+"en": "shredder",
+"cn": "碎纸机",
+"roma": "shureddaa"
+},
+{
+"count": 2,
+"kana": "サポートユーティリティ",
+"phonetic": "萨坡—托尤—提利提",
+"en": "support utility",
+"cn": "支持性公用设施",
+"roma": "sapootoyuutiriti"
+},
+{
+"count": 2,
+"kana": "サイバーセキュリティ",
+"phonetic": "萨伊巴—塞丘利提",
+"en": "cybersecurity",
+"cn": "网络安全",
+"roma": "saibaasekyuriti"
+},
+{
+"count": 2,
+"kana": "デスクトップ",
+"phonetic": "德斯库托普",
+"en": "desktop",
+"cn": "桌面",
+"roma": "desukutoppu"
+},
+{
+"count": 2,
+"kana": "ゾーン",
+"phonetic": "佐—恩",
+"en": "zone",
+"cn": "区域",
+"roma": "zoon"
+},
+{
+"count": 2,
+"kana": "トークン",
+"phonetic": "托—库恩",
+"en": "token",
+"cn": "令牌",
+"roma": "tookun"
+},
+{
+"count": 2,
+"kana": "オプトイン",
+"phonetic": "欧普托伊恩",
+"en": "opt-in",
+"cn": "选择加入",
+"roma": "oputoin"
+},
+{
+"count": 2,
+"kana": "チェックポイント",
+"phonetic": "切库坡伊恩托",
+"en": "checkpoint",
+"cn": "检查点",
+"roma": "chekkupointo"
+},
+{
+"count": 2,
+"kana": "エラープルーフ",
+"phonetic": "诶拉—普鲁—夫",
+"en": "error-proof / poka-yoke",
+"cn": "防错设计",
+"roma": "eraapuruufu"
+},
+{
+"count": 2,
+"kana": "ノウハウ",
+"phonetic": "诺乌哈乌",
+"en": "know-how",
+"cn": "诀窍",
+"roma": "nouhau"
+},
+{
+"count": 2,
+"kana": "マニュアル",
+"phonetic": "玛纽阿鲁",
+"en": "manual",
+"cn": "手册",
+"roma": "manyuaru"
+},
+{
+"count": 2,
+"kana": "タイムゾーン",
+"phonetic": "塔伊姆佐—恩",
+"en": "timezone",
+"cn": "时区",
+"roma": "taimuzoon"
+},
+{
+"count": 2,
+"kana": "トップマネジメント",
+"phonetic": "托普玛内吉梅恩托",
+"en": "top management",
+"cn": "最高管理层",
+"roma": "toppumanejimento"
+},
+{
+"count": 2,
+"kana": "プロバイダ",
+"phonetic": "普罗巴伊达",
+"en": "provider",
+"cn": "提供商",
+"roma": "purobaida"
+},
+{
+"count": 2,
+"kana": "ブルートフォース",
+"phonetic": "布鲁—托佛—斯",
+"en": "brute force",
+"cn": "暴力破解",
+"roma": "buruutofoosu"
+},
+{
+"count": 1,
+"kana": "ガバナンス",
+"phonetic": "加巴纳恩斯",
+"en": "governance",
+"cn": "治理",
+"roma": "gabanansu"
+},
+{
+"count": 1,
+"kana": "メールボックス",
+"phonetic": "梅—鲁波库斯",
+"en": "mailbox",
+"cn": "邮箱",
+"roma": "meerubokkusu"
+},
+{
+"count": 1,
+"kana": "セキュアハッシュ",
+"phonetic": "塞丘阿哈舒",
+"en": "secure hash",
+"cn": "安全哈希",
+"roma": "sekyuahasshu"
+},
+{
+"count": 1,
+"kana": "バイト",
+"phonetic": "巴伊托",
+"en": "byte",
+"cn": "字节",
+"roma": "baito"
+},
+{
+"count": 1,
+"kana": "コマンドインジェクション",
+"phonetic": "科玛恩多伊恩杰库肖恩",
+"en": "command injection",
+"cn": "命令注入",
+"roma": "komandoinjekushon"
+},
+{
+"count": 1,
+"kana": "インジェクション",
+"phonetic": "伊恩杰库肖恩",
+"en": "injection",
+"cn": "注入",
+"roma": "injekushon"
+},
+{
+"count": 1,
+"kana": "シェル",
+"phonetic": "谢鲁",
+"en": "shell",
+"cn": "命令行外壳",
+"roma": "sheru"
+},
+{
+"count": 1,
+"kana": "ヘッダ",
+"phonetic": "黑达",
+"en": "header",
+"cn": "头部",
+"roma": "hedda"
+},
+{
+"count": 1,
+"kana": "マネジメントサイクル",
+"phonetic": "玛内吉梅恩托萨伊库鲁",
+"en": "management cycle",
+"cn": "管理循环",
+"roma": "manejimentosaikuru"
+},
+{
+"count": 1,
+"kana": "リードタイム",
+"phonetic": "利—多塔伊姆",
+"en": "lead time",
+"cn": "前置时间/交货周期",
+"roma": "riidotaimu"
+},
+{
+"count": 1,
+"kana": "クラウドサービスプロバイダ",
+"phonetic": "库拉乌多萨—比斯普罗巴伊达",
+"en": "cloud service provider",
+"cn": "云服务提供商",
+"roma": "kuraudosaabisupurobaida"
+},
+{
+"count": 1,
+"kana": "メールサービス",
+"phonetic": "梅—鲁萨—比斯",
+"en": "mail service",
+"cn": "邮件服务",
+"roma": "meerusaabisu"
+},
+{
+"count": 1,
+"kana": "エラー",
+"phonetic": "诶拉—",
+"en": "error",
+"cn": "错误",
+"roma": "eraa"
+},
+{
+"count": 1,
+"kana": "タイミング",
+"phonetic": "塔伊米恩古",
+"en": "timing",
+"cn": "时机",
+"roma": "taimingu"
+},
+{
+"count": 1,
+"kana": "オフライン",
+"phonetic": "欧夫拉伊恩",
+"en": "offline",
+"cn": "离线",
+"roma": "ofurain"
+},
+{
+"count": 1,
+"kana": "フルスキャン",
+"phonetic": "夫鲁斯恰恩",
+"en": "full scan",
+"cn": "全盘扫描",
+"roma": "furusukyan"
+},
+{
+"count": 1,
+"kana": "ペーパレス",
+"phonetic": "佩—帕雷斯",
+"en": "paperless",
+"cn": "无纸化",
+"roma": "peeparesu"
+},
+{
+"count": 1,
+"kana": "ラベル",
+"phonetic": "拉贝鲁",
+"en": "label",
+"cn": "标签",
+"roma": "raberu"
+},
+{
+"count": 1,
+"kana": "サイバーキルチェーン",
+"phonetic": "萨伊巴—基鲁切—恩",
+"en": "cyber kill chain",
+"cn": "网络杀伤链",
+"roma": "saibaakirucheen"
+},
+{
+"count": 1,
+"kana": "チェーン",
+"phonetic": "切—恩",
+"en": "chain",
+"cn": "链",
+"roma": "cheen"
+},
+{
+"count": 1,
+"kana": "プライバシー",
+"phonetic": "普拉伊巴希—",
+"en": "privacy",
+"cn": "隐私",
+"roma": "puraibashii"
+},
+{
+"count": 1,
+"kana": "マスカレード",
+"phonetic": "玛斯卡雷—多",
+"en": "masquerade (NAPT)",
+"cn": "地址伪装/NAPT",
+"roma": "masukareedo"
+},
+{
+"count": 1,
+"kana": "ソフトウェアロボット",
+"phonetic": "索夫托威阿罗波托",
+"en": "software robot",
+"cn": "软件机器人",
+"roma": "sofutowearobotto"
+},
+{
+"count": 1,
+"kana": "テレワーク",
+"phonetic": "特雷瓦—库",
+"en": "telework / remote work",
+"cn": "远程办公",
+"roma": "terewaaku"
+},
+{
+"count": 1,
+"kana": "レプリケーション",
+"phonetic": "雷普利凯—肖恩",
+"en": "replication",
+"cn": "复制（同步）",
+"roma": "repurikeeshon"
+},
+{
+"count": 1,
+"kana": "ディスク",
+"phonetic": "迪斯库",
+"en": "disk",
+"cn": "磁盘",
+"roma": "disuku"
+},
+{
+"count": 1,
+"kana": "サポート",
+"phonetic": "萨坡—托",
+"en": "support",
+"cn": "支持、客服",
+"roma": "sapooto"
+},
+{
+"count": 1,
+"kana": "チャットウィンドウ",
+"phonetic": "恰托维恩多乌",
+"en": "chat window",
+"cn": "聊天窗口",
+"roma": "chattowindou"
+},
+{
+"count": 1,
+"kana": "サポートオペレーター",
+"phonetic": "萨坡—托欧佩雷—塔—",
+"en": "support operator",
+"cn": "客服人员",
+"roma": "sapootoopereetaa"
+},
+{
+"count": 1,
+"kana": "リスクマネジメントプロセス",
+"phonetic": "利斯库玛内吉梅恩托普罗塞斯",
+"en": "risk management / process",
+"cn": "风险管理；进程、过程",
+"roma": "risukumanejimentopurosesu"
+},
+{
+"count": 1,
+"kana": "キャプチャ",
+"phonetic": "恰普恰",
+"en": "CAPTCHA",
+"cn": "验证码（人机验证）",
+"roma": "kyapucha"
+},
+{
+"count": 1,
+"kana": "ネットワークセキュリティ",
+"phonetic": "内托瓦—库塞丘利提",
+"en": "network / security",
+"cn": "网络；安全",
+"roma": "nettowaakusekyuriti"
+},
+{
+"count": 1,
+"kana": "ゼロトラスト",
+"phonetic": "泽罗托拉斯托",
+"en": "zero trust",
+"cn": "零信任",
+"roma": "zerotorasuto"
+},
+{
+"count": 1,
+"kana": "ノルマ",
+"phonetic": "诺鲁玛",
+"en": "quota / norm",
+"cn": "定额、指标",
+"roma": "noruma"
+},
+{
+"count": 1,
+"kana": "プレッシャ",
+"phonetic": "普雷沙",
+"en": "pressure",
+"cn": "压力",
+"roma": "puressha"
+},
+{
+"count": 1,
+"kana": "キャッシュポイズニング",
+"phonetic": "恰舒坡伊兹尼恩古",
+"en": "cache poisoning",
+"cn": "缓存投毒",
+"roma": "kyasshupoizuningu"
+},
+{
+"count": 1,
+"kana": "トランザクション",
+"phonetic": "托拉恩扎库肖恩",
+"en": "transaction",
+"cn": "事务、交易",
+"roma": "toranzakushon"
+},
+{
+"count": 1,
+"kana": "データウェアハウス",
+"phonetic": "德—塔威阿哈乌斯",
+"en": "data warehouse",
+"cn": "数据仓库",
+"roma": "deetaweahausu"
+},
+{
+"count": 1,
+"kana": "レポート",
+"phonetic": "雷坡—托",
+"en": "report",
+"cn": "报告",
+"roma": "repooto"
+},
+{
+"count": 1,
+"kana": "デジタイゼーション",
+"phonetic": "德吉塔伊泽—肖恩",
+"en": "digitization",
+"cn": "数据化",
+"roma": "dejitaizeeshon"
+},
+{
+"count": 1,
+"kana": "デジタイゼーションアナログ",
+"phonetic": "德吉塔伊泽—肖恩阿纳罗古",
+"en": "digitization / analog",
+"cn": "数据化；模拟",
+"roma": "dejitaizeeshonanarogu"
+},
+{
+"count": 1,
+"kana": "ビジネスモデル",
+"phonetic": "比吉内斯莫德鲁",
+"en": "business / model",
+"cn": "业务、商业；模型",
+"roma": "bijinesumoderu"
+},
+{
+"count": 1,
+"kana": "ウェアラブルセンサー",
+"phonetic": "威阿拉布鲁塞恩萨—",
+"en": "wearable / sensor",
+"cn": "可穿戴；传感器",
+"roma": "wearaburusensaa"
+},
+{
+"count": 1,
+"kana": "モデル",
+"phonetic": "莫德鲁",
+"en": "model",
+"cn": "模型",
+"roma": "moderu"
+},
+{
+"count": 1,
+"kana": "シミュレーション",
+"phonetic": "希缪雷—肖恩",
+"en": "simulation",
+"cn": "仿真、模拟",
+"roma": "shimyureeshon"
+},
+{
+"count": 1,
+"kana": "サプライチェーン",
+"phonetic": "萨普拉伊切—恩",
+"en": "supply chain",
+"cn": "供应链",
+"roma": "sapuraicheen"
+},
+{
+"count": 1,
+"kana": "メールヘルプデスク",
+"phonetic": "梅—鲁黑鲁普德斯库",
+"en": "mail / email / help desk",
+"cn": "邮件；服务台/帮助台",
+"roma": "meeruherupudesuku"
+},
+{
+"count": 1,
+"kana": "マイナンバー",
+"phonetic": "玛伊纳恩巴—",
+"en": "My Number (JP ID)",
+"cn": "个人编号（日本）",
+"roma": "mainanbaa"
+},
+{
+"count": 1,
+"kana": "クラウドストレージサービス",
+"phonetic": "库拉乌多斯托雷—吉萨—比斯",
+"en": "cloud storage / service",
+"cn": "云存储；服务",
+"roma": "kuraudosutoreejisaabisu"
+},
+{
+"count": 1,
+"kana": "ヘルスケア",
+"phonetic": "黑鲁斯凯阿",
+"en": "healthcare",
+"cn": "健康护理",
+"roma": "herusukea"
+},
+{
+"count": 1,
+"kana": "ボトム",
+"phonetic": "波托姆",
+"en": "bottom",
+"cn": "底部",
+"roma": "botomu"
+},
+{
+"count": 1,
+"kana": "コーディング",
+"phonetic": "科—迪恩古",
+"en": "coding",
+"cn": "编码",
+"roma": "koodingu"
+},
+{
+"count": 1,
+"kana": "コーディネーションセンター",
+"phonetic": "科—迪内—肖恩塞恩塔—",
+"en": "coordination center",
+"cn": "协调中心",
+"roma": "koodineeshonsentaa"
+},
+{
+"count": 1,
+"kana": "セキュリティベンダー",
+"phonetic": "塞丘利提贝恩达—",
+"en": "security / vendor",
+"cn": "安全；厂商",
+"roma": "sekyuritibendaa"
+},
+{
+"count": 1,
+"kana": "シグネチャ",
+"phonetic": "希古内恰",
+"en": "signature",
+"cn": "特征码、签名",
+"roma": "shigunecha"
+},
+{
+"count": 1,
+"kana": "チャレンジレスポンス",
+"phonetic": "恰雷恩吉雷斯坡恩斯",
+"en": "challenge-response",
+"cn": "质询-应答认证",
+"roma": "charenjiresuponsu"
+},
+{
+"count": 1,
+"kana": "シリアル",
+"phonetic": "希利阿鲁",
+"en": "serial",
+"cn": "序列/串行",
+"roma": "shiriaru"
+},
+{
+"count": 1,
+"kana": "ホワイトボックステスト",
+"phonetic": "霍瓦伊托波库斯特斯托",
+"en": "white box / test",
+"cn": "白盒；测试",
+"roma": "howaitobokkusutesuto"
+},
+{
+"count": 1,
+"kana": "バッファオーバフロー",
+"phonetic": "巴法欧—巴夫罗—",
+"en": "buffer overflow",
+"cn": "缓冲区溢出",
+"roma": "baffaoobafuroo"
+},
+{
+"count": 1,
+"kana": "オークションサイト",
+"phonetic": "欧—库肖恩萨伊托",
+"en": "auction site",
+"cn": "拍卖网站",
+"roma": "ookushonsaito"
+},
+{
+"count": 1,
+"kana": "ページ",
+"phonetic": "佩—吉",
+"en": "page",
+"cn": "页面",
+"roma": "peeji"
+},
+{
+"count": 1,
+"kana": "フォローアップ",
+"phonetic": "佛罗—阿普",
+"en": "follow-up",
+"cn": "跟踪、后续跟进",
+"roma": "forooappu"
+},
+{
+"count": 1,
+"kana": "サービスマネジメント",
+"phonetic": "萨—比斯玛内吉梅恩托",
+"en": "service / management",
+"cn": "服务；管理",
+"roma": "saabisumanejimento"
+},
+{
+"count": 1,
+"kana": "サービスレベル",
+"phonetic": "萨—比斯雷贝鲁",
+"en": "service level",
+"cn": "服务级别",
+"roma": "saabisureberu"
+},
+{
+"count": 1,
+"kana": "ネットワークアドレス",
+"phonetic": "内托瓦—库阿多雷斯",
+"en": "network / address",
+"cn": "网络；地址",
+"roma": "nettowaakuadoresu"
+},
+{
+"count": 1,
+"kana": "コマース",
+"phonetic": "科玛—斯",
+"en": "commerce",
+"cn": "商务、电商",
+"roma": "komaasu"
+},
+{
+"count": 1,
+"kana": "クラスタリング",
+"phonetic": "库拉斯塔利恩古",
+"en": "clustering",
+"cn": "聚类、集群化",
+"roma": "kurasutaringu"
+},
+{
+"count": 1,
+"kana": "データクレンジング",
+"phonetic": "德—塔库雷恩吉恩古",
+"en": "data cleansing",
+"cn": "数据清洗",
+"roma": "deetakurenjingu"
+},
+{
+"count": 1,
+"kana": "エレベーターホール",
+"phonetic": "诶雷贝—塔—霍—鲁",
+"en": "elevator / hall",
+"cn": "电梯；大厅",
+"roma": "erebeetaahooru"
+},
+{
+"count": 1,
+"kana": "ボタン",
+"phonetic": "波塔恩",
+"en": "button",
+"cn": "按钮",
+"roma": "botan"
+},
+{
+"count": 1,
+"kana": "フロア",
+"phonetic": "夫罗阿",
+"en": "floor",
+"cn": "楼层",
+"roma": "furoa"
+},
+{
+"count": 1,
+"kana": "アテンド",
+"phonetic": "阿特恩多",
+"en": "attend / escort",
+"cn": "陪同接待",
+"roma": "atendo"
+},
+{
+"count": 1,
+"kana": "サーバルーム",
+"phonetic": "萨—巴鲁—姆",
+"en": "server room",
+"cn": "机房",
+"roma": "saabaruumu"
+},
+{
+"count": 1,
+"kana": "バックアップジョブ",
+"phonetic": "巴库阿普乔布",
+"en": "backup / job",
+"cn": "备份；作业",
+"roma": "bakkuappujobu"
+},
+{
+"count": 1,
+"kana": "モード",
+"phonetic": "莫—多",
+"en": "mode",
+"cn": "模式",
+"roma": "moodo"
+},
+{
+"count": 1,
+"kana": "ラベリング",
+"phonetic": "拉贝利恩古",
+"en": "labeling",
+"cn": "贴标签、分级标注",
+"roma": "raberingu"
+},
+{
+"count": 1,
+"kana": "ヘッダー",
+"phonetic": "黑达—",
+"en": "header",
+"cn": "页眉、头部",
+"roma": "heddaa"
+},
+{
+"count": 1,
+"kana": "セミナー",
+"phonetic": "塞米纳—",
+"en": "seminar",
+"cn": "研讨会",
+"roma": "seminaa"
+},
+{
+"count": 1,
+"kana": "サンプル",
+"phonetic": "萨恩普鲁",
+"en": "sample",
+"cn": "样本、样例",
+"roma": "sanpuru"
+},
+{
+"count": 1,
+"kana": "レビュー",
+"phonetic": "雷比尤—",
+"en": "review",
+"cn": "评审、复查",
+"roma": "rebyuu"
+},
+{
+"count": 1,
+"kana": "リスクレベル",
+"phonetic": "利斯库雷贝鲁",
+"en": "risk / level",
+"cn": "风险；级别",
+"roma": "risukureberu"
+},
+{
+"count": 1,
+"kana": "ボット",
+"phonetic": "波托",
+"en": "bot",
+"cn": "僵尸程序",
+"roma": "botto"
+},
+{
+"count": 1,
+"kana": "ログインパスワード",
+"phonetic": "罗古伊恩帕斯瓦—多",
+"en": "login / password",
+"cn": "登录；密码",
+"roma": "roguinpasuwaado"
+},
+{
+"count": 1,
+"kana": "ルートキット",
+"phonetic": "鲁—托基托",
+"en": "rootkit",
+"cn": "Rootkit（权限隐藏工具包）",
+"roma": "ruutokitto"
+},
+{
+"count": 1,
+"kana": "カーネル",
+"phonetic": "卡—内鲁",
+"en": "kernel",
+"cn": "内核",
+"roma": "kaaneru"
+},
+{
+"count": 1,
+"kana": "ルータ",
+"phonetic": "鲁—塔",
+"en": "router",
+"cn": "路由器",
+"roma": "ruuta"
+},
+{
+"count": 1,
+"kana": "ブラックリスト",
+"phonetic": "布拉库利斯托",
+"en": "blacklist",
+"cn": "黑名单",
+"roma": "burakkurisuto"
+},
+{
+"count": 1,
+"kana": "ボットネット",
+"phonetic": "波托内托",
+"en": "botnet",
+"cn": "僵尸网络",
+"roma": "bottonetto"
+},
+{
+"count": 1,
+"kana": "プロトコル",
+"phonetic": "普罗托科鲁",
+"en": "protocol",
+"cn": "协议",
+"roma": "purotokoru"
+},
+{
+"count": 1,
+"kana": "サブドメイン",
+"phonetic": "萨布多梅伊恩",
+"en": "subdomain",
+"cn": "子域名",
+"roma": "sabudomein"
+},
+{
+"count": 1,
+"kana": "ランダムサブドメイン",
+"phonetic": "拉恩达姆萨布多梅伊恩",
+"en": "random / subdomain",
+"cn": "随机；子域名",
+"roma": "randamusabudomein"
+},
+{
+"count": 1,
+"kana": "ポイズニング",
+"phonetic": "坡伊兹尼恩古",
+"en": "poisoning",
+"cn": "投毒、污染",
+"roma": "poizuningu"
+},
+{
+"count": 1,
+"kana": "アルゴリズム",
+"phonetic": "阿鲁戈利兹姆",
+"en": "algorithm",
+"cn": "算法",
+"roma": "arugorizumu"
+},
+{
+"count": 1,
+"kana": "アクセスポイント",
+"phonetic": "阿库塞斯坡伊恩托",
+"en": "access point",
+"cn": "接入点",
+"roma": "akusesupointo"
+},
+{
+"count": 1,
+"kana": "ハイブリッド",
+"phonetic": "哈伊布利多",
+"en": "hybrid",
+"cn": "混合",
+"roma": "haiburiddo"
+},
+{
+"count": 1,
+"kana": "コスト",
+"phonetic": "科斯托",
+"en": "cost",
+"cn": "成本",
+"roma": "kosuto"
+},
+{
+"count": 1,
+"kana": "ブロック",
+"phonetic": "布罗库",
+"en": "block",
+"cn": "块；阻断",
+"roma": "burokku"
+},
+{
+"count": 1,
+"kana": "オンラインデータベース",
+"phonetic": "欧恩拉伊恩德—塔贝—斯",
+"en": "online / database",
+"cn": "在线；数据库",
+"roma": "onraindeetabeesu"
+},
+{
+"count": 1,
+"kana": "サンドボックス",
+"phonetic": "萨恩多波库斯",
+"en": "sandbox",
+"cn": "沙箱",
+"roma": "sandobokkusu"
+},
+{
+"count": 1,
+"kana": "コンパイル",
+"phonetic": "科恩帕伊鲁",
+"en": "compile",
+"cn": "编译",
+"roma": "konpairu"
+},
+{
+"count": 1,
+"kana": "ファイルヘッダ",
+"phonetic": "法伊鲁黑达",
+"en": "file / header",
+"cn": "文件；头部",
+"roma": "fairuhedda"
+},
+{
+"count": 1,
+"kana": "プログラムファイル",
+"phonetic": "普罗古拉姆法伊鲁",
+"en": "program / file",
+"cn": "程序；文件",
+"roma": "puroguramufairu"
+},
+{
+"count": 1,
+"kana": "ポートスキャナ",
+"phonetic": "坡—托斯恰纳",
+"en": "port scanner",
+"cn": "端口扫描器",
+"roma": "pootosukyana"
+},
+{
+"count": 1,
+"kana": "セキュリティポリシ",
+"phonetic": "塞丘利提坡利希",
+"en": "security policy",
+"cn": "安全策略",
+"roma": "sekyuritiporishi"
+},
+{
+"count": 1,
+"kana": "バックアップファイル",
+"phonetic": "巴库阿普法伊鲁",
+"en": "backup / file",
+"cn": "备份；文件",
+"roma": "bakkuappufairu"
+},
+{
+"count": 1,
+"kana": "システムテスト",
+"phonetic": "希斯特姆特斯托",
+"en": "system / test",
+"cn": "系统；测试",
+"roma": "shisutemutesuto"
+},
+{
+"count": 1,
+"kana": "ヒューマンエラー",
+"phonetic": "休—玛恩诶拉—",
+"en": "human error",
+"cn": "人为失误",
+"roma": "hyuumaneraa"
+},
+{
+"count": 1,
+"kana": "ヒヤリハット",
+"phonetic": "希亚利哈托",
+"en": "near miss / close call",
+"cn": "险兆事件",
+"roma": "hiyarihatto"
+},
+{
+"count": 1,
+"kana": "データセンタ",
+"phonetic": "德—塔塞恩塔",
+"en": "data center",
+"cn": "数据中心",
+"roma": "deetasenta"
+},
+{
+"count": 1,
+"kana": "バッチ",
+"phonetic": "巴奇",
+"en": "batch",
+"cn": "批处理",
+"roma": "bacchi"
+},
+{
+"count": 1,
+"kana": "トランザクションデータ",
+"phonetic": "托拉恩扎库肖恩德—塔",
+"en": "transaction / data",
+"cn": "事务、交易；数据",
+"roma": "toranzakushondeeta"
+},
+{
+"count": 1,
+"kana": "トレードオフ",
+"phonetic": "托雷—多欧夫",
+"en": "trade-off",
+"cn": "权衡取舍",
+"roma": "toreedoofu"
+},
+{
+"count": 1,
+"kana": "クリティカルパス",
+"phonetic": "库利提卡鲁帕斯",
+"en": "critical path",
+"cn": "关键路径",
+"roma": "kuritikarupasu"
+},
+{
+"count": 1,
+"kana": "スイッチ",
+"phonetic": "斯伊奇",
+"en": "switch",
+"cn": "交换机；开关",
+"roma": "suicchi"
+},
+{
+"count": 1,
+"kana": "コアビジネス",
+"phonetic": "科阿比吉内斯",
+"en": "core business",
+"cn": "核心业务",
+"roma": "koabijinesu"
+},
+{
+"count": 1,
+"kana": "バランス",
+"phonetic": "巴拉恩斯",
+"en": "balance",
+"cn": "平衡",
+"roma": "baransu"
+},
+{
+"count": 1,
+"kana": "ステークホルダ",
+"phonetic": "斯特—库霍鲁达",
+"en": "stakeholder",
+"cn": "利益相关方",
+"roma": "suteekuhoruda"
+},
+{
+"count": 1,
+"kana": "パネル",
+"phonetic": "帕内鲁",
+"en": "panel",
+"cn": "面板",
+"roma": "paneru"
+},
+{
+"count": 1,
+"kana": "クリック",
+"phonetic": "库利库",
+"en": "click",
+"cn": "点击",
+"roma": "kurikku"
+},
+{
+"count": 1,
+"kana": "カタログデータ",
+"phonetic": "卡塔罗古德—塔",
+"en": "catalog data",
+"cn": "目录数据",
+"roma": "katarogudeeta"
+},
+{
+"count": 1,
+"kana": "ニュース",
+"phonetic": "纽—斯",
+"en": "news",
+"cn": "新闻",
+"roma": "nyuusu"
+},
+{
+"count": 1,
+"kana": "ログデータ",
+"phonetic": "罗古德—塔",
+"en": "log data",
+"cn": "日志数据",
+"roma": "rogudeeta"
+},
+{
+"count": 1,
+"kana": "カードドアショールーム",
+"phonetic": "卡—多多阿肖—鲁—姆",
+"en": "card-access door / showroom",
+"cn": "刷卡门；展厅",
+"roma": "kaadodoashooruumu"
+},
+{
+"count": 1,
+"kana": "エリアファックス",
+"phonetic": "诶利阿法库斯",
+"en": "area / fax",
+"cn": "区域；传真",
+"roma": "eriafakkusu"
+},
+{
+"count": 1,
+"kana": "ソファトイレ",
+"phonetic": "索法托伊雷",
+"en": "sofa / toilet",
+"cn": "沙发；厕所",
+"roma": "sofatoire"
+},
+{
+"count": 1,
+"kana": "アンチパスバック",
+"phonetic": "阿恩奇帕斯巴库",
+"en": "anti-passback",
+"cn": "防回传（门禁）",
+"roma": "anchipasubakku"
+},
+{
+"count": 1,
+"kana": "ランサムウェア",
+"phonetic": "拉恩萨姆威阿",
+"en": "ransomware",
+"cn": "勒索软件",
+"roma": "ransamuwea"
+},
+{
+"count": 1,
+"kana": "プロフィール",
+"phonetic": "普罗菲—鲁",
+"en": "profile",
+"cn": "档案、简介",
+"roma": "purofiiru"
+},
+{
+"count": 1,
+"kana": "アプリケーションプログラム",
+"phonetic": "阿普利凯—肖恩普罗古拉姆",
+"en": "application program",
+"cn": "应用程序",
+"roma": "apurikeeshonpuroguramu"
+},
+{
+"count": 1,
+"kana": "ギフト",
+"phonetic": "吉夫托",
+"en": "gift",
+"cn": "礼品",
+"roma": "gifuto"
+},
+{
+"count": 1,
+"kana": "キャンセル",
+"phonetic": "恰恩塞鲁",
+"en": "cancel",
+"cn": "取消",
+"roma": "kyanseru"
+},
+{
+"count": 1,
+"kana": "テンプレート",
+"phonetic": "特恩普雷—托",
+"en": "template",
+"cn": "模板",
+"roma": "tenpureeto"
+},
+{
+"count": 1,
+"kana": "フリーメール",
+"phonetic": "夫利—梅—鲁",
+"en": "free email",
+"cn": "免费邮箱",
+"roma": "furiimeeru"
+},
+{
+"count": 1,
+"kana": "メールアカウント",
+"phonetic": "梅—鲁阿卡乌恩托",
+"en": "mail account",
+"cn": "邮件账户",
+"roma": "meeruakaunto"
+},
+{
+"count": 1,
+"kana": "クロスサイトスクリプティング",
+"phonetic": "库罗斯萨伊托斯库利普提恩古",
+"en": "XSS",
+"cn": "跨站脚本",
+"roma": "kurosusaitosukuriputingu"
+},
+{
+"count": 1,
+"kana": "セッションハイジャック",
+"phonetic": "塞肖恩哈伊贾库",
+"en": "session hijacking",
+"cn": "会话劫持",
+"roma": "sesshonhaijakku"
+},
+{
+"count": 1,
+"kana": "パレート",
+"phonetic": "帕雷—托",
+"en": "Pareto",
+"cn": "帕累托",
+"roma": "pareeto"
+},
+{
+"count": 1,
+"kana": "ヒストグラム",
+"phonetic": "希斯托古拉姆",
+"en": "histogram",
+"cn": "直方图",
+"roma": "hisutoguramu"
+},
+{
+"count": 1,
+"kana": "コンペア",
+"phonetic": "科恩佩阿",
+"en": "compare method",
+"cn": "比较法",
+"roma": "konpea"
+},
+{
+"count": 1,
+"kana": "チェックサム",
+"phonetic": "切库萨姆",
+"en": "checksum",
+"cn": "校验和",
+"roma": "chekkusamu"
+},
+{
+"count": 1,
+"kana": "パターンマッチング",
+"phonetic": "帕塔—恩玛奇恩古",
+"en": "pattern matching",
+"cn": "模式匹配",
+"roma": "pataanmacchingu"
+},
+{
+"count": 1,
+"kana": "ビヘイビア",
+"phonetic": "比黑伊比阿",
+"en": "behavior",
+"cn": "行为（检测）",
+"roma": "biheibia"
+},
+{
+"count": 1,
+"kana": "ノイズリダクション",
+"phonetic": "诺伊兹利达库肖恩",
+"en": "noise reduction",
+"cn": "降噪",
+"roma": "noizuridakushon"
+},
+{
+"count": 1,
+"kana": "パスワードリスト",
+"phonetic": "帕斯瓦—多利斯托",
+"en": "password list",
+"cn": "密码列表",
+"roma": "pasuwaadorisuto"
+},
+{
+"count": 1,
+"kana": "リバースブルートフォース",
+"phonetic": "利巴—斯布鲁—托佛—斯",
+"en": "reverse brute force",
+"cn": "反向暴力破解",
+"roma": "ribaasuburuutofoosu"
+},
+{
+"count": 1,
+"kana": "レインボーテーブル",
+"phonetic": "雷伊恩波—特—布鲁",
+"en": "rainbow table",
+"cn": "彩虹表",
+"roma": "reinbooteeburu"
+},
+{
+"count": 1,
+"kana": "インターネットバンキング",
+"phonetic": "伊恩塔—内托巴恩基恩古",
+"en": "Internet banking",
+"cn": "网上银行",
+"roma": "intaanettobankingu"
+},
+{
+"count": 1,
+"kana": "テストケース",
+"phonetic": "特斯托凯—斯",
+"en": "test case",
+"cn": "测试用例",
+"roma": "tesutokeesu"
+},
+{
+"count": 1,
+"kana": "ハードウェア",
+"phonetic": "哈—多威阿",
+"en": "hardware",
+"cn": "硬件",
+"roma": "haadowea"
+}
+]
