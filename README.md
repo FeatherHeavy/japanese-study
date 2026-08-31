@@ -1,29 +1,11 @@
-# 日语速查
+# 日语学习 1 2 3
 
-学习入口（不是简历）：https://featherheavy.github.io/japanese-study/
+开头都一样，只记数字：
 
-五十音、动词活用、敬语、SG 片假名词表、日常开口。可点读、可练习、可打印。
+https://featherheavy.github.io/japanese-study/
 
-公开履历是另一个仓库，不要把本页链到履历上。
+- [1 开口](1/) 点餐、结账、忌口、面试（假名+罗马音）
+- [2 片假名](2/) SG 高频片假名，黑底跟读
+- [3 真题](3/) 样题 + 2023～2026 中日英对照 PDF
 
-## 页面
-
-- [五十音图](kana.html)：清音 / 浊音 / 拗音 / 外来语，点击朗读，可隐藏罗马音做听写
-- [动词活用](verbs.html)：13 种变形总表 + 活用器
-- [敬语速查](keigo.html)：尊敬 / 谦让 / 丁宁对照、授受方向、邮件套话
-- [SG 片假名词表](sg-kana/)：真题高频片假名，黑底跟读
-- [日常开口](https://featherheavy.github.io/daily-japanese-pdf/)：点餐、结账、忌口、面试
-
-## 打印 PDF
-
-- [五十音图.pdf](pdf/kana.pdf)
-- [动词活用.pdf](pdf/verbs.pdf)
-- [敬语速查.pdf](pdf/keigo.pdf)
-
-重新生成 PDF：
-
-```bash
-python3 scripts/generate_pdfs.py
-```
-
-读音以常用赫本式罗马字为主（し shi / つ tsu / ふ fu）。
+五十音 / 动词 / 敬语仍在首页下面。这是学习页，不要当成履历发给别人。

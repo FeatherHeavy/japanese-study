@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>単語</title>
+  <style>
+    :root {
+      --bg: #090909;
+      --card: #161616;
+      --card-on: #1f2a22;
+      --line: #2a2a2a;
+      --text: #ececec;
+      --dim: #8a8a8a;
+      --kana: #f4f4f4;
+      --accent: #7dcea0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Hiragino Sans", "PingFang SC", "Noto Sans JP", sans-serif;
+      min-height: 100%;
+    }
+    body { padding: 12px 12px calc(88px + env(safe-area-inset-bottom)); }
+    header { margin-bottom: 10px; }
+    h1 { font-size: 18px; font-weight: 650; letter-spacing: .2em; }
+    .sub { color: var(--dim); font-size: 12px; margin-top: 4px; }
+    .bar {
+      display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+      margin: 10px 0 12px;
+    }
+    input[type="search"] {
+      flex: 1 1 160px; min-width: 140px;
+      background: var(--card); color: var(--text);
+      border: 1px solid var(--line); border-radius: 8px;
+      padding: 8px 10px; font-size: 15px;
+    }
+    button, select {
+      background: var(--card); color: var(--text);
+      border: 1px solid var(--line); border-radius: 8px;
+      padding: 8px 10px; font-size: 13px; cursor: pointer;
+    }
+    button:hover, button.on { border-color: var(--accent); color: var(--accent); }
+    .rate { color: var(--dim); font-size: 12px; display: flex; align-items: center; gap: 6px; }
+    input[type="range"] { width: 90px; accent-color: var(--accent); }
+    .list { display: flex; flex-direction: column; gap: 8px; }
+    .row {
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: 10px; padding: 10px 12px;
+      display: grid; grid-template-columns: auto 1fr auto;
+      gap: 10px; align-items: center;
+    }
+    .row.playing { background: var(--card-on); border-color: var(--accent); }
+    .n { color: var(--dim); font-size: 11px; min-width: 28px; text-align: right; }
+    .kana { font-size: 22px; font-weight: 650; letter-spacing: .04em; line-height: 1.3; }
+    .roma { color: var(--accent); font-size: 13px; margin-top: 2px; font-family: ui-monospace, Menlo, monospace; }
+    .mean { color: #c8c8c8; font-size: 13px; margin-top: 2px; }
+    .play {
+      width: 42px; height: 42px; border-radius: 50%;
+      font-size: 16px; padding: 0; flex-shrink: 0;
+    }
+    .dock {
+      position: fixed; left: 0; right: 0; bottom: 0;
+      background: #111; border-top: 1px solid var(--line);
+      padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+      display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    }
+    .hint { color: var(--dim); font-size: 11px; text-align: center; margin-top: 6px; }
+    .empty { color: var(--dim); padding: 20px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../" style="color:#8a8a8a;font-size:12px">← 日语速查</a>
+    <div style="display:flex;gap:10px;margin:8px 0 10px;font-size:13px">
+      <a href="../1/" style="color:#ececec">1 开口</a>
+      <a href="../2/" style="color:#7dcea0">2 片假名</a>
+      <a href="../3/" style="color:#ececec">3 真题</a>
+    </div>
+    <h1>2　単語</h1>
+    <div class="sub">信息处理安全 SG 片假名。点喇叭听读音，可跟读。黑底。</div>
+  </header>
+  <div class="bar">
+    <input id="q" type="search" placeholder="搜 片假名 / 中文 / 英文 / 罗马音" />
+    <label class="rate">语速 <input id="rate" type="range" min="0.5" max="1.1" step="0.05" value="0.75" /> <span id="ratev">0.75</span></label>
+    <button id="hide" type="button">藏意思</button>
+  </div>
+  <div id="list" class="list"></div>
+  <p class="hint" id="count"></p>
+  <div class="dock">
+    <button id="prev" type="button">上一个</button>
+    <button id="playone" type="button">读当前</button>
+    <button id="auto" type="button">连续跟读</button>
+    <button id="stop" type="button">停</button>
+    <button id="next" type="button">下一个</button>
+  </div>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    let words = [];
+    let shown = [];
+    let cur = 0;
+    let auto = false;
+    let hide = false;
+    let jaVoice = null;
+
+    function pickVoice() {
+      const vs = speechSynthesis.getVoices();
+      jaVoice =
+        vs.find((v) => v.lang === "ja-JP" && /kyoko|siri|google|otoya|nanami|haruka/i.test(v.name)) ||
+        vs.find((v) => v.lang.startsWith("ja")) ||
+        null;
+    }
+    speechSynthesis.onvoiceschanged = pickVoice;
+    pickVoice();
+
+    function speak(text, then) {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "ja-JP";
+      u.rate = parseFloat($("rate").value);
+      if (jaVoice) u.voice = jaVoice;
+      u.onend = () => { if (then) then(); };
+      u.onerror = () => { if (then) then(); };
+      speechSynthesis.speak(u);
+    }
+
+    function mark(i) {
+      document.querySelectorAll(".row").forEach((el) => el.classList.remove("playing"));
+      const el = document.querySelector('.row[data-i="' + i + '"]');
+      if (el) {
+        el.classList.add("playing");
+        el.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+    }
+
+    function playIndex(i, chain) {
+      if (i < 0 || i >= shown.length) { auto = false; $("auto").classList.remove("on"); return; }
+      cur = i;
+      mark(i);
+      speak(shown[i].kana, () => {
+        if (!auto) return;
+        setTimeout(() => playIndex(i + 1, true), 650);
+      });
+    }
+
+    function render() {
+      const q = $("q").value.trim().toLowerCase();
+      shown = words.filter((w) => {
+        if (!q) return true;
+        return [w.kana, w.roma, w.cn, w.en, w.phonetic].join(" ").toLowerCase().includes(q);
+      });
+      $("count").textContent = shown.length + " / " + words.length;
+      $("list").innerHTML = shown.map((w, i) => `
+        <div class="row" data-i="${i}">
+          <div class="n">${w.count}×</div>
+          <div>
+            <div class="kana">${w.kana}</div>
+            <div class="roma">${w.roma}</div>
+            <div class="mean"${hide ? ' style="visibility:hidden"' : ""}>${w.cn}　·　${w.en}</div>
+          </div>
+          <button class="play" type="button" data-speak="${i}" aria-label="play">▶</button>
+        </div>
+      `).join("") || '<p class="empty">没有匹配</p>';
+    }
+
+    $("q").addEventListener("input", render);
+    $("rate").addEventListener("input", () => { $("ratev").textContent = $("rate").value; });
+    $("hide").addEventListener("click", () => {
+      hide = !hide;
+      $("hide").classList.toggle("on", hide);
+      $("hide").textContent = hide ? "显示意思" : "藏意思";
+      render();
+    });
+    $("list").addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-speak]");
+      const row = e.target.closest(".row");
+      const i = btn ? +btn.dataset.speak : (row ? +row.dataset.i : -1);
+      if (i < 0) return;
+      auto = false;
+      $("auto").classList.remove("on");
+      playIndex(i);
+    });
+    $("playone").onclick = () => { auto = false; $("auto").classList.remove("on"); playIndex(cur); };
+    $("prev").onclick = () => { auto = false; playIndex(Math.max(0, cur - 1)); };
+    $("next").onclick = () => { auto = false; playIndex(Math.min(shown.length - 1, cur + 1)); };
+    $("auto").onclick = () => {
+      auto = !auto;
+      $("auto").classList.toggle("on", auto);
+      if (auto) playIndex(cur);
+      else speechSynthesis.cancel();
+    };
+    $("stop").onclick = () => { auto = false; $("auto").classList.remove("on"); speechSynthesis.cancel(); };
+
+    fetch("words.json")
+      .then((r) => r.json())
+      .then((data) => { words = data; render(); })
+      .catch(() => { $("list").innerHTML = '<p class="empty">词表加载失败</p>'; });
+  </script>
+</body>
+</html>
