@@ -15,6 +15,8 @@
       --dim: #8a8a8a;
       --kana: #f4f4f4;
       --accent: #7dcea0;
+      --bad: #e57373;
+      --ok: #7dcea0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body {
@@ -26,6 +28,7 @@
     body { padding: 12px 12px calc(88px + env(safe-area-inset-bottom)); }
     header { margin-bottom: 10px; }
     h1 { font-size: 18px; font-weight: 650; letter-spacing: .2em; }
+    h2 { font-size: 15px; font-weight: 650; margin-bottom: 6px; }
     .sub { color: var(--dim); font-size: 12px; margin-top: 4px; }
     .bar {
       display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
@@ -43,20 +46,71 @@
       padding: 8px 10px; font-size: 13px; cursor: pointer;
     }
     button:hover, button.on { border-color: var(--accent); color: var(--accent); }
+    button:disabled { opacity: .45; cursor: default; }
     .rate { color: var(--dim); font-size: 12px; display: flex; align-items: center; gap: 6px; }
     input[type="range"] { width: 90px; accent-color: var(--accent); }
+    .quiz {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 14px 12px;
+      margin-bottom: 14px;
+    }
+    .quiz-head {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 10px; flex-wrap: wrap; margin-bottom: 10px;
+    }
+    .quiz-meta { color: var(--dim); font-size: 12px; margin-top: 4px; }
+    .quiz-modes { display: flex; gap: 6px; flex-wrap: wrap; }
+    .quiz-prompt {
+      text-align: center;
+      padding: 14px 8px 10px;
+      border: 1px dashed var(--line);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      min-height: 72px;
+      display: grid;
+      place-items: center;
+    }
+    .quiz-kana { font-size: 34px; font-weight: 700; letter-spacing: .06em; }
+    .quiz-audio { display: flex; gap: 8px; align-items: center; justify-content: center; flex-wrap: wrap; }
+    .quiz-audio .big { font-size: 28px; }
+    .quiz-options {
+      display: grid;
+      gap: 8px;
+    }
+    .quiz-options button {
+      text-align: left;
+      padding: 10px 12px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .quiz-options button.correct { border-color: var(--ok); color: var(--ok); }
+    .quiz-options button.wrong { border-color: var(--bad); color: var(--bad); }
+    .quiz-foot {
+      display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+      margin-top: 10px;
+    }
+    .quiz-result { font-size: 13px; color: var(--dim); flex: 1; }
     .list { display: flex; flex-direction: column; gap: 8px; }
     .row {
       background: var(--card); border: 1px solid var(--line);
       border-radius: 10px; padding: 10px 12px;
-      display: grid; grid-template-columns: auto 1fr auto;
+      display: grid; grid-template-columns: auto 1fr auto auto;
       gap: 10px; align-items: center;
     }
+    .row.learned { border-color: #2f4a38; background: #141c17; }
     .row.playing { background: var(--card-on); border-color: var(--accent); }
     .n { color: var(--dim); font-size: 11px; min-width: 28px; text-align: right; }
     .kana { font-size: 22px; font-weight: 650; letter-spacing: .04em; line-height: 1.3; }
     .roma { color: var(--accent); font-size: 13px; margin-top: 2px; font-family: ui-monospace, Menlo, monospace; }
     .mean { color: #c8c8c8; font-size: 13px; margin-top: 2px; }
+    .learn {
+      display: flex; align-items: center; gap: 4px;
+      color: var(--dim); font-size: 11px; white-space: nowrap;
+      user-select: none; cursor: pointer;
+    }
+    .learn input { accent-color: var(--accent); cursor: pointer; }
     .play {
       width: 42px; height: 42px; border-radius: 50%;
       font-size: 16px; padding: 0; flex-shrink: 0;
@@ -75,18 +129,43 @@
   <header>
     <a href="../" style="color:#8a8a8a;font-size:12px">← 日语速查</a>
     <div style="display:flex;gap:10px;margin:8px 0 10px;font-size:13px">
+      <a href="../0/" style="color:#ececec">0 速查</a>
       <a href="../1/" style="color:#ececec">1 开口</a>
       <a href="../2/" style="color:#7dcea0">2 片假名</a>
       <a href="../3/" style="color:#ececec">3 真题</a>
       <a href="../4/" style="color:#ececec">4 面试</a>
     </div>
     <h1>2　単語</h1>
-    <div class="sub">信息处理安全 SG 片假名。点喇叭听读音，可跟读。黑底。</div>
+    <div class="sub">信息处理安全 SG 片假名。勾选「学会了」，上面随机考你。</div>
   </header>
+
+  <section class="quiz" id="quiz">
+    <div class="quiz-head">
+      <div>
+        <h2>随机测验</h2>
+        <div class="quiz-meta" id="quiz-meta">先勾选下面「学会了」的词，再开始</div>
+      </div>
+      <div class="quiz-modes">
+        <button id="mode-text" type="button" class="on">看日文</button>
+        <button id="mode-audio" type="button">听音</button>
+      </div>
+    </div>
+    <div class="quiz-prompt" id="quiz-prompt">
+      <div class="quiz-meta">勾选词表后点「下一题」</div>
+    </div>
+    <div class="quiz-options" id="quiz-options"></div>
+    <div class="quiz-foot">
+      <div class="quiz-result" id="quiz-result"></div>
+      <button id="quiz-play" type="button" hidden>再听一遍</button>
+      <button id="quiz-next" type="button">下一题</button>
+    </div>
+  </section>
+
   <div class="bar">
     <input id="q" type="search" placeholder="搜 片假名 / 中文 / 英文 / 罗马音" />
     <label class="rate">语速 <input id="rate" type="range" min="0.5" max="1.1" step="0.05" value="0.75" /> <span id="ratev">0.75</span></label>
     <button id="hide" type="button">藏意思</button>
+    <button id="only-learned" type="button">只看学会</button>
   </div>
   <div id="list" class="list"></div>
   <p class="hint" id="count"></p>
@@ -99,12 +178,38 @@
   </div>
   <script>
     const $ = (id) => document.getElementById(id);
+    const LEARNED_KEY = "japanese-study-2-learned";
     let words = [];
     let shown = [];
     let cur = 0;
     let auto = false;
     let hide = false;
+    let onlyLearned = false;
     let jaVoice = null;
+    let learned = new Set();
+    let quizMode = "text";
+    let quizWord = null;
+    let quizAnswered = false;
+
+    function loadLearned() {
+      try {
+        learned = new Set(JSON.parse(localStorage.getItem(LEARNED_KEY) || "[]"));
+      } catch {
+        learned = new Set();
+      }
+    }
+
+    function saveLearned() {
+      localStorage.setItem(LEARNED_KEY, JSON.stringify([...learned]));
+    }
+
+    function isLearned(kana) {
+      return learned.has(kana);
+    }
+
+    function learnedPool() {
+      return words.filter((w) => isLearned(w.kana));
+    }
 
     function pickVoice() {
       const vs = speechSynthesis.getVoices();
@@ -115,6 +220,7 @@
     }
     speechSynthesis.onvoiceschanged = pickVoice;
     pickVoice();
+    loadLearned();
 
     function speak(text, then) {
       speechSynthesis.cancel();
@@ -125,6 +231,108 @@
       u.onend = () => { if (then) then(); };
       u.onerror = () => { if (then) then(); };
       speechSynthesis.speak(u);
+    }
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function uniqueCn(pool, exclude) {
+      const seen = new Set([exclude]);
+      const out = [];
+      for (const w of shuffle(pool)) {
+        const cn = w.cn.split(/[、，,/]/)[0].trim();
+        if (!seen.has(cn)) {
+          seen.add(cn);
+          out.push(cn);
+        }
+        if (out.length >= 3) break;
+      }
+      return out;
+    }
+
+    function updateQuizMeta() {
+      const n = learnedPool().length;
+      $("quiz-meta").textContent = n
+        ? "已学会 " + n + " 个 · 只从这些里随机出题"
+        : "先勾选下面「学会了」的词，再开始";
+      $("quiz-next").disabled = n === 0;
+      $("quiz-play").hidden = quizMode !== "audio" || !quizWord;
+    }
+
+    function renderQuizPrompt() {
+      const prompt = $("quiz-prompt");
+      if (!quizWord) {
+        prompt.innerHTML = '<div class="quiz-meta">勾选词表后点「下一题」</div>';
+        $("quiz-play").hidden = true;
+        return;
+      }
+      if (quizMode === "text") {
+        prompt.innerHTML = '<div class="quiz-kana">' + quizWord.kana + "</div>";
+        $("quiz-play").hidden = true;
+      } else {
+        prompt.innerHTML =
+          '<div class="quiz-audio"><span class="big">🔊</span><span class="quiz-meta">听读音，选中文意思</span></div>';
+        $("quiz-play").hidden = false;
+      }
+    }
+
+    function renderQuizOptions() {
+      const box = $("quiz-options");
+      box.innerHTML = "";
+      if (!quizWord) return;
+      const pool = learnedPool().length >= 4 ? learnedPool() : words;
+      const correct = quizWord.cn.split(/[、，,/]/)[0].trim();
+      const options = shuffle([correct, ...uniqueCn(pool, correct)]).slice(0, 4);
+      options.forEach((cn) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = cn;
+        btn.addEventListener("click", () => answerQuiz(cn, btn));
+        box.appendChild(btn);
+      });
+    }
+
+    function answerQuiz(choice, btn) {
+      if (quizAnswered || !quizWord) return;
+      quizAnswered = true;
+      const correct = quizWord.cn.split(/[、，,/]/)[0].trim();
+      const ok = choice === correct;
+      [...$("quiz-options").children].forEach((el) => {
+        const text = el.textContent;
+        const isRight = text === correct;
+        el.disabled = true;
+        if (isRight) el.classList.add("correct");
+        else if (el === btn) el.classList.add("wrong");
+      });
+      $("quiz-result").textContent = ok
+        ? "✓ 对了：" + quizWord.kana + " = " + correct
+        : "✗ 答案是「" + correct + "」（" + quizWord.kana + "）";
+    }
+
+    function nextQuiz() {
+      const pool = learnedPool();
+      if (!pool.length) {
+        quizWord = null;
+        quizAnswered = false;
+        renderQuizPrompt();
+        $("quiz-options").innerHTML = "";
+        $("quiz-result").textContent = "";
+        updateQuizMeta();
+        return;
+      }
+      quizWord = pool[Math.floor(Math.random() * pool.length)];
+      quizAnswered = false;
+      $("quiz-result").textContent = "";
+      renderQuizPrompt();
+      renderQuizOptions();
+      updateQuizMeta();
+      if (quizMode === "audio") speak(quizWord.kana);
     }
 
     function mark(i) {
@@ -149,22 +357,48 @@
     function render() {
       const q = $("q").value.trim().toLowerCase();
       shown = words.filter((w) => {
+        if (onlyLearned && !isLearned(w.kana)) return false;
         if (!q) return true;
         return [w.kana, w.roma, w.cn, w.en, w.phonetic].join(" ").toLowerCase().includes(q);
       });
-      $("count").textContent = shown.length + " / " + words.length;
+      const learnedCount = learnedPool().length;
+      $("count").textContent = shown.length + " / " + words.length + " · 已学会 " + learnedCount;
       $("list").innerHTML = shown.map((w, i) => `
-        <div class="row" data-i="${i}">
+        <div class="row${isLearned(w.kana) ? " learned" : ""}" data-i="${i}" data-kana="${w.kana}">
           <div class="n">${w.count}×</div>
           <div>
             <div class="kana">${w.kana}</div>
             <div class="roma">${w.roma}</div>
             <div class="mean"${hide ? ' style="visibility:hidden"' : ""}>${w.cn}　·　${w.en}</div>
           </div>
+          <label class="learn"><input type="checkbox" data-learn="${w.kana}"${isLearned(w.kana) ? " checked" : ""}>学会了</label>
           <button class="play" type="button" data-speak="${i}" aria-label="play">▶</button>
         </div>
       `).join("") || '<p class="empty">没有匹配</p>';
+      updateQuizMeta();
     }
+
+    $("mode-text").onclick = () => {
+      quizMode = "text";
+      $("mode-text").classList.add("on");
+      $("mode-audio").classList.remove("on");
+      quizAnswered = false;
+      renderQuizPrompt();
+      renderQuizOptions();
+      updateQuizMeta();
+    };
+    $("mode-audio").onclick = () => {
+      quizMode = "audio";
+      $("mode-audio").classList.add("on");
+      $("mode-text").classList.remove("on");
+      quizAnswered = false;
+      renderQuizPrompt();
+      renderQuizOptions();
+      updateQuizMeta();
+      if (quizWord) speak(quizWord.kana);
+    };
+    $("quiz-next").onclick = nextQuiz;
+    $("quiz-play").onclick = () => { if (quizWord) speak(quizWord.kana); };
 
     $("q").addEventListener("input", render);
     $("rate").addEventListener("input", () => { $("ratev").textContent = $("rate").value; });
@@ -174,7 +408,21 @@
       $("hide").textContent = hide ? "显示意思" : "藏意思";
       render();
     });
+    $("only-learned").addEventListener("click", () => {
+      onlyLearned = !onlyLearned;
+      $("only-learned").classList.toggle("on", onlyLearned);
+      $("only-learned").textContent = onlyLearned ? "显示全部" : "只看学会";
+      render();
+    });
     $("list").addEventListener("click", (e) => {
+      if (e.target.matches("[data-learn]")) {
+        const kana = e.target.dataset.learn;
+        if (e.target.checked) learned.add(kana);
+        else learned.delete(kana);
+        saveLearned();
+        render();
+        return;
+      }
       const btn = e.target.closest("[data-speak]");
       const row = e.target.closest(".row");
       const i = btn ? +btn.dataset.speak : (row ? +row.dataset.i : -1);
@@ -196,7 +444,7 @@
 
     fetch("words.json")
       .then((r) => r.json())
-      .then((data) => { words = data; render(); })
+      .then((data) => { words = data; render(); updateQuizMeta(); })
       .catch(() => { $("list").innerHTML = '<p class="empty">词表加载失败</p>'; });
   </script>
 </body>
