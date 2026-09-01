@@ -136,7 +136,7 @@
       <a href="../4/" style="color:#ececec">4 面试</a>
     </div>
     <h1>2　単語</h1>
-    <div class="sub">信息处理安全 SG 片假名。勾选「学会了」，上面随机考你。</div>
+    <div class="sub">信息处理安全 SG 片假名。勾选「学会了」，上面打乱顺序逐个考。</div>
   </header>
 
   <section class="quiz" id="quiz">
@@ -190,6 +190,8 @@
     let quizMode = "text";
     let quizWord = null;
     let quizAnswered = false;
+    let quizQueue = [];
+    let quizPos = 0;
 
     function loadLearned() {
       try {
@@ -256,11 +258,29 @@
       return out;
     }
 
+    function resetQuizQueue() {
+      quizQueue = shuffle(learnedPool());
+      quizPos = 0;
+    }
+
+    function invalidateQuizQueue() {
+      quizQueue = [];
+      quizPos = 0;
+      quizWord = null;
+      quizAnswered = false;
+    }
+
     function updateQuizMeta() {
       const n = learnedPool().length;
-      $("quiz-meta").textContent = n
-        ? "已学会 " + n + " 个 · 只从这些里随机出题"
-        : "先勾选下面「学会了」的词，再开始";
+      if (!n) {
+        $("quiz-meta").textContent = "先勾选下面「学会了」的词，再开始";
+      } else if (quizQueue.length) {
+        const done = Math.min(quizPos, quizQueue.length);
+        $("quiz-meta").textContent =
+          "已学会 " + n + " 个 · 本轮 " + done + " / " + quizQueue.length + "（打乱顺序逐个测）";
+      } else {
+        $("quiz-meta").textContent = "已学会 " + n + " 个 · 打乱顺序逐个测完一轮";
+      }
       $("quiz-next").disabled = n === 0;
       $("quiz-play").hidden = quizMode !== "audio" || !quizWord;
     }
@@ -318,17 +338,23 @@
     function nextQuiz() {
       const pool = learnedPool();
       if (!pool.length) {
-        quizWord = null;
-        quizAnswered = false;
+        invalidateQuizQueue();
         renderQuizPrompt();
         $("quiz-options").innerHTML = "";
         $("quiz-result").textContent = "";
         updateQuizMeta();
         return;
       }
-      quizWord = pool[Math.floor(Math.random() * pool.length)];
+      if (!quizQueue.length || quizPos >= quizQueue.length) {
+        const newRound = quizQueue.length && quizPos >= quizQueue.length;
+        resetQuizQueue();
+        if (newRound) $("quiz-result").textContent = "一轮完成，重新洗牌";
+      }
+      quizWord = quizQueue[quizPos++];
       quizAnswered = false;
-      $("quiz-result").textContent = "";
+      if (!($("quiz-result").textContent || "").includes("一轮完成")) {
+        $("quiz-result").textContent = "";
+      }
       renderQuizPrompt();
       renderQuizOptions();
       updateQuizMeta();
@@ -420,6 +446,7 @@
         if (e.target.checked) learned.add(kana);
         else learned.delete(kana);
         saveLearned();
+        invalidateQuizQueue();
         render();
         return;
       }
