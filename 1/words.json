@@ -905,11 +905,11 @@
   },
   {
     "count": 679,
-    "kana": "ふん／ぷん",
+    "kana": "ふん",
     "phonetic": "分",
     "en": "minute",
-    "cn": "分",
-    "roma": "fun / pun"
+    "cn": "分（分钟）",
+    "roma": "fun"
   },
   {
     "count": 678,
@@ -1188,7 +1188,7 @@
     "kana": "おととし",
     "phonetic": "前年（前年）",
     "en": "the year before last",
-    "cn": "前年（前年）",
+    "cn": "前年（大前年的前一年）",
     "roma": "ototoshi"
   },
   {
@@ -1249,11 +1249,11 @@
   },
   {
     "count": 628,
-    "kana": "ばん／よる",
+    "kana": "よる",
     "phonetic": "晚上",
-    "en": "evening / night",
-    "cn": "晚上",
-    "roma": "ban / yoru"
+    "en": "night / evening",
+    "cn": "晚上（夜）",
+    "roma": "yoru"
   },
   {
     "count": 627,
@@ -1286,5 +1286,21 @@
     "en": "late-night snack",
     "cn": "夜宵",
     "roma": "yashoku"
+  },
+  {
+    "count": 639,
+    "kana": "ばん",
+    "phonetic": "晚上",
+    "en": "evening",
+    "cn": "晚上（晩）",
+    "roma": "ban"
+  },
+  {
+    "count": 669,
+    "kana": "ぷん",
+    "phonetic": "分",
+    "en": "minute (rendaku)",
+    "cn": "分（读ぷん时）",
+    "roma": "pun"
   }
 ]

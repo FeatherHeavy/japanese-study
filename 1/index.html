@@ -224,9 +224,13 @@
     pickVoice();
     loadLearned();
 
+    function cleanSpeak(text) {
+      return String(text || "").split(/[／\/]/)[0].trim();
+    }
+
     function speak(text, then) {
       speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
+      const u = new SpeechSynthesisUtterance(cleanSpeak(text));
       u.lang = "ja-JP";
       u.rate = parseFloat($("rate").value);
       if (jaVoice) u.voice = jaVoice;
