@@ -580,6 +580,106 @@
     "roma": "zerokyuuzero"
   },
   {
+    "count": 1850,
+    "cat": "电话",
+    "kanji": "〇",
+    "kana": "ゼロ",
+    "phonetic": "拨号 0",
+    "en": "dial 0",
+    "cn": "拨号 0",
+    "roma": "zero"
+  },
+  {
+    "count": 1849,
+    "cat": "电话",
+    "kanji": "一",
+    "kana": "いち",
+    "phonetic": "拨号 1",
+    "en": "dial 1",
+    "cn": "拨号 1",
+    "roma": "ichi"
+  },
+  {
+    "count": 1848,
+    "cat": "电话",
+    "kanji": "二",
+    "kana": "に",
+    "phonetic": "拨号 2",
+    "en": "dial 2",
+    "cn": "拨号 2",
+    "roma": "ni"
+  },
+  {
+    "count": 1847,
+    "cat": "电话",
+    "kanji": "三",
+    "kana": "さん",
+    "phonetic": "拨号 3",
+    "en": "dial 3",
+    "cn": "拨号 3",
+    "roma": "san"
+  },
+  {
+    "count": 1846,
+    "cat": "电话",
+    "kanji": "四",
+    "kana": "よん",
+    "phonetic": "拨号 4",
+    "en": "dial 4",
+    "cn": "拨号 4",
+    "roma": "yon"
+  },
+  {
+    "count": 1845,
+    "cat": "电话",
+    "kanji": "五",
+    "kana": "ご",
+    "phonetic": "拨号 5",
+    "en": "dial 5",
+    "cn": "拨号 5",
+    "roma": "go"
+  },
+  {
+    "count": 1844,
+    "cat": "电话",
+    "kanji": "六",
+    "kana": "ろく",
+    "phonetic": "拨号 6",
+    "en": "dial 6",
+    "cn": "拨号 6",
+    "roma": "roku"
+  },
+  {
+    "count": 1843,
+    "cat": "电话",
+    "kanji": "七",
+    "kana": "なな",
+    "phonetic": "拨号 7",
+    "en": "dial 7",
+    "cn": "拨号 7",
+    "roma": "nana"
+  },
+  {
+    "count": 1842,
+    "cat": "电话",
+    "kanji": "八",
+    "kana": "はち",
+    "phonetic": "拨号 8",
+    "en": "dial 8",
+    "cn": "拨号 8",
+    "roma": "hachi"
+  },
+  {
+    "count": 1841,
+    "cat": "电话",
+    "kanji": "九",
+    "kana": "きゅう",
+    "phonetic": "拨号 9",
+    "en": "dial 9",
+    "cn": "拨号 9",
+    "roma": "kyuu"
+  },
+  {
     "count": 1942,
     "cat": "门牌",
     "kanji": "番",
@@ -1330,6 +1430,26 @@
     "roma": "reiwa"
   },
   {
+    "count": 1720,
+    "cat": "年",
+    "kanji": "二千年",
+    "kana": "にせんねん",
+    "phonetic": "2000年",
+    "en": "year 2000",
+    "cn": "2000年",
+    "roma": "nisennen"
+  },
+  {
+    "count": 1719,
+    "cat": "年",
+    "kanji": "千九百八十七年",
+    "kana": "せんきゅうひゃくはちじゅうななねん",
+    "phonetic": "1987年",
+    "en": "year 1987",
+    "cn": "1987年",
+    "roma": "senkyuuhyakuhachijuunananen"
+  },
+  {
     "count": 1867,
     "cat": "时",
     "kanji": "時",
@@ -1490,6 +1610,16 @@
     "roma": "han"
   },
   {
+    "count": 1705,
+    "cat": "时",
+    "kanji": "一時間",
+    "kana": "いちじかん",
+    "phonetic": "1小时",
+    "en": "1 hour",
+    "cn": "1小时",
+    "roma": "ichijikan"
+  },
+  {
     "count": 1851,
     "cat": "分",
     "kanji": "分",
@@ -1620,6 +1750,16 @@
     "roma": "sanjuppun"
   },
   {
+    "count": 1615,
+    "cat": "分",
+    "kanji": "六十分",
+    "kana": "ろくじゅっぷん",
+    "phonetic": "60分",
+    "en": "60 minutes",
+    "cn": "60分",
+    "roma": "rokujuppun"
+  },
+  {
     "count": 1838,
     "cat": "秒",
     "kanji": "秒",
@@ -1740,7 +1880,17 @@
     "roma": "juuichibyou"
   },
   {
-    "count": 1826,
+    "count": 1605,
+    "cat": "秒",
+    "kanji": "六十秒",
+    "kana": "ろくじゅうびょう",
+    "phonetic": "60秒",
+    "en": "60 seconds",
+    "cn": "60秒",
+    "roma": "rokujuubyou"
+  },
+  {
+    "count": 1550,
     "cat": "日常",
     "kanji": "去年",
     "kana": "きょねん",
@@ -1750,7 +1900,7 @@
     "roma": "kyonen"
   },
   {
-    "count": 1825,
+    "count": 1549,
     "cat": "日常",
     "kanji": "今年",
     "kana": "ことし",
@@ -1760,7 +1910,7 @@
     "roma": "kotoshi"
   },
   {
-    "count": 1824,
+    "count": 1548,
     "cat": "日常",
     "kanji": "来年",
     "kana": "らいねん",
@@ -1770,7 +1920,7 @@
     "roma": "rainen"
   },
   {
-    "count": 1823,
+    "count": 1547,
     "cat": "日常",
     "kanji": "再来年",
     "kana": "さらいねん",
@@ -1780,7 +1930,7 @@
     "roma": "sarainen"
   },
   {
-    "count": 1822,
+    "count": 1546,
     "cat": "日常",
     "kanji": "一昨年",
     "kana": "おととし",
@@ -1790,7 +1940,7 @@
     "roma": "ototoshi"
   },
   {
-    "count": 1821,
+    "count": 1545,
     "cat": "日常",
     "kanji": "先々年",
     "kana": "さきおととし",
@@ -1800,37 +1950,117 @@
     "roma": "sakiototoshi"
   },
   {
-    "count": 1820,
+    "count": 1544,
+    "cat": "日常",
+    "kanji": "先週",
+    "kana": "せんしゅう",
+    "phonetic": "上周",
+    "en": "last week",
+    "cn": "上周",
+    "roma": "senshuu"
+  },
+  {
+    "count": 1543,
+    "cat": "日常",
+    "kanji": "今週",
+    "kana": "こんしゅう",
+    "phonetic": "本周",
+    "en": "this week",
+    "cn": "本周",
+    "roma": "konshuu"
+  },
+  {
+    "count": 1542,
+    "cat": "日常",
+    "kanji": "来週",
+    "kana": "らいしゅう",
+    "phonetic": "下周",
+    "en": "next week",
+    "cn": "下周",
+    "roma": "raishuu"
+  },
+  {
+    "count": 1541,
+    "cat": "日常",
+    "kanji": "再来週",
+    "kana": "さらいしゅう",
+    "phonetic": "下下周",
+    "en": "the week after next",
+    "cn": "下下周",
+    "roma": "saraishuu"
+  },
+  {
+    "count": 1540,
+    "cat": "日常",
+    "kanji": "週末",
+    "kana": "しゅうまつ",
+    "phonetic": "周末",
+    "en": "weekend",
+    "cn": "周末",
+    "roma": "shuumatsu"
+  },
+  {
+    "count": 1539,
+    "cat": "日常",
+    "kanji": "平日",
+    "kana": "へいじつ",
+    "phonetic": "平日",
+    "en": "weekday",
+    "cn": "平日",
+    "roma": "heijitsu"
+  },
+  {
+    "count": 1538,
     "cat": "日常",
     "kanji": "昨日",
     "kana": "きのう",
-    "phonetic": "昨日",
+    "phonetic": "昨天",
     "en": "yesterday",
-    "cn": "昨日",
+    "cn": "昨天",
     "roma": "kinou"
   },
   {
-    "count": 1819,
+    "count": 1537,
     "cat": "日常",
     "kanji": "今日",
     "kana": "きょう",
-    "phonetic": "今日",
+    "phonetic": "今天",
     "en": "today",
-    "cn": "今日",
+    "cn": "今天",
     "roma": "kyou"
   },
   {
-    "count": 1818,
+    "count": 1536,
     "cat": "日常",
     "kanji": "明日",
     "kana": "あした",
-    "phonetic": "明日",
+    "phonetic": "明天",
     "en": "tomorrow",
-    "cn": "明日",
+    "cn": "明天",
     "roma": "ashita"
   },
   {
-    "count": 1817,
+    "count": 1535,
+    "cat": "日常",
+    "kanji": "明後日",
+    "kana": "あさって",
+    "phonetic": "后天",
+    "en": "day after tomorrow",
+    "cn": "后天",
+    "roma": "asatte"
+  },
+  {
+    "count": 1534,
+    "cat": "日常",
+    "kanji": "一昨日",
+    "kana": "おととい",
+    "phonetic": "前天",
+    "en": "day before yesterday",
+    "cn": "前天",
+    "roma": "ototoi"
+  },
+  {
+    "count": 1533,
     "cat": "日常",
     "kanji": "未来",
     "kana": "みらい",
@@ -1840,7 +2070,7 @@
     "roma": "mirai"
   },
   {
-    "count": 1816,
+    "count": 1532,
     "cat": "日常",
     "kanji": "朝",
     "kana": "あさ",
@@ -1850,7 +2080,7 @@
     "roma": "asa"
   },
   {
-    "count": 1815,
+    "count": 1531,
     "cat": "日常",
     "kanji": "昼",
     "kana": "ひる",
@@ -1860,7 +2090,7 @@
     "roma": "hiru"
   },
   {
-    "count": 1814,
+    "count": 1530,
     "cat": "日常",
     "kanji": "夜",
     "kana": "よる",
@@ -1870,37 +2100,47 @@
     "roma": "yoru"
   },
   {
-    "count": 1812,
+    "count": 1529,
     "cat": "日常",
-    "kanji": "朝ごはん",
-    "kana": "あさごはん",
+    "kanji": "晩",
+    "kana": "ばん",
+    "phonetic": "晩",
+    "en": "evening",
+    "cn": "晩",
+    "roma": "ban"
+  },
+  {
+    "count": 1528,
+    "cat": "日常",
+    "kanji": "朝食",
+    "kana": "ちょうしょく",
     "phonetic": "早饭",
     "en": "breakfast",
     "cn": "早饭",
-    "roma": "asagohan"
+    "roma": "choushoku"
   },
   {
-    "count": 1811,
+    "count": 1527,
     "cat": "日常",
-    "kanji": "昼ごはん",
-    "kana": "ひるごはん",
+    "kanji": "昼食",
+    "kana": "ちゅうしょく",
     "phonetic": "中饭",
     "en": "lunch",
     "cn": "中饭",
-    "roma": "hirugohan"
+    "roma": "chuushoku"
   },
   {
-    "count": 1810,
+    "count": 1526,
     "cat": "日常",
-    "kanji": "晩ごはん",
-    "kana": "ばんごはん",
+    "kanji": "夕食",
+    "kana": "ゆうしょく",
     "phonetic": "晚饭",
     "en": "dinner",
     "cn": "晚饭",
-    "roma": "bangohan"
+    "roma": "yuushoku"
   },
   {
-    "count": 1809,
+    "count": 1525,
     "cat": "日常",
     "kanji": "夜食",
     "kana": "やしょく",
@@ -1910,13 +2150,33 @@
     "roma": "yashoku"
   },
   {
-    "count": 1500,
+    "count": 1524,
     "cat": "日常",
-    "kanji": "晩",
-    "kana": "ばん",
-    "phonetic": "晩",
-    "en": "evening",
-    "cn": "晩",
-    "roma": "ban"
+    "kanji": "朝御飯",
+    "kana": "あさごはん",
+    "phonetic": "早饭（口语）",
+    "en": "breakfast (casual)",
+    "cn": "早饭（口语）",
+    "roma": "asagohan"
+  },
+  {
+    "count": 1523,
+    "cat": "日常",
+    "kanji": "昼御飯",
+    "kana": "ひるごはん",
+    "phonetic": "中饭（口语）",
+    "en": "lunch (casual)",
+    "cn": "中饭（口语）",
+    "roma": "hirugohan"
+  },
+  {
+    "count": 1522,
+    "cat": "日常",
+    "kanji": "晩御飯",
+    "kana": "ばんごはん",
+    "phonetic": "晚饭（口语）",
+    "en": "dinner (casual)",
+    "cn": "晚饭（口语）",
+    "roma": "bangohan"
   }
 ]
