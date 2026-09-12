@@ -3238,5 +3238,305 @@
     "en": "dinner (casual)",
     "cn": "晚饭（口语）",
     "roma": "bangohan"
+  },
+  {
+    "count": 900,
+    "cat": "问答",
+    "kanji": "これは何番ですか。",
+    "kana": "これはなんばんですか。",
+    "phonetic": "问·数字：这是几号？",
+    "en": "What number is this?",
+    "cn": "问·数字：这是几号？",
+    "roma": "kore wa nanban desu ka"
+  },
+  {
+    "count": 899,
+    "cat": "问答",
+    "kanji": "三十一番です。",
+    "kana": "さんじゅういちばんです。",
+    "phonetic": "答·数字：三十一号。",
+    "en": "It's number 31.",
+    "cn": "答·数字：三十一号。",
+    "roma": "sanjuuichiban desu"
+  },
+  {
+    "count": 898,
+    "cat": "问答",
+    "kanji": "いくらですか。",
+    "kana": "いくらですか。",
+    "phonetic": "问·钱：多少钱？",
+    "en": "How much is it?",
+    "cn": "问·钱：多少钱？",
+    "roma": "ikura desu ka"
+  },
+  {
+    "count": 897,
+    "cat": "问答",
+    "kanji": "五百円です。",
+    "kana": "ごひゃくえんです。",
+    "phonetic": "答·钱：五百日元。",
+    "en": "It's 500 yen.",
+    "cn": "答·钱：五百日元。",
+    "roma": "gohyakuen desu"
+  },
+  {
+    "count": 896,
+    "cat": "问答",
+    "kanji": "お電話番号を教えてください。",
+    "kana": "おでんわばんごうをおしえてください。",
+    "phonetic": "问·电话：请告诉我电话号码。",
+    "en": "Please tell me your phone number.",
+    "cn": "问·电话：请告诉我电话号码。",
+    "roma": "odenwa bangou o oshiete kudasai"
+  },
+  {
+    "count": 895,
+    "cat": "问答",
+    "kanji": "〇九〇の一二三四の五六七八です。",
+    "kana": "ゼロきゅうゼロのいちにさんよんのごろくななはちです。",
+    "phonetic": "答·电话：090-1234-5678。",
+    "en": "It's 090-1234-5678.",
+    "cn": "答·电话：090-1234-5678。",
+    "roma": "zerokyuuzero no ichi ni san yon no go roku nana hachi desu"
+  },
+  {
+    "count": 894,
+    "cat": "问答",
+    "kanji": "ご住所は何丁目ですか。",
+    "kana": "ごじゅうしょはなんちょうめですか。",
+    "phonetic": "问·门牌：您住几丁目？",
+    "en": "Which chome do you live in?",
+    "cn": "问·门牌：您住几丁目？",
+    "roma": "gojuusho wa nanchoume desu ka"
+  },
+  {
+    "count": 893,
+    "cat": "问答",
+    "kanji": "一丁目三番五号です。",
+    "kana": "いっちょうめさんばんごごうです。",
+    "phonetic": "答·门牌：一丁目3番5号。",
+    "en": "1-chome, 3-ban, 5-go.",
+    "cn": "答·门牌：一丁目3番5号。",
+    "roma": "icchoume sanban gogou desu"
+  },
+  {
+    "count": 892,
+    "cat": "问答",
+    "kanji": "今日は何日ですか。",
+    "kana": "きょうはなんにちですか。",
+    "phonetic": "问·日期：今天几号？",
+    "en": "What date is it today?",
+    "cn": "问·日期：今天几号？",
+    "roma": "kyou wa nannichi desu ka"
+  },
+  {
+    "count": 891,
+    "cat": "问答",
+    "kanji": "十二日です。",
+    "kana": "じゅうににちです。",
+    "phonetic": "答·日期：十二号。",
+    "en": "It's the 12th.",
+    "cn": "答·日期：十二号。",
+    "roma": "juuninichi desu"
+  },
+  {
+    "count": 890,
+    "cat": "问答",
+    "kanji": "今日は何曜日ですか。",
+    "kana": "きょうはなんようびですか。",
+    "phonetic": "问·星期：今天星期几？",
+    "en": "What day is it today?",
+    "cn": "问·星期：今天星期几？",
+    "roma": "kyou wa nan'youbi desu ka"
+  },
+  {
+    "count": 889,
+    "cat": "问答",
+    "kanji": "金曜日です。",
+    "kana": "きんようびです。",
+    "phonetic": "答·星期：星期五。",
+    "en": "It's Friday.",
+    "cn": "答·星期：星期五。",
+    "roma": "kinyoubi desu"
+  },
+  {
+    "count": 888,
+    "cat": "问答",
+    "kanji": "何月生まれですか。",
+    "kana": "なんがつうまれですか。",
+    "phonetic": "问·月：你几月出生？",
+    "en": "What month were you born?",
+    "cn": "问·月：你几月出生？",
+    "roma": "nangatsu umare desu ka"
+  },
+  {
+    "count": 887,
+    "cat": "问答",
+    "kanji": "九月です。",
+    "kana": "くがつです。",
+    "phonetic": "答·月：九月。",
+    "en": "September.",
+    "cn": "答·月：九月。",
+    "roma": "kugatsu desu"
+  },
+  {
+    "count": 886,
+    "cat": "问答",
+    "kanji": "日本で好きな季節は何ですか。",
+    "kana": "にほんですきなきせつはなんですか。",
+    "phonetic": "问·四季：你喜欢日本哪个季节？",
+    "en": "Which season do you like in Japan?",
+    "cn": "问·四季：你喜欢日本哪个季节？",
+    "roma": "nihon de suki na kisetsu wa nan desu ka"
+  },
+  {
+    "count": 885,
+    "cat": "问答",
+    "kanji": "秋が好きです。",
+    "kana": "あきがすきです。",
+    "phonetic": "答·四季：喜欢秋天。",
+    "en": "I like autumn.",
+    "cn": "答·四季：喜欢秋天。",
+    "roma": "aki ga suki desu"
+  },
+  {
+    "count": 884,
+    "cat": "问答",
+    "kanji": "何年に日本へ来ましたか。",
+    "kana": "なんねんににほんへきましたか。",
+    "phonetic": "问·年：哪年来的日本？",
+    "en": "What year did you come to Japan?",
+    "cn": "问·年：哪年来的日本？",
+    "roma": "nannen ni nihon e kimashita ka"
+  },
+  {
+    "count": 883,
+    "cat": "问答",
+    "kanji": "二千二十六年です。",
+    "kana": "にせんにじゅうろくねんです。",
+    "phonetic": "答·年：2026年。",
+    "en": "In 2026.",
+    "cn": "答·年：2026年。",
+    "roma": "nisennijuurokunen desu"
+  },
+  {
+    "count": 882,
+    "cat": "问答",
+    "kanji": "今、何時ですか。",
+    "kana": "いま、なんじですか。",
+    "phonetic": "问·时：现在几点？",
+    "en": "What time is it now?",
+    "cn": "问·时：现在几点？",
+    "roma": "ima nanji desu ka"
+  },
+  {
+    "count": 881,
+    "cat": "问答",
+    "kanji": "四時半です。",
+    "kana": "よじはんです。",
+    "phonetic": "答·时：四点半。",
+    "en": "It's 4:30.",
+    "cn": "答·时：四点半。",
+    "roma": "yojihan desu"
+  },
+  {
+    "count": 880,
+    "cat": "问答",
+    "kanji": "何分待ちますか。",
+    "kana": "なんぷんまちますか。",
+    "phonetic": "问·分：要等几分钟？",
+    "en": "How many minutes will you wait?",
+    "cn": "问·分：要等几分钟？",
+    "roma": "nanpun machimasu ka"
+  },
+  {
+    "count": 879,
+    "cat": "问答",
+    "kanji": "十分待ってください。",
+    "kana": "じゅっぷんまってください。",
+    "phonetic": "答·分：请等十分钟。",
+    "en": "Please wait 10 minutes.",
+    "cn": "答·分：请等十分钟。",
+    "roma": "juppun matte kudasai"
+  },
+  {
+    "count": 878,
+    "cat": "问答",
+    "kanji": "何秒かかりますか。",
+    "kana": "なんびょうかかりますか。",
+    "phonetic": "问·秒：要几秒？",
+    "en": "How many seconds does it take?",
+    "cn": "问·秒：要几秒？",
+    "roma": "nanbyou kakarimasu ka"
+  },
+  {
+    "count": 877,
+    "cat": "问答",
+    "kanji": "六十秒くらいです。",
+    "kana": "ろくじゅうびょうくらいです。",
+    "phonetic": "答·秒：大约六十秒。",
+    "en": "About 60 seconds.",
+    "cn": "答·秒：大约六十秒。",
+    "roma": "rokujuubyou kurai desu"
+  },
+  {
+    "count": 876,
+    "cat": "问答",
+    "kanji": "いくつ要りますか。",
+    "kana": "いくついりますか。",
+    "phonetic": "问·计数：要几个？",
+    "en": "How many do you need?",
+    "cn": "问·计数：要几个？",
+    "roma": "ikutsu irimasu ka"
+  },
+  {
+    "count": 875,
+    "cat": "问答",
+    "kanji": "三つください。",
+    "kana": "みっつください。",
+    "phonetic": "答·计数：请给我三个。",
+    "en": "Three, please.",
+    "cn": "答·计数：请给我三个。",
+    "roma": "mittsu kudasai"
+  },
+  {
+    "count": 874,
+    "cat": "问答",
+    "kanji": "重さは何キロですか。",
+    "kana": "おもさはなんキロですか。",
+    "phonetic": "问·计量：多重（几公斤）？",
+    "en": "How many kilos is it?",
+    "cn": "问·计量：多重（几公斤）？",
+    "roma": "omosa wa nankiro desu ka"
+  },
+  {
+    "count": 873,
+    "cat": "问答",
+    "kanji": "二キロです。",
+    "kana": "にキロです。",
+    "phonetic": "答·计量：两公斤。",
+    "en": "It's 2 kilos.",
+    "cn": "答·计量：两公斤。",
+    "roma": "nikiro desu"
+  },
+  {
+    "count": 872,
+    "cat": "问答",
+    "kanji": "来週、ひまですか。",
+    "kana": "らいしゅう、ひまですか。",
+    "phonetic": "问·日常：下周有空吗？",
+    "en": "Are you free next week?",
+    "cn": "问·日常：下周有空吗？",
+    "roma": "raishuu hima desu ka"
+  },
+  {
+    "count": 871,
+    "cat": "问答",
+    "kanji": "はい、週末なら大丈夫です。",
+    "kana": "はい、しゅうまつならだいじょうぶです。",
+    "phonetic": "答·日常：周末的话可以。",
+    "en": "Yes, the weekend works.",
+    "cn": "答·日常：周末的话可以。",
+    "roma": "hai shuumatsu nara daijoubu desu"
   }
 ]

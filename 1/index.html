@@ -168,6 +168,12 @@
     .cat-计数 { --c-bg:#1a1524; --c-line:#5a4878; --c-roma:#c4b0e8; --c-title:#c4b0e8; }
     .cat-计量 { --c-bg:#152024; --c-line:#3a6878; --c-roma:#9fd0e0; --c-title:#9fd0e0; }
     .cat-日常 { --c-bg:#221810; --c-line:#6a4e36; --c-roma:#e0b892; --c-title:#e0b892; }
+    .cat-问答 { --c-bg:#201818; --c-line:#6a4040; --c-roma:#e0a0a0; --c-title:#e0a0a0; }
+    .cat-问答 .grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+    .cat-问答 .cell { min-height: 96px; text-align: left; align-items: flex-start; padding: 10px 10px 8px; }
+    .cat-问答 .cell .kanji { font-size: 15px; font-weight: 700; }
+    .cat-问答 .cell .kana { font-size: 11px; }
+    .cat-问答 .cell .mean { font-size: 12px; color: #e8d0d0; }
     .cat-其他 { --c-bg:#161616; --c-line:#2a2a2a; --c-roma:#7dcea0; --c-title:#ececec; }
     .cat-h { color: var(--c-title, var(--text)); }
     .dock {
@@ -191,7 +197,7 @@
       <a href="../4/" style="color:#ececec">4 面试</a>
     </div>
     <h1>1　数字・時間</h1>
-    <div class="sub">汉字 + 读音。含计数（一つ/一人/一回…）、计量（m/kg/℃…）、四点半、完整电话例。点格跟读，右上角 ✓ 测验。</div>
+    <div class="sub">汉字 + 读音。末尾「问答」：每个类型一句问 + 一句答，方便生活开口。点格跟读，右上角 ✓ 测验。</div>
   </header>
 
   <section class="quiz" id="quiz">
@@ -430,7 +436,7 @@
       if (quizMode === "audio") speak(quizWord.kana);
     }
 
-    const CAT_ORDER = ["数字", "钱", "电话", "门牌", "日期", "星期", "月", "四季", "年", "时", "分", "秒", "计数", "计量", "日常", "其他"];
+    const CAT_ORDER = ["数字", "钱", "电话", "门牌", "日期", "星期", "月", "四季", "年", "时", "分", "秒", "计数", "计量", "日常", "问答", "其他"];
 
     function mark(i) {
       document.querySelectorAll(".cell").forEach((el) => el.classList.remove("playing"));
