@@ -1,286 +1,222 @@
 [
   {
-    "count": 900,
+    "count": 1000,
     "kana": "ゼロ",
-    "phonetic": "零",
-    "en": "phone digit 0",
-    "cn": "电话数字 0",
+    "phonetic": "0",
+    "en": "zero",
+    "cn": "数字 0",
     "roma": "zero"
   },
   {
-    "count": 899,
+    "count": 999,
     "kana": "いち",
-    "phonetic": "一",
-    "en": "phone digit 1",
-    "cn": "电话数字 1",
+    "phonetic": "1",
+    "en": "one",
+    "cn": "数字 1",
     "roma": "ichi"
   },
   {
-    "count": 898,
+    "count": 998,
     "kana": "に",
-    "phonetic": "二",
-    "en": "phone digit 2",
-    "cn": "电话数字 2",
+    "phonetic": "2",
+    "en": "two",
+    "cn": "数字 2",
     "roma": "ni"
   },
   {
-    "count": 897,
+    "count": 997,
     "kana": "さん",
-    "phonetic": "三",
-    "en": "phone digit 3",
-    "cn": "电话数字 3",
+    "phonetic": "3",
+    "en": "three",
+    "cn": "数字 3",
     "roma": "san"
   },
   {
-    "count": 896,
+    "count": 996,
     "kana": "よん",
-    "phonetic": "四",
-    "en": "phone digit 4",
-    "cn": "电话数字 4",
+    "phonetic": "4",
+    "en": "four",
+    "cn": "数字 4",
     "roma": "yon"
   },
   {
-    "count": 895,
+    "count": 995,
     "kana": "ご",
-    "phonetic": "五",
-    "en": "phone digit 5",
-    "cn": "电话数字 5",
+    "phonetic": "5",
+    "en": "five",
+    "cn": "数字 5",
     "roma": "go"
   },
   {
-    "count": 894,
+    "count": 994,
     "kana": "ろく",
-    "phonetic": "六",
-    "en": "phone digit 6",
-    "cn": "电话数字 6",
+    "phonetic": "6",
+    "en": "six",
+    "cn": "数字 6",
     "roma": "roku"
   },
   {
-    "count": 893,
+    "count": 993,
     "kana": "なな",
-    "phonetic": "七",
-    "en": "phone digit 7",
-    "cn": "电话数字 7",
+    "phonetic": "7",
+    "en": "seven",
+    "cn": "数字 7",
     "roma": "nana"
   },
   {
-    "count": 892,
+    "count": 992,
     "kana": "はち",
-    "phonetic": "八",
-    "en": "phone digit 8",
-    "cn": "电话数字 8",
+    "phonetic": "8",
+    "en": "eight",
+    "cn": "数字 8",
     "roma": "hachi"
   },
   {
-    "count": 891,
+    "count": 991,
     "kana": "きゅう",
-    "phonetic": "九",
-    "en": "phone digit 9",
-    "cn": "电话数字 9",
+    "phonetic": "9",
+    "en": "nine",
+    "cn": "数字 9",
     "roma": "kyuu"
   },
   {
-    "count": 880,
+    "count": 990,
     "kana": "じゅう",
-    "phonetic": "10 / 十",
+    "phonetic": "10",
     "en": "ten",
-    "cn": "10 / 十",
+    "cn": "数字 10",
     "roma": "juu"
   },
   {
-    "count": 879,
-    "kana": "ひゃく",
-    "phonetic": "100 / 百",
-    "en": "hundred",
-    "cn": "100 / 百",
-    "roma": "hyaku"
-  },
-  {
-    "count": 878,
-    "kana": "せん",
-    "phonetic": "1000 / 千",
-    "en": "thousand",
-    "cn": "1000 / 千",
-    "roma": "sen"
-  },
-  {
-    "count": 877,
-    "kana": "いちまん",
-    "phonetic": "1万 / 一万",
-    "en": "ten thousand",
-    "cn": "1万 / 一万",
-    "roma": "ichiman"
-  },
-  {
-    "count": 860,
+    "count": 989,
     "kana": "じゅういち",
-    "phonetic": "11 / 十一",
+    "phonetic": "11",
     "en": "eleven",
-    "cn": "11 / 十一",
+    "cn": "数字 11",
     "roma": "juuichi"
   },
   {
-    "count": 859,
-    "kana": "にじゅういち",
-    "phonetic": "21 / 二十一",
-    "en": "twenty-one",
-    "cn": "21 / 二十一",
-    "roma": "nijuuichi"
+    "count": 988,
+    "kana": "ひゃく",
+    "phonetic": "100",
+    "en": "hundred",
+    "cn": "数字 100",
+    "roma": "hyaku"
   },
   {
-    "count": 858,
-    "kana": "さんじゅういち",
-    "phonetic": "31 / 三十一",
-    "en": "thirty-one",
-    "cn": "31 / 三十一",
-    "roma": "sanjuuichi"
-  },
-  {
-    "count": 857,
+    "count": 987,
     "kana": "ひゃくいち",
-    "phonetic": "101 / 百一",
+    "phonetic": "101",
     "en": "one hundred one",
-    "cn": "101 / 百一",
+    "cn": "数字 101",
     "roma": "hyakuichi"
   },
   {
-    "count": 856,
+    "count": 986,
+    "kana": "せん",
+    "phonetic": "1000",
+    "en": "thousand",
+    "cn": "数字 1000",
+    "roma": "sen"
+  },
+  {
+    "count": 985,
     "kana": "せんいち",
-    "phonetic": "1001 / 千一",
+    "phonetic": "1001",
     "en": "one thousand one",
-    "cn": "1001 / 千一",
+    "cn": "数字 1001",
     "roma": "senichi"
   },
   {
-    "count": 855,
+    "count": 984,
+    "kana": "いちまん",
+    "phonetic": "10000 / 1万",
+    "en": "ten thousand",
+    "cn": "数字 10000 / 1万",
+    "roma": "ichiman"
+  },
+  {
+    "count": 983,
     "kana": "いちまんいち",
-    "phonetic": "10001 / 一万零一",
+    "phonetic": "10001",
     "en": "ten thousand one",
-    "cn": "10001 / 一万零一",
+    "cn": "数字 10001",
     "roma": "ichimanichi"
   },
   {
-    "count": 854,
-    "kana": "にじゅう",
-    "phonetic": "20 / 二十",
-    "en": "twenty",
-    "cn": "20 / 二十",
-    "roma": "nijuu"
-  },
-  {
-    "count": 853,
-    "kana": "さんじゅう",
-    "phonetic": "30 / 三十",
-    "en": "thirty",
-    "cn": "30 / 三十",
-    "roma": "sanjuu"
-  },
-  {
-    "count": 852,
-    "kana": "よんじゅう",
-    "phonetic": "40 / 四十",
-    "en": "forty",
-    "cn": "40 / 四十",
-    "roma": "yonjuu"
-  },
-  {
-    "count": 851,
-    "kana": "ごじゅう",
-    "phonetic": "50 / 五十",
-    "en": "fifty",
-    "cn": "50 / 五十",
-    "roma": "gojuu"
-  },
-  {
-    "count": 850,
-    "kana": "ろくじゅう",
-    "phonetic": "60 / 六十",
-    "en": "sixty",
-    "cn": "60 / 六十",
-    "roma": "rokujuu"
-  },
-  {
-    "count": 849,
-    "kana": "ななじゅう",
-    "phonetic": "70 / 七十",
-    "en": "seventy",
-    "cn": "70 / 七十",
-    "roma": "nanajuu"
-  },
-  {
-    "count": 848,
-    "kana": "はちじゅう",
-    "phonetic": "80 / 八十",
-    "en": "eighty",
-    "cn": "80 / 八十",
-    "roma": "hachijuu"
-  },
-  {
-    "count": 847,
-    "kana": "きゅうじゅう",
-    "phonetic": "90 / 九十",
-    "en": "ninety",
-    "cn": "90 / 九十",
-    "roma": "kyuujuu"
-  },
-  {
-    "count": 846,
-    "kana": "にひゃく",
-    "phonetic": "200 / 二百",
-    "en": "two hundred",
-    "cn": "200 / 二百",
-    "roma": "nihyaku"
-  },
-  {
-    "count": 845,
-    "kana": "さんびゃく",
-    "phonetic": "300 / 三百",
-    "en": "three hundred",
-    "cn": "300 / 三百",
-    "roma": "sanbyaku"
-  },
-  {
-    "count": 844,
-    "kana": "ろっぴゃく",
-    "phonetic": "600 / 六百",
-    "en": "six hundred",
-    "cn": "600 / 六百",
-    "roma": "roppyaku"
-  },
-  {
-    "count": 843,
-    "kana": "はっぴゃく",
-    "phonetic": "800 / 八百",
-    "en": "eight hundred",
-    "cn": "800 / 八百",
-    "roma": "happyaku"
-  },
-  {
-    "count": 842,
-    "kana": "さんぜん",
-    "phonetic": "3000 / 三千",
-    "en": "three thousand",
-    "cn": "3000 / 三千",
-    "roma": "sanzen"
-  },
-  {
-    "count": 841,
-    "kana": "はっせん",
-    "phonetic": "8000 / 八千",
-    "en": "eight thousand",
-    "cn": "8000 / 八千",
-    "roma": "hassen"
-  },
-  {
-    "count": 830,
+    "count": 982,
     "kana": "いちえん",
-    "phonetic": "1円 / 1日元",
+    "phonetic": "1円",
     "en": "1 yen",
-    "cn": "1円 / 1日元",
+    "cn": "1円",
     "roma": "ichien"
   },
   {
-    "count": 829,
+    "count": 981,
+    "kana": "にえん",
+    "phonetic": "2円",
+    "en": "2 yen",
+    "cn": "2円",
+    "roma": "nien"
+  },
+  {
+    "count": 980,
+    "kana": "さんえん",
+    "phonetic": "3円",
+    "en": "3 yen",
+    "cn": "3円",
+    "roma": "sanen"
+  },
+  {
+    "count": 979,
+    "kana": "よえん",
+    "phonetic": "4円",
+    "en": "4 yen",
+    "cn": "4円",
+    "roma": "yoen"
+  },
+  {
+    "count": 978,
+    "kana": "ごえん",
+    "phonetic": "5円",
+    "en": "5 yen",
+    "cn": "5円",
+    "roma": "goen"
+  },
+  {
+    "count": 977,
+    "kana": "ろくえん",
+    "phonetic": "6円",
+    "en": "6 yen",
+    "cn": "6円",
+    "roma": "rokuen"
+  },
+  {
+    "count": 976,
+    "kana": "ななえん",
+    "phonetic": "7円",
+    "en": "7 yen",
+    "cn": "7円",
+    "roma": "nanaen"
+  },
+  {
+    "count": 975,
+    "kana": "はちえん",
+    "phonetic": "8円",
+    "en": "8 yen",
+    "cn": "8円",
+    "roma": "hachien"
+  },
+  {
+    "count": 974,
+    "kana": "きゅうえん",
+    "phonetic": "9円",
+    "en": "9 yen",
+    "cn": "9円",
+    "roma": "kyuuen"
+  },
+  {
+    "count": 973,
     "kana": "じゅうえん",
     "phonetic": "10円",
     "en": "10 yen",
@@ -288,7 +224,15 @@
     "roma": "juuen"
   },
   {
-    "count": 828,
+    "count": 972,
+    "kana": "じゅういちえん",
+    "phonetic": "11円",
+    "en": "11 yen",
+    "cn": "11円",
+    "roma": "juuichien"
+  },
+  {
+    "count": 971,
     "kana": "ひゃくえん",
     "phonetic": "100円",
     "en": "100 yen",
@@ -296,7 +240,15 @@
     "roma": "hyakuen"
   },
   {
-    "count": 827,
+    "count": 970,
+    "kana": "ひゃくいちえん",
+    "phonetic": "101円",
+    "en": "101 yen",
+    "cn": "101円",
+    "roma": "hyakuichien"
+  },
+  {
+    "count": 969,
     "kana": "せんえん",
     "phonetic": "1000円",
     "en": "1000 yen",
@@ -304,319 +256,71 @@
     "roma": "senen"
   },
   {
-    "count": 826,
+    "count": 968,
+    "kana": "せんいちえん",
+    "phonetic": "1001円",
+    "en": "1001 yen",
+    "cn": "1001円",
+    "roma": "senichien"
+  },
+  {
+    "count": 967,
     "kana": "いちまんえん",
     "phonetic": "1万円",
-    "en": "10,000 yen",
+    "en": "10000 yen",
     "cn": "1万円",
     "roma": "ichimanen"
   },
   {
-    "count": 825,
-    "kana": "にひゃくえん",
-    "phonetic": "200円",
-    "en": "200 yen",
-    "cn": "200円",
-    "roma": "nihyakuen"
+    "count": 966,
+    "kana": "いちまんいちえん",
+    "phonetic": "10001円",
+    "en": "10001 yen",
+    "cn": "10001円",
+    "roma": "ichimanichien"
   },
   {
-    "count": 824,
-    "kana": "ごひゃくえん",
-    "phonetic": "500円",
-    "en": "500 yen",
-    "cn": "500円",
-    "roma": "gohyakuen"
+    "count": 965,
+    "kana": "ゼロきゅうゼロ",
+    "phonetic": "090",
+    "en": "phone example 090",
+    "cn": "电话例 090",
+    "roma": "zerokyuuzero"
   },
   {
-    "count": 823,
-    "kana": "さんぜんえん",
-    "phonetic": "3000円",
-    "en": "3000 yen",
-    "cn": "3000円",
-    "roma": "sanzenen"
-  },
-  {
-    "count": 800,
-    "kana": "ついたち",
-    "phonetic": "1日（一日）",
-    "en": "1st",
-    "cn": "1日（一日）",
-    "roma": "tsuitachi"
-  },
-  {
-    "count": 799,
-    "kana": "ふつか",
-    "phonetic": "2日（二日）",
-    "en": "2nd",
-    "cn": "2日（二日）",
-    "roma": "futsuka"
-  },
-  {
-    "count": 798,
-    "kana": "みっか",
-    "phonetic": "3日（三日）",
-    "en": "3rd",
-    "cn": "3日（三日）",
-    "roma": "mikka"
-  },
-  {
-    "count": 797,
-    "kana": "よっか",
-    "phonetic": "4日（四日）",
-    "en": "4th",
-    "cn": "4日（四日）",
-    "roma": "yokka"
-  },
-  {
-    "count": 796,
-    "kana": "いつか",
-    "phonetic": "5日（五日）",
-    "en": "5th",
-    "cn": "5日（五日）",
-    "roma": "itsuka"
-  },
-  {
-    "count": 795,
-    "kana": "むいか",
-    "phonetic": "6日（六日）",
-    "en": "6th",
-    "cn": "6日（六日）",
-    "roma": "muika"
-  },
-  {
-    "count": 794,
-    "kana": "なのか",
-    "phonetic": "7日（七日）",
-    "en": "7th",
-    "cn": "7日（七日）",
-    "roma": "nanoka"
-  },
-  {
-    "count": 793,
-    "kana": "ようか",
-    "phonetic": "8日（八日）",
-    "en": "8th",
-    "cn": "8日（八日）",
-    "roma": "youka"
-  },
-  {
-    "count": 792,
-    "kana": "ここのか",
-    "phonetic": "9日（九日）",
-    "en": "9th",
-    "cn": "9日（九日）",
-    "roma": "kokonoka"
-  },
-  {
-    "count": 791,
-    "kana": "とおか",
-    "phonetic": "10日（十日）",
-    "en": "10th",
-    "cn": "10日（十日）",
-    "roma": "tooka"
-  },
-  {
-    "count": 790,
-    "kana": "じゅういちにち",
-    "phonetic": "11日",
-    "en": "11th",
-    "cn": "11日",
-    "roma": "juuichinichi"
-  },
-  {
-    "count": 789,
-    "kana": "じゅうににち",
-    "phonetic": "12日",
-    "en": "12th",
-    "cn": "12日",
-    "roma": "juuninichi"
-  },
-  {
-    "count": 788,
-    "kana": "じゅうさんにち",
-    "phonetic": "13日",
-    "en": "13th",
-    "cn": "13日",
-    "roma": "juusannichi"
-  },
-  {
-    "count": 787,
-    "kana": "じゅうよっか",
-    "phonetic": "14日",
-    "en": "14th",
-    "cn": "14日",
-    "roma": "juuyokka"
-  },
-  {
-    "count": 786,
-    "kana": "じゅうごにち",
-    "phonetic": "15日",
-    "en": "15th",
-    "cn": "15日",
-    "roma": "juugonichi"
-  },
-  {
-    "count": 785,
-    "kana": "じゅうろくにち",
-    "phonetic": "16日",
-    "en": "16th",
-    "cn": "16日",
-    "roma": "juurokunichi"
-  },
-  {
-    "count": 784,
-    "kana": "じゅうしちにち",
-    "phonetic": "17日",
-    "en": "17th",
-    "cn": "17日",
-    "roma": "juushichinichi"
-  },
-  {
-    "count": 783,
-    "kana": "じゅうはちにち",
-    "phonetic": "18日",
-    "en": "18th",
-    "cn": "18日",
-    "roma": "juuhachinichi"
-  },
-  {
-    "count": 782,
-    "kana": "じゅうくにち",
-    "phonetic": "19日",
-    "en": "19th",
-    "cn": "19日",
-    "roma": "juukunichi"
-  },
-  {
-    "count": 781,
-    "kana": "はつか",
-    "phonetic": "20日（二十日）",
-    "en": "20th",
-    "cn": "20日（二十日）",
-    "roma": "hatsuka"
-  },
-  {
-    "count": 780,
-    "kana": "にじゅういちにち",
-    "phonetic": "21日",
-    "en": "21st",
-    "cn": "21日",
-    "roma": "nijuuichinichi"
-  },
-  {
-    "count": 779,
-    "kana": "にじゅうににち",
-    "phonetic": "22日",
-    "en": "22nd",
-    "cn": "22日",
-    "roma": "nijuuninichi"
-  },
-  {
-    "count": 778,
-    "kana": "にじゅうさんにち",
-    "phonetic": "23日",
-    "en": "23rd",
-    "cn": "23日",
-    "roma": "nijuusannichi"
-  },
-  {
-    "count": 777,
-    "kana": "にじゅうよっか",
-    "phonetic": "24日",
-    "en": "24th",
-    "cn": "24日",
-    "roma": "nijuuyokka"
-  },
-  {
-    "count": 776,
-    "kana": "にじゅうごにち",
-    "phonetic": "25日",
-    "en": "25th",
-    "cn": "25日",
-    "roma": "nijuugonichi"
-  },
-  {
-    "count": 775,
-    "kana": "にじゅうろくにち",
-    "phonetic": "26日",
-    "en": "26th",
-    "cn": "26日",
-    "roma": "nijuurokunichi"
-  },
-  {
-    "count": 774,
-    "kana": "にじゅうしちにち",
-    "phonetic": "27日",
-    "en": "27th",
-    "cn": "27日",
-    "roma": "nijuushichinichi"
-  },
-  {
-    "count": 773,
-    "kana": "にじゅうはちにち",
-    "phonetic": "28日",
-    "en": "28th",
-    "cn": "28日",
-    "roma": "nijuuhachinichi"
-  },
-  {
-    "count": 772,
-    "kana": "にじゅうくにち",
-    "phonetic": "29日",
-    "en": "29th",
-    "cn": "29日",
-    "roma": "nijuukunichi"
-  },
-  {
-    "count": 771,
-    "kana": "さんじゅうにち",
-    "phonetic": "30日",
-    "en": "30th",
-    "cn": "30日",
-    "roma": "sanjuunichi"
-  },
-  {
-    "count": 770,
-    "kana": "さんじゅういちにち",
-    "phonetic": "31日",
-    "en": "31st",
-    "cn": "31日",
-    "roma": "sanjuuichinichi"
-  },
-  {
-    "count": 760,
+    "count": 964,
     "kana": "ばん",
-    "phonetic": "番（门牌号）",
-    "en": "ban / house number",
-    "cn": "番（门牌号）",
+    "phonetic": "番（门牌）",
+    "en": "ban",
+    "cn": "番（门牌）",
     "roma": "ban"
   },
   {
-    "count": 759,
+    "count": 963,
     "kana": "ごう",
     "phonetic": "号",
-    "en": "gou / number",
+    "en": "gou",
     "cn": "号",
     "roma": "gou"
   },
   {
-    "count": 758,
+    "count": 962,
     "kana": "ちょうめ",
     "phonetic": "丁目",
-    "en": "chome / block",
+    "en": "chome",
     "cn": "丁目",
     "roma": "choume"
   },
   {
-    "count": 757,
+    "count": 961,
     "kana": "ばんち",
     "phonetic": "番地",
-    "en": "banchi / lot number",
+    "en": "banchi",
     "cn": "番地",
     "roma": "banchi"
   },
   {
-    "count": 756,
+    "count": 960,
     "kana": "いちばん",
     "phonetic": "1番",
     "en": "number 1",
@@ -624,7 +328,7 @@
     "roma": "ichiban"
   },
   {
-    "count": 755,
+    "count": 959,
     "kana": "にばん",
     "phonetic": "2番",
     "en": "number 2",
@@ -632,7 +336,7 @@
     "roma": "niban"
   },
   {
-    "count": 754,
+    "count": 958,
     "kana": "さんばん",
     "phonetic": "3番",
     "en": "number 3",
@@ -640,7 +344,7 @@
     "roma": "sanban"
   },
   {
-    "count": 753,
+    "count": 957,
     "kana": "よんばん",
     "phonetic": "4番",
     "en": "number 4",
@@ -648,7 +352,7 @@
     "roma": "yonban"
   },
   {
-    "count": 752,
+    "count": 956,
     "kana": "ごばん",
     "phonetic": "5番",
     "en": "number 5",
@@ -656,7 +360,7 @@
     "roma": "goban"
   },
   {
-    "count": 751,
+    "count": 955,
     "kana": "ろくばん",
     "phonetic": "6番",
     "en": "number 6",
@@ -664,7 +368,7 @@
     "roma": "rokuban"
   },
   {
-    "count": 750,
+    "count": 954,
     "kana": "ななばん",
     "phonetic": "7番",
     "en": "number 7",
@@ -672,7 +376,7 @@
     "roma": "nanaban"
   },
   {
-    "count": 749,
+    "count": 953,
     "kana": "はちばん",
     "phonetic": "8番",
     "en": "number 8",
@@ -680,7 +384,7 @@
     "roma": "hachiban"
   },
   {
-    "count": 748,
+    "count": 952,
     "kana": "きゅうばん",
     "phonetic": "9番",
     "en": "number 9",
@@ -688,7 +392,7 @@
     "roma": "kyuuban"
   },
   {
-    "count": 747,
+    "count": 951,
     "kana": "じゅうばん",
     "phonetic": "10番",
     "en": "number 10",
@@ -696,15 +400,279 @@
     "roma": "juuban"
   },
   {
-    "count": 746,
-    "kana": "れい",
-    "phonetic": "0（れい，门牌/正式读法）",
-    "en": "zero (formal)",
-    "cn": "0（れい，门牌/正式读法）",
-    "roma": "rei"
+    "count": 950,
+    "kana": "じゅういちばん",
+    "phonetic": "11番",
+    "en": "number 11",
+    "cn": "11番",
+    "roma": "juuichiban"
   },
   {
-    "count": 740,
+    "count": 949,
+    "kana": "ひゃくばん",
+    "phonetic": "100番",
+    "en": "number 100",
+    "cn": "100番",
+    "roma": "hyakuban"
+  },
+  {
+    "count": 948,
+    "kana": "ひゃくいちばん",
+    "phonetic": "101番",
+    "en": "number 101",
+    "cn": "101番",
+    "roma": "hyakuichiban"
+  },
+  {
+    "count": 947,
+    "kana": "ついたち",
+    "phonetic": "1日",
+    "en": "day 1",
+    "cn": "1日",
+    "roma": "tsuitachi"
+  },
+  {
+    "count": 946,
+    "kana": "ふつか",
+    "phonetic": "2日",
+    "en": "day 2",
+    "cn": "2日",
+    "roma": "futsuka"
+  },
+  {
+    "count": 945,
+    "kana": "みっか",
+    "phonetic": "3日",
+    "en": "day 3",
+    "cn": "3日",
+    "roma": "mikka"
+  },
+  {
+    "count": 944,
+    "kana": "よっか",
+    "phonetic": "4日",
+    "en": "day 4",
+    "cn": "4日",
+    "roma": "yokka"
+  },
+  {
+    "count": 943,
+    "kana": "いつか",
+    "phonetic": "5日",
+    "en": "day 5",
+    "cn": "5日",
+    "roma": "itsuka"
+  },
+  {
+    "count": 942,
+    "kana": "むいか",
+    "phonetic": "6日",
+    "en": "day 6",
+    "cn": "6日",
+    "roma": "muika"
+  },
+  {
+    "count": 941,
+    "kana": "なのか",
+    "phonetic": "7日",
+    "en": "day 7",
+    "cn": "7日",
+    "roma": "nanoka"
+  },
+  {
+    "count": 940,
+    "kana": "ようか",
+    "phonetic": "8日",
+    "en": "day 8",
+    "cn": "8日",
+    "roma": "youka"
+  },
+  {
+    "count": 939,
+    "kana": "ここのか",
+    "phonetic": "9日",
+    "en": "day 9",
+    "cn": "9日",
+    "roma": "kokonoka"
+  },
+  {
+    "count": 938,
+    "kana": "とおか",
+    "phonetic": "10日",
+    "en": "day 10",
+    "cn": "10日",
+    "roma": "tooka"
+  },
+  {
+    "count": 937,
+    "kana": "じゅういちにち",
+    "phonetic": "11日",
+    "en": "day 11",
+    "cn": "11日",
+    "roma": "juuichinichi"
+  },
+  {
+    "count": 936,
+    "kana": "じゅうににち",
+    "phonetic": "12日",
+    "en": "day 12",
+    "cn": "12日",
+    "roma": "juuninichi"
+  },
+  {
+    "count": 935,
+    "kana": "じゅうさんにち",
+    "phonetic": "13日",
+    "en": "day 13",
+    "cn": "13日",
+    "roma": "juusannichi"
+  },
+  {
+    "count": 934,
+    "kana": "じゅうよっか",
+    "phonetic": "14日",
+    "en": "day 14",
+    "cn": "14日",
+    "roma": "juuyokka"
+  },
+  {
+    "count": 933,
+    "kana": "じゅうごにち",
+    "phonetic": "15日",
+    "en": "day 15",
+    "cn": "15日",
+    "roma": "juugonichi"
+  },
+  {
+    "count": 932,
+    "kana": "じゅうろくにち",
+    "phonetic": "16日",
+    "en": "day 16",
+    "cn": "16日",
+    "roma": "juurokunichi"
+  },
+  {
+    "count": 931,
+    "kana": "じゅうしちにち",
+    "phonetic": "17日",
+    "en": "day 17",
+    "cn": "17日",
+    "roma": "juushichinichi"
+  },
+  {
+    "count": 930,
+    "kana": "じゅうはちにち",
+    "phonetic": "18日",
+    "en": "day 18",
+    "cn": "18日",
+    "roma": "juuhachinichi"
+  },
+  {
+    "count": 929,
+    "kana": "じゅうくにち",
+    "phonetic": "19日",
+    "en": "day 19",
+    "cn": "19日",
+    "roma": "juukunichi"
+  },
+  {
+    "count": 928,
+    "kana": "はつか",
+    "phonetic": "20日",
+    "en": "day 20",
+    "cn": "20日",
+    "roma": "hatsuka"
+  },
+  {
+    "count": 927,
+    "kana": "にじゅういちにち",
+    "phonetic": "21日",
+    "en": "day 21",
+    "cn": "21日",
+    "roma": "nijuuichinichi"
+  },
+  {
+    "count": 926,
+    "kana": "にじゅうににち",
+    "phonetic": "22日",
+    "en": "day 22",
+    "cn": "22日",
+    "roma": "nijuuninichi"
+  },
+  {
+    "count": 925,
+    "kana": "にじゅうさんにち",
+    "phonetic": "23日",
+    "en": "day 23",
+    "cn": "23日",
+    "roma": "nijuusannichi"
+  },
+  {
+    "count": 924,
+    "kana": "にじゅうよっか",
+    "phonetic": "24日",
+    "en": "day 24",
+    "cn": "24日",
+    "roma": "nijuuyokka"
+  },
+  {
+    "count": 923,
+    "kana": "にじゅうごにち",
+    "phonetic": "25日",
+    "en": "day 25",
+    "cn": "25日",
+    "roma": "nijuugonichi"
+  },
+  {
+    "count": 922,
+    "kana": "にじゅうろくにち",
+    "phonetic": "26日",
+    "en": "day 26",
+    "cn": "26日",
+    "roma": "nijuurokunichi"
+  },
+  {
+    "count": 921,
+    "kana": "にじゅうしちにち",
+    "phonetic": "27日",
+    "en": "day 27",
+    "cn": "27日",
+    "roma": "nijuushichinichi"
+  },
+  {
+    "count": 920,
+    "kana": "にじゅうはちにち",
+    "phonetic": "28日",
+    "en": "day 28",
+    "cn": "28日",
+    "roma": "nijuuhachinichi"
+  },
+  {
+    "count": 919,
+    "kana": "にじゅうくにち",
+    "phonetic": "29日",
+    "en": "day 29",
+    "cn": "29日",
+    "roma": "nijuukunichi"
+  },
+  {
+    "count": 918,
+    "kana": "さんじゅうにち",
+    "phonetic": "30日",
+    "en": "day 30",
+    "cn": "30日",
+    "roma": "sanjuunichi"
+  },
+  {
+    "count": 917,
+    "kana": "さんじゅういちにち",
+    "phonetic": "31日",
+    "en": "day 31",
+    "cn": "31日",
+    "roma": "sanjuuichinichi"
+  },
+  {
+    "count": 916,
     "kana": "げつようび",
     "phonetic": "星期一",
     "en": "Monday",
@@ -712,7 +680,7 @@
     "roma": "getsuyoubi"
   },
   {
-    "count": 739,
+    "count": 915,
     "kana": "かようび",
     "phonetic": "星期二",
     "en": "Tuesday",
@@ -720,7 +688,7 @@
     "roma": "kayoubi"
   },
   {
-    "count": 738,
+    "count": 914,
     "kana": "すいようび",
     "phonetic": "星期三",
     "en": "Wednesday",
@@ -728,7 +696,7 @@
     "roma": "suiyoubi"
   },
   {
-    "count": 737,
+    "count": 913,
     "kana": "もくようび",
     "phonetic": "星期四",
     "en": "Thursday",
@@ -736,7 +704,7 @@
     "roma": "mokuyoubi"
   },
   {
-    "count": 736,
+    "count": 912,
     "kana": "きんようび",
     "phonetic": "星期五",
     "en": "Friday",
@@ -744,7 +712,7 @@
     "roma": "kinyoubi"
   },
   {
-    "count": 735,
+    "count": 911,
     "kana": "どようび",
     "phonetic": "星期六",
     "en": "Saturday",
@@ -752,7 +720,7 @@
     "roma": "doyoubi"
   },
   {
-    "count": 734,
+    "count": 910,
     "kana": "にちようび",
     "phonetic": "星期日",
     "en": "Sunday",
@@ -760,79 +728,135 @@
     "roma": "nichiyoubi"
   },
   {
-    "count": 720,
+    "count": 909,
     "kana": "いちがつ",
     "phonetic": "1月",
-    "en": "January",
+    "en": "month 1",
     "cn": "1月",
     "roma": "ichigatsu"
   },
   {
-    "count": 719,
+    "count": 908,
     "kana": "にがつ",
     "phonetic": "2月",
-    "en": "February",
+    "en": "month 2",
     "cn": "2月",
     "roma": "nigatsu"
   },
   {
-    "count": 719,
+    "count": 907,
+    "kana": "さんがつ",
+    "phonetic": "3月",
+    "en": "month 3",
+    "cn": "3月",
+    "roma": "sangatsu"
+  },
+  {
+    "count": 906,
+    "kana": "しがつ",
+    "phonetic": "4月",
+    "en": "month 4",
+    "cn": "4月",
+    "roma": "shigatsu"
+  },
+  {
+    "count": 905,
+    "kana": "ごがつ",
+    "phonetic": "5月",
+    "en": "month 5",
+    "cn": "5月",
+    "roma": "gogatsu"
+  },
+  {
+    "count": 904,
+    "kana": "ろくがつ",
+    "phonetic": "6月",
+    "en": "month 6",
+    "cn": "6月",
+    "roma": "rokugatsu"
+  },
+  {
+    "count": 903,
+    "kana": "しちがつ",
+    "phonetic": "7月",
+    "en": "month 7",
+    "cn": "7月",
+    "roma": "shichigatsu"
+  },
+  {
+    "count": 902,
+    "kana": "はちがつ",
+    "phonetic": "8月",
+    "en": "month 8",
+    "cn": "8月",
+    "roma": "hachigatsu"
+  },
+  {
+    "count": 901,
+    "kana": "くがつ",
+    "phonetic": "9月",
+    "en": "month 9",
+    "cn": "9月",
+    "roma": "kugatsu"
+  },
+  {
+    "count": 900,
+    "kana": "じゅうがつ",
+    "phonetic": "10月",
+    "en": "month 10",
+    "cn": "10月",
+    "roma": "juugatsu"
+  },
+  {
+    "count": 899,
+    "kana": "じゅういちがつ",
+    "phonetic": "11月",
+    "en": "month 11",
+    "cn": "11月",
+    "roma": "juuichigatsu"
+  },
+  {
+    "count": 898,
+    "kana": "じゅうにがつ",
+    "phonetic": "12月",
+    "en": "month 12",
+    "cn": "12月",
+    "roma": "juunigatsu"
+  },
+  {
+    "count": 897,
     "kana": "はる",
-    "phonetic": "春",
+    "phonetic": "春天",
     "en": "spring",
     "cn": "春天",
     "roma": "haru"
   },
   {
-    "count": 718,
-    "kana": "さんがつ",
-    "phonetic": "3月",
-    "en": "March",
-    "cn": "3月",
-    "roma": "sangatsu"
-  },
-  {
-    "count": 718,
+    "count": 896,
     "kana": "なつ",
-    "phonetic": "夏",
+    "phonetic": "夏天",
     "en": "summer",
     "cn": "夏天",
     "roma": "natsu"
   },
   {
-    "count": 717,
+    "count": 895,
     "kana": "あき",
-    "phonetic": "秋",
+    "phonetic": "秋天",
     "en": "autumn",
     "cn": "秋天",
     "roma": "aki"
   },
   {
-    "count": 717,
-    "kana": "しがつ",
-    "phonetic": "4月",
-    "en": "April",
-    "cn": "4月",
-    "roma": "shigatsu"
-  },
-  {
-    "count": 716,
-    "kana": "ごがつ",
-    "phonetic": "5月",
-    "en": "May",
-    "cn": "5月",
-    "roma": "gogatsu"
-  },
-  {
-    "count": 716,
+    "count": 894,
     "kana": "ふゆ",
-    "phonetic": "冬",
+    "phonetic": "冬天",
     "en": "winter",
     "cn": "冬天",
     "roma": "fuyu"
   },
   {
-    "count": 715,
+    "count": 893,
     "kana": "きせつ",
     "phonetic": "季节",
     "en": "season",
@@ -840,63 +864,7 @@
     "roma": "kisetsu"
   },
   {
-    "count": 715,
-    "kana": "ろくがつ",
-    "phonetic": "6月",
-    "en": "June",
-    "cn": "6月",
-    "roma": "rokugatsu"
-  },
-  {
-    "count": 714,
-    "kana": "しちがつ",
-    "phonetic": "7月",
-    "en": "July",
-    "cn": "7月",
-    "roma": "shichigatsu"
-  },
-  {
-    "count": 713,
-    "kana": "はちがつ",
-    "phonetic": "8月",
-    "en": "August",
-    "cn": "8月",
-    "roma": "hachigatsu"
-  },
-  {
-    "count": 712,
-    "kana": "くがつ",
-    "phonetic": "9月",
-    "en": "September",
-    "cn": "9月",
-    "roma": "kugatsu"
-  },
-  {
-    "count": 711,
-    "kana": "じゅうがつ",
-    "phonetic": "10月",
-    "en": "October",
-    "cn": "10月",
-    "roma": "juugatsu"
-  },
-  {
-    "count": 710,
-    "kana": "じゅういちがつ",
-    "phonetic": "11月",
-    "en": "November",
-    "cn": "11月",
-    "roma": "juuichigatsu"
-  },
-  {
-    "count": 709,
-    "kana": "じゅうにがつ",
-    "phonetic": "12月",
-    "en": "December",
-    "cn": "12月",
-    "roma": "juunigatsu"
-  },
-  {
-    "count": 700,
+    "count": 892,
     "kana": "ねん",
     "phonetic": "年",
     "en": "year",
@@ -904,7 +872,7 @@
     "roma": "nen"
   },
   {
-    "count": 699,
+    "count": 891,
     "kana": "にせんにじゅうろくねん",
     "phonetic": "2026年",
     "en": "year 2026",
@@ -912,55 +880,15 @@
     "roma": "nisennijuurokunen"
   },
   {
-    "count": 698,
-    "kana": "にせんにじゅうごねん",
-    "phonetic": "2025年",
-    "en": "year 2025",
-    "cn": "2025年",
-    "roma": "nisennijuugonen"
-  },
-  {
-    "count": 697,
+    "count": 890,
     "kana": "れいわ",
     "phonetic": "令和",
-    "en": "Reiwa era",
+    "en": "Reiwa",
     "cn": "令和",
     "roma": "reiwa"
   },
   {
-    "count": 696,
-    "kana": "へいせい",
-    "phonetic": "平成",
-    "en": "Heisei era",
-    "cn": "平成",
-    "roma": "heisei"
-  },
-  {
-    "count": 680,
-    "kana": "じ",
-    "phonetic": "时（点）",
-    "en": "o'clock / hour",
-    "cn": "时（点）",
-    "roma": "ji"
-  },
-  {
-    "count": 679,
-    "kana": "ふん",
-    "phonetic": "分",
-    "en": "minute",
-    "cn": "分（分钟）",
-    "roma": "fun"
-  },
-  {
-    "count": 678,
-    "kana": "びょう",
-    "phonetic": "秒",
-    "en": "second",
-    "cn": "秒",
-    "roma": "byou"
-  },
-  {
-    "count": 677,
+    "count": 889,
     "kana": "いちじ",
     "phonetic": "1点",
     "en": "1 o'clock",
@@ -968,7 +896,7 @@
     "roma": "ichiji"
   },
   {
-    "count": 676,
+    "count": 888,
     "kana": "にじ",
     "phonetic": "2点",
     "en": "2 o'clock",
@@ -976,7 +904,7 @@
     "roma": "niji"
   },
   {
-    "count": 675,
+    "count": 887,
     "kana": "さんじ",
     "phonetic": "3点",
     "en": "3 o'clock",
@@ -984,7 +912,7 @@
     "roma": "sanji"
   },
   {
-    "count": 674,
+    "count": 886,
     "kana": "よじ",
     "phonetic": "4点",
     "en": "4 o'clock",
@@ -992,7 +920,7 @@
     "roma": "yoji"
   },
   {
-    "count": 673,
+    "count": 885,
     "kana": "ごじ",
     "phonetic": "5点",
     "en": "5 o'clock",
@@ -1000,7 +928,7 @@
     "roma": "goji"
   },
   {
-    "count": 672,
+    "count": 884,
     "kana": "ろくじ",
     "phonetic": "6点",
     "en": "6 o'clock",
@@ -1008,7 +936,7 @@
     "roma": "rokuji"
   },
   {
-    "count": 671,
+    "count": 883,
     "kana": "しちじ",
     "phonetic": "7点",
     "en": "7 o'clock",
@@ -1016,7 +944,7 @@
     "roma": "shichiji"
   },
   {
-    "count": 670,
+    "count": 882,
     "kana": "はちじ",
     "phonetic": "8点",
     "en": "8 o'clock",
@@ -1024,7 +952,7 @@
     "roma": "hachiji"
   },
   {
-    "count": 669,
+    "count": 881,
     "kana": "くじ",
     "phonetic": "9点",
     "en": "9 o'clock",
@@ -1032,15 +960,7 @@
     "roma": "kuji"
   },
   {
-    "count": 669,
-    "kana": "ぷん",
-    "phonetic": "分",
-    "en": "minute (rendaku)",
-    "cn": "分（读ぷん时）",
-    "roma": "pun"
-  },
-  {
-    "count": 668,
+    "count": 880,
     "kana": "じゅうじ",
     "phonetic": "10点",
     "en": "10 o'clock",
@@ -1048,7 +968,7 @@
     "roma": "juuji"
   },
   {
-    "count": 667,
+    "count": 879,
     "kana": "じゅういちじ",
     "phonetic": "11点",
     "en": "11 o'clock",
@@ -1056,7 +976,7 @@
     "roma": "juuichiji"
   },
   {
-    "count": 666,
+    "count": 878,
     "kana": "じゅうにじ",
     "phonetic": "12点",
     "en": "12 o'clock",
@@ -1064,135 +984,47 @@
     "roma": "juuniji"
   },
   {
-    "count": 665,
-    "kana": "いっぷん",
-    "phonetic": "1分",
-    "en": "1 minute",
-    "cn": "1分",
-    "roma": "ippun"
+    "count": 877,
+    "kana": "じ",
+    "phonetic": "时（…点）",
+    "en": "hour",
+    "cn": "时（…点）",
+    "roma": "ji"
   },
   {
-    "count": 664,
-    "kana": "にふん",
-    "phonetic": "2分",
-    "en": "2 minutes",
-    "cn": "2分",
-    "roma": "nifun"
+    "count": 876,
+    "kana": "ふん",
+    "phonetic": "分",
+    "en": "minute",
+    "cn": "分",
+    "roma": "fun"
   },
   {
-    "count": 663,
-    "kana": "さんぷん",
-    "phonetic": "3分",
-    "en": "3 minutes",
-    "cn": "3分",
-    "roma": "sanpun"
+    "count": 875,
+    "kana": "びょう",
+    "phonetic": "秒",
+    "en": "second",
+    "cn": "秒",
+    "roma": "byou"
   },
   {
-    "count": 662,
-    "kana": "よんぷん",
-    "phonetic": "4分",
-    "en": "4 minutes",
-    "cn": "4分",
-    "roma": "yonpun"
-  },
-  {
-    "count": 661,
-    "kana": "ごふん",
-    "phonetic": "5分",
-    "en": "5 minutes",
-    "cn": "5分",
-    "roma": "gofun"
-  },
-  {
-    "count": 660,
-    "kana": "ろっぷん",
-    "phonetic": "6分",
-    "en": "6 minutes",
-    "cn": "6分",
-    "roma": "roppun"
-  },
-  {
-    "count": 659,
-    "kana": "ななふん",
-    "phonetic": "7分",
-    "en": "7 minutes",
-    "cn": "7分",
-    "roma": "nanafun"
-  },
-  {
-    "count": 658,
-    "kana": "はっぷん",
-    "phonetic": "8分",
-    "en": "8 minutes",
-    "cn": "8分",
-    "roma": "happun"
-  },
-  {
-    "count": 657,
-    "kana": "きゅうふん",
-    "phonetic": "9分",
-    "en": "9 minutes",
-    "cn": "9分",
-    "roma": "kyuufun"
-  },
-  {
-    "count": 656,
-    "kana": "じゅっぷん",
-    "phonetic": "10分",
-    "en": "10 minutes",
-    "cn": "10分",
-    "roma": "juppun"
-  },
-  {
-    "count": 655,
-    "kana": "さんじゅっぷん",
-    "phonetic": "30分",
-    "en": "30 minutes",
-    "cn": "30分",
-    "roma": "sanjuppun"
-  },
-  {
-    "count": 654,
-    "kana": "いちびょう",
-    "phonetic": "1秒",
-    "en": "1 second",
-    "cn": "1秒",
-    "roma": "ichibyou"
-  },
-  {
-    "count": 653,
-    "kana": "ごびょう",
-    "phonetic": "5秒",
-    "en": "5 seconds",
-    "cn": "5秒",
-    "roma": "gobyou"
-  },
-  {
-    "count": 652,
-    "kana": "じゅうびょう",
-    "phonetic": "10秒",
-    "en": "10 seconds",
-    "cn": "10秒",
-    "roma": "juubyou"
-  },
-  {
-    "count": 651,
+    "count": 874,
     "kana": "ごぜん",
-    "phonetic": "上午 / AM",
+    "phonetic": "上午",
     "en": "a.m.",
-    "cn": "上午 / AM",
+    "cn": "上午",
     "roma": "gozen"
   },
   {
-    "count": 650,
+    "count": 873,
     "kana": "ごご",
-    "phonetic": "下午 / PM",
+    "phonetic": "下午",
     "en": "p.m.",
-    "cn": "下午 / PM",
+    "cn": "下午",
     "roma": "gogo"
   },
   {
-    "count": 649,
+    "count": 872,
     "kana": "はん",
     "phonetic": "半（…点半）",
     "en": "half past",
@@ -1200,7 +1032,191 @@
     "roma": "han"
   },
   {
-    "count": 640,
+    "count": 871,
+    "kana": "いっぷん",
+    "phonetic": "1分",
+    "en": "1 minutes",
+    "cn": "1分",
+    "roma": "ippun"
+  },
+  {
+    "count": 870,
+    "kana": "にふん",
+    "phonetic": "2分",
+    "en": "2 minutes",
+    "cn": "2分",
+    "roma": "nifun"
+  },
+  {
+    "count": 869,
+    "kana": "さんぷん",
+    "phonetic": "3分",
+    "en": "3 minutes",
+    "cn": "3分",
+    "roma": "sanpun"
+  },
+  {
+    "count": 868,
+    "kana": "よんぷん",
+    "phonetic": "4分",
+    "en": "4 minutes",
+    "cn": "4分",
+    "roma": "yonpun"
+  },
+  {
+    "count": 867,
+    "kana": "ごふん",
+    "phonetic": "5分",
+    "en": "5 minutes",
+    "cn": "5分",
+    "roma": "gofun"
+  },
+  {
+    "count": 866,
+    "kana": "ろっぷん",
+    "phonetic": "6分",
+    "en": "6 minutes",
+    "cn": "6分",
+    "roma": "roppun"
+  },
+  {
+    "count": 865,
+    "kana": "ななふん",
+    "phonetic": "7分",
+    "en": "7 minutes",
+    "cn": "7分",
+    "roma": "nanafun"
+  },
+  {
+    "count": 864,
+    "kana": "はっぷん",
+    "phonetic": "8分",
+    "en": "8 minutes",
+    "cn": "8分",
+    "roma": "happun"
+  },
+  {
+    "count": 863,
+    "kana": "きゅうふん",
+    "phonetic": "9分",
+    "en": "9 minutes",
+    "cn": "9分",
+    "roma": "kyuufun"
+  },
+  {
+    "count": 862,
+    "kana": "じゅっぷん",
+    "phonetic": "10分",
+    "en": "10 minutes",
+    "cn": "10分",
+    "roma": "juppun"
+  },
+  {
+    "count": 861,
+    "kana": "じゅういっぷん",
+    "phonetic": "11分",
+    "en": "11 minutes",
+    "cn": "11分",
+    "roma": "juuippun"
+  },
+  {
+    "count": 860,
+    "kana": "さんじゅっぷん",
+    "phonetic": "30分",
+    "en": "30 minutes",
+    "cn": "30分",
+    "roma": "sanjuppun"
+  },
+  {
+    "count": 859,
+    "kana": "いちびょう",
+    "phonetic": "1秒",
+    "en": "1 seconds",
+    "cn": "1秒",
+    "roma": "ichibyou"
+  },
+  {
+    "count": 858,
+    "kana": "にびょう",
+    "phonetic": "2秒",
+    "en": "2 seconds",
+    "cn": "2秒",
+    "roma": "nibyou"
+  },
+  {
+    "count": 857,
+    "kana": "さんびょう",
+    "phonetic": "3秒",
+    "en": "3 seconds",
+    "cn": "3秒",
+    "roma": "sanbyou"
+  },
+  {
+    "count": 856,
+    "kana": "よんびょう",
+    "phonetic": "4秒",
+    "en": "4 seconds",
+    "cn": "4秒",
+    "roma": "yonbyou"
+  },
+  {
+    "count": 855,
+    "kana": "ごびょう",
+    "phonetic": "5秒",
+    "en": "5 seconds",
+    "cn": "5秒",
+    "roma": "gobyou"
+  },
+  {
+    "count": 854,
+    "kana": "ろくびょう",
+    "phonetic": "6秒",
+    "en": "6 seconds",
+    "cn": "6秒",
+    "roma": "rokubyou"
+  },
+  {
+    "count": 853,
+    "kana": "ななびょう",
+    "phonetic": "7秒",
+    "en": "7 seconds",
+    "cn": "7秒",
+    "roma": "nanabyou"
+  },
+  {
+    "count": 852,
+    "kana": "はちびょう",
+    "phonetic": "8秒",
+    "en": "8 seconds",
+    "cn": "8秒",
+    "roma": "hachibyou"
+  },
+  {
+    "count": 851,
+    "kana": "きゅうびょう",
+    "phonetic": "9秒",
+    "en": "9 seconds",
+    "cn": "9秒",
+    "roma": "kyuubyou"
+  },
+  {
+    "count": 850,
+    "kana": "じゅうびょう",
+    "phonetic": "10秒",
+    "en": "10 seconds",
+    "cn": "10秒",
+    "roma": "juubyou"
+  },
+  {
+    "count": 849,
+    "kana": "じゅういちびょう",
+    "phonetic": "11秒",
+    "en": "11 seconds",
+    "cn": "11秒",
+    "roma": "juuichibyou"
+  },
+  {
+    "count": 848,
     "kana": "きょねん",
     "phonetic": "去年",
     "en": "last year",
@@ -1208,7 +1224,7 @@
     "roma": "kyonen"
   },
   {
-    "count": 639,
+    "count": 847,
     "kana": "ことし",
     "phonetic": "今年",
     "en": "this year",
@@ -1216,15 +1232,7 @@
     "roma": "kotoshi"
   },
   {
-    "count": 639,
-    "kana": "ばん",
-    "phonetic": "晚上",
-    "en": "evening",
-    "cn": "晚上（晩）",
-    "roma": "ban"
-  },
-  {
-    "count": 638,
+    "count": 846,
     "kana": "らいねん",
     "phonetic": "来年",
     "en": "next year",
@@ -1232,23 +1240,23 @@
     "roma": "rainen"
   },
   {
-    "count": 637,
+    "count": 845,
     "kana": "さらいねん",
     "phonetic": "后年",
-    "en": "the year after next",
+    "en": "year after next",
     "cn": "后年",
     "roma": "sarainen"
   },
   {
-    "count": 636,
+    "count": 844,
     "kana": "おととし",
-    "phonetic": "前年（前年）",
-    "en": "the year before last",
-    "cn": "前年（大前年的前一年）",
+    "phonetic": "前年",
+    "en": "year before last",
+    "cn": "前年",
     "roma": "ototoshi"
   },
   {
-    "count": 635,
+    "count": 843,
     "kana": "さきおととし",
     "phonetic": "大前年",
     "en": "three years ago",
@@ -1256,7 +1264,7 @@
     "roma": "sakiototoshi"
   },
   {
-    "count": 634,
+    "count": 842,
     "kana": "きのう",
     "phonetic": "昨日",
     "en": "yesterday",
@@ -1264,7 +1272,7 @@
     "roma": "kinou"
   },
   {
-    "count": 633,
+    "count": 841,
     "kana": "きょう",
     "phonetic": "今日",
     "en": "today",
@@ -1272,7 +1280,7 @@
     "roma": "kyou"
   },
   {
-    "count": 632,
+    "count": 840,
     "kana": "あした",
     "phonetic": "明日",
     "en": "tomorrow",
@@ -1280,7 +1288,7 @@
     "roma": "ashita"
   },
   {
-    "count": 631,
+    "count": 839,
     "kana": "みらい",
     "phonetic": "未来",
     "en": "future",
@@ -1288,7 +1296,7 @@
     "roma": "mirai"
   },
   {
-    "count": 630,
+    "count": 838,
     "kana": "あさ",
     "phonetic": "早上",
     "en": "morning",
@@ -1296,23 +1304,23 @@
     "roma": "asa"
   },
   {
-    "count": 629,
+    "count": 837,
     "kana": "ひる",
     "phonetic": "中午",
-    "en": "noon / daytime",
+    "en": "noon",
     "cn": "中午",
     "roma": "hiru"
   },
   {
-    "count": 628,
+    "count": 836,
     "kana": "よる",
     "phonetic": "晚上",
-    "en": "night / evening",
-    "cn": "晚上（夜）",
+    "en": "night",
+    "cn": "晚上",
     "roma": "yoru"
   },
   {
-    "count": 627,
+    "count": 834,
     "kana": "あさごはん",
     "phonetic": "早饭",
     "en": "breakfast",
@@ -1320,7 +1328,7 @@
     "roma": "asagohan"
   },
   {
-    "count": 626,
+    "count": 833,
     "kana": "ひるごはん",
     "phonetic": "中饭",
     "en": "lunch",
@@ -1328,7 +1336,7 @@
     "roma": "hirugohan"
   },
   {
-    "count": 625,
+    "count": 832,
     "kana": "ばんごはん",
     "phonetic": "晚饭",
     "en": "dinner",
@@ -1336,7 +1344,7 @@
     "roma": "bangohan"
   },
   {
-    "count": 624,
+    "count": 831,
     "kana": "やしょく",
     "phonetic": "夜宵",
     "en": "late-night snack",
