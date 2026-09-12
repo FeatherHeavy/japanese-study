@@ -73,6 +73,7 @@
       place-items: center;
     }
     .quiz-kana { font-size: 34px; font-weight: 700; letter-spacing: .06em; }
+    .quiz-subkana { font-size: 14px; color: var(--dim); margin-top: 4px; }
     .quiz-audio { display: flex; gap: 8px; align-items: center; justify-content: center; flex-wrap: wrap; }
     .quiz-audio .big { font-size: 28px; }
     .quiz-options {
@@ -126,9 +127,13 @@
     .cell:hover { filter: brightness(1.08); }
     .cell.learned { box-shadow: inset 0 0 0 1px var(--accent); }
     .cell.playing { outline: 2px solid var(--accent); outline-offset: 0; }
-    .cell .kana {
-      font-size: 15px; font-weight: 700; line-height: 1.2;
+    .cell .kanji {
+      font-size: 18px; font-weight: 750; line-height: 1.15;
       letter-spacing: .02em; word-break: break-all;
+    }
+    .cell .kana {
+      font-size: 11px; font-weight: 600; line-height: 1.15;
+      letter-spacing: .02em; word-break: break-all; color: #cfcfcf;
     }
     .cell .mean { font-size: 11px; color: #d0d0d0; line-height: 1.2; }
     .cell .roma {
@@ -136,6 +141,7 @@
       font-family: ui-monospace, Menlo, monospace; opacity: .9;
       line-height: 1.15; word-break: break-all;
     }
+
     .cell .mark {
       position: absolute; top: 3px; right: 4px;
       width: 14px; height: 14px; border-radius: 4px;
@@ -183,7 +189,7 @@
       <a href="../4/" style="color:#ececec">4 面试</a>
     </div>
     <h1>1　数字・時間</h1>
-    <div class="sub">按类型分色格子：数字 / 钱 / 门牌 / 日期 / 星期 / 月 / 四季 / 时分秒 / 日常。点格子跟读，右上角 ✓ 标记学会后测验。</div>
+    <div class="sub">汉字 + 读音。数字 / 钱各自完整一块（1–10 + 拼接）；日期、星期、月、四季、时分秒、日常同理。点格跟读，右上角 ✓ 测验。</div>
   </header>
 
   <section class="quiz" id="quiz">
@@ -252,12 +258,17 @@
       localStorage.setItem(LEARNED_KEY, JSON.stringify([...learned]));
     }
 
-    function isLearned(kana) {
-      return learned.has(kana);
+    function wordKey(w) {
+      return (w.kanji || "") + "|" + (w.kana || "") + "|" + (w.cat || "");
+    }
+
+    function isLearned(wOrKey) {
+      const key = typeof wOrKey === "string" ? wOrKey : wordKey(wOrKey);
+      return learned.has(key);
     }
 
     function learnedPool() {
-      return words.filter((w) => isLearned(w.kana));
+      return words.filter((w) => isLearned(w));
     }
 
     function pickVoice() {
@@ -344,7 +355,11 @@
         return;
       }
       if (quizMode === "text") {
-        prompt.innerHTML = '<div class="quiz-kana">' + quizWord.kana + "</div>";
+        const big = quizWord.kanji || quizWord.kana;
+        const sub = quizWord.kanji ? quizWord.kana : "";
+        prompt.innerHTML =
+          '<div class="quiz-kana">' + big + "</div>" +
+          (sub ? '<div class="quiz-subkana">' + sub + "</div>" : "");
         $("quiz-play").hidden = true;
       } else {
         prompt.innerHTML =
@@ -381,9 +396,10 @@
         if (isRight) el.classList.add("correct");
         else if (el === btn) el.classList.add("wrong");
       });
+      const label = (quizWord.kanji ? quizWord.kanji + " / " : "") + quizWord.kana;
       $("quiz-result").textContent = ok
-        ? "✓ 对了：" + quizWord.kana + " = " + correct
-        : "✗ 答案是「" + correct + "」（" + quizWord.kana + "）";
+        ? "✓ 对了：" + label + " = " + correct
+        : "✗ 答案是「" + correct + "」（" + label + "）";
     }
 
     function nextQuiz() {
@@ -434,19 +450,15 @@
     }
 
     function shortCn(cn) {
-      return String(cn || "")
-        .replace(/^数字\s*/, "")
-        .replace(/^电话\s*/, "")
-        .replace(/（.*?）/g, "")
-        .trim();
+      return String(cn || "").replace(/（.*?）/g, "").trim();
     }
 
     function render() {
       const q = $("q").value.trim().toLowerCase();
       shown = words.filter((w) => {
-        if (onlyLearned && !isLearned(w.kana)) return false;
+        if (onlyLearned && !isLearned(w)) return false;
         if (!q) return true;
-        return [w.kana, w.roma, w.cn, w.en, w.phonetic, w.cat].join(" ").toLowerCase().includes(q);
+        return [w.kanji, w.kana, w.roma, w.cn, w.en, w.phonetic, w.cat].join(" ").toLowerCase().includes(q);
       });
       const learnedCount = learnedPool().length;
       $("count").textContent = shown.length + " / " + words.length + " · 已学会 " + learnedCount + " · 点格子朗读，点右上角勾选学会";
@@ -465,9 +477,10 @@
         return `<section class="cat cat-${cat}">
           <div class="cat-h">${cat}<small>${items.length}</small></div>
           <div class="grid">${items.map(({ w, i }) => `
-            <div class="cell${isLearned(w.kana) ? " learned" : ""}" data-i="${i}" data-kana="${w.kana}" title="${w.cn} · ${w.en}">
-              <button class="mark" type="button" data-learn="${w.kana}" aria-label="学会了">✓</button>
-              <div class="kana">${w.kana}</div>
+            <div class="cell${isLearned(w) ? " learned" : ""}" data-i="${i}" data-key="${wordKey(w)}" title="${w.cn} · ${w.en}">
+              <button class="mark" type="button" data-learn="${wordKey(w)}" aria-label="学会了">✓</button>
+              <div class="kanji">${w.kanji || w.kana}</div>
+              <div class="kana">${w.kanji ? w.kana : ""}</div>
               <div class="mean"${hide ? ' style="visibility:hidden"' : ""}>${shortCn(w.cn)}</div>
               <div class="roma">${w.roma}</div>
             </div>`).join("")}</div>
