@@ -776,12 +776,36 @@
     "roma": "nigatsu"
   },
   {
+    "count": 719,
+    "kana": "はる",
+    "phonetic": "春",
+    "en": "spring",
+    "cn": "春天",
+    "roma": "haru"
+  },
+  {
     "count": 718,
     "kana": "さんがつ",
     "phonetic": "3月",
     "en": "March",
     "cn": "3月",
     "roma": "sangatsu"
+  },
+  {
+    "count": 718,
+    "kana": "なつ",
+    "phonetic": "夏",
+    "en": "summer",
+    "cn": "夏天",
+    "roma": "natsu"
+  },
+  {
+    "count": 717,
+    "kana": "あき",
+    "phonetic": "秋",
+    "en": "autumn",
+    "cn": "秋天",
+    "roma": "aki"
   },
   {
     "count": 717,
@@ -798,6 +822,22 @@
     "en": "May",
     "cn": "5月",
     "roma": "gogatsu"
+  },
+  {
+    "count": 716,
+    "kana": "ふゆ",
+    "phonetic": "冬",
+    "en": "winter",
+    "cn": "冬天",
+    "roma": "fuyu"
+  },
+  {
+    "count": 715,
+    "kana": "きせつ",
+    "phonetic": "季节",
+    "en": "season",
+    "cn": "季节",
+    "roma": "kisetsu"
   },
   {
     "count": 715,
@@ -992,6 +1032,14 @@
     "roma": "kuji"
   },
   {
+    "count": 669,
+    "kana": "ぷん",
+    "phonetic": "分",
+    "en": "minute (rendaku)",
+    "cn": "分（读ぷん时）",
+    "roma": "pun"
+  },
+  {
     "count": 668,
     "kana": "じゅうじ",
     "phonetic": "10点",
@@ -1168,6 +1216,14 @@
     "roma": "kotoshi"
   },
   {
+    "count": 639,
+    "kana": "ばん",
+    "phonetic": "晚上",
+    "en": "evening",
+    "cn": "晚上（晩）",
+    "roma": "ban"
+  },
+  {
     "count": 638,
     "kana": "らいねん",
     "phonetic": "来年",
@@ -1286,21 +1342,5 @@
     "en": "late-night snack",
     "cn": "夜宵",
     "roma": "yashoku"
-  },
-  {
-    "count": 639,
-    "kana": "ばん",
-    "phonetic": "晚上",
-    "en": "evening",
-    "cn": "晚上（晩）",
-    "roma": "ban"
-  },
-  {
-    "count": 669,
-    "kana": "ぷん",
-    "phonetic": "分",
-    "en": "minute (rendaku)",
-    "cn": "分（读ぷん时）",
-    "roma": "pun"
   }
 ]
