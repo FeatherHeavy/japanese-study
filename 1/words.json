@@ -680,6 +680,106 @@
     "roma": "zerokyuuzero"
   },
   {
+    "count": 1835,
+    "cat": "电话",
+    "kanji": "〇三",
+    "kana": "ゼロさん",
+    "phonetic": "市外局番 03（东京）",
+    "en": "Tokyo 03",
+    "cn": "市外局番 03（东京）",
+    "roma": "zerosan"
+  },
+  {
+    "count": 1834,
+    "cat": "电话",
+    "kanji": "〇六",
+    "kana": "ゼロろく",
+    "phonetic": "市外局番 06（大阪）",
+    "en": "Osaka 06",
+    "cn": "市外局番 06（大阪）",
+    "roma": "zeroroku"
+  },
+  {
+    "count": 1832,
+    "cat": "电话",
+    "kanji": "〇八〇",
+    "kana": "ゼロはちゼロ",
+    "phonetic": "手机开头 080",
+    "en": "mobile 080",
+    "cn": "手机开头 080",
+    "roma": "zerohachizero"
+  },
+  {
+    "count": 1831,
+    "cat": "电话",
+    "kanji": "〇七〇",
+    "kana": "ゼロななゼロ",
+    "phonetic": "手机开头 070",
+    "en": "mobile 070",
+    "cn": "手机开头 070",
+    "roma": "zeronanazero"
+  },
+  {
+    "count": 1830,
+    "cat": "电话",
+    "kanji": "〇三―一二三四―五六七八",
+    "kana": "ゼロさん、いち、に、さん、よん、ご、ろく、なな、はち",
+    "phonetic": "固话例 03-1234-5678",
+    "en": "landline ex.",
+    "cn": "固话例 03-1234-5678",
+    "roma": "zerosan ichi ni san yon go roku nana hachi"
+  },
+  {
+    "count": 1829,
+    "cat": "电话",
+    "kanji": "〇九〇―一二三四―五六七八",
+    "kana": "ゼロきゅうゼロ、いち、に、さん、よん、ご、ろく、なな、はち",
+    "phonetic": "手机例 090-1234-5678",
+    "en": "mobile ex.",
+    "cn": "手机例 090-1234-5678",
+    "roma": "zerokyuuzero ichi ni san yon go roku nana hachi"
+  },
+  {
+    "count": 1828,
+    "cat": "电话",
+    "kanji": "一一〇",
+    "kana": "いち・いち・ゼロ",
+    "phonetic": "报警 110（拨号）",
+    "en": "police 110",
+    "cn": "报警 110（拨号）",
+    "roma": "ichi ichi zero"
+  },
+  {
+    "count": 1827,
+    "cat": "电话",
+    "kanji": "一一九",
+    "kana": "いち・いち・きゅう",
+    "phonetic": "急救消防 119（拨号）",
+    "en": "119 dial",
+    "cn": "急救消防 119（拨号）",
+    "roma": "ichi ichi kyuu"
+  },
+  {
+    "count": 1826,
+    "cat": "电话",
+    "kanji": "一一七",
+    "kana": "いち・いち・なな",
+    "phonetic": "报时 117（拨号）",
+    "en": "117 dial",
+    "cn": "报时 117（拨号）",
+    "roma": "ichi ichi nana"
+  },
+  {
+    "count": 1825,
+    "cat": "电话",
+    "kanji": "〇一二〇",
+    "kana": "ゼロ・いち・に・ゼロ",
+    "phonetic": "免费电话 0120",
+    "en": "toll-free 0120",
+    "cn": "免费电话 0120",
+    "roma": "zero ichi ni zero"
+  },
+  {
     "count": 1942,
     "cat": "门牌",
     "kanji": "番",
@@ -1720,6 +1820,146 @@
     "roma": "ichijikan"
   },
   {
+    "count": 1690,
+    "cat": "时",
+    "kanji": "一時半",
+    "kana": "いちじはん",
+    "phonetic": "1点半",
+    "en": "1:30",
+    "cn": "1点半",
+    "roma": "ichijihan"
+  },
+  {
+    "count": 1689,
+    "cat": "时",
+    "kanji": "二時半",
+    "kana": "にじはん",
+    "phonetic": "2点半",
+    "en": "2:30",
+    "cn": "2点半",
+    "roma": "nijihan"
+  },
+  {
+    "count": 1688,
+    "cat": "时",
+    "kanji": "三時半",
+    "kana": "さんじはん",
+    "phonetic": "3点半",
+    "en": "3:30",
+    "cn": "3点半",
+    "roma": "sanjihan"
+  },
+  {
+    "count": 1687,
+    "cat": "时",
+    "kanji": "四時半",
+    "kana": "よじはん",
+    "phonetic": "4点半",
+    "en": "4:30",
+    "cn": "4点半",
+    "roma": "yojihan"
+  },
+  {
+    "count": 1686,
+    "cat": "时",
+    "kanji": "五時半",
+    "kana": "ごじはん",
+    "phonetic": "5点半",
+    "en": "5:30",
+    "cn": "5点半",
+    "roma": "gojihan"
+  },
+  {
+    "count": 1685,
+    "cat": "时",
+    "kanji": "六時半",
+    "kana": "ろくじはん",
+    "phonetic": "6点半",
+    "en": "6:30",
+    "cn": "6点半",
+    "roma": "rokujihan"
+  },
+  {
+    "count": 1684,
+    "cat": "时",
+    "kanji": "七時半",
+    "kana": "しちじはん",
+    "phonetic": "7点半",
+    "en": "7:30",
+    "cn": "7点半",
+    "roma": "shichijihan"
+  },
+  {
+    "count": 1683,
+    "cat": "时",
+    "kanji": "八時半",
+    "kana": "はちじはん",
+    "phonetic": "8点半",
+    "en": "8:30",
+    "cn": "8点半",
+    "roma": "hachijihan"
+  },
+  {
+    "count": 1682,
+    "cat": "时",
+    "kanji": "九時半",
+    "kana": "くじはん",
+    "phonetic": "9点半",
+    "en": "9:30",
+    "cn": "9点半",
+    "roma": "kujihan"
+  },
+  {
+    "count": 1681,
+    "cat": "时",
+    "kanji": "十時半",
+    "kana": "じゅうじはん",
+    "phonetic": "10点半",
+    "en": "10:30",
+    "cn": "10点半",
+    "roma": "juujihan"
+  },
+  {
+    "count": 1680,
+    "cat": "时",
+    "kanji": "十一時半",
+    "kana": "じゅういちじはん",
+    "phonetic": "11点半",
+    "en": "11:30",
+    "cn": "11点半",
+    "roma": "juuichijihan"
+  },
+  {
+    "count": 1679,
+    "cat": "时",
+    "kanji": "十二時半",
+    "kana": "じゅうにじはん",
+    "phonetic": "12点半",
+    "en": "12:30",
+    "cn": "12点半",
+    "roma": "juunijihan"
+  },
+  {
+    "count": 1675,
+    "cat": "时",
+    "kanji": "二十四時",
+    "kana": "にじゅうよじ",
+    "phonetic": "24点",
+    "en": "24:00",
+    "cn": "24点",
+    "roma": "nijuuyoji"
+  },
+  {
+    "count": 1674,
+    "cat": "时",
+    "kanji": "零時",
+    "kana": "れいじ",
+    "phonetic": "0点",
+    "en": "0:00",
+    "cn": "0点",
+    "roma": "reiji"
+  },
+  {
     "count": 1851,
     "cat": "分",
     "kanji": "分",
@@ -1988,6 +2228,726 @@
     "en": "60 seconds",
     "cn": "60秒",
     "roma": "rokujuubyou"
+  },
+  {
+    "count": 1400,
+    "cat": "计数",
+    "kanji": "一つ",
+    "kana": "ひとつ",
+    "phonetic": "1个（つ）",
+    "en": "1 (general counter)",
+    "cn": "1个（つ）",
+    "roma": "hitotsu"
+  },
+  {
+    "count": 1399,
+    "cat": "计数",
+    "kanji": "二つ",
+    "kana": "ふたつ",
+    "phonetic": "2个（つ）",
+    "en": "2 (general counter)",
+    "cn": "2个（つ）",
+    "roma": "futatsu"
+  },
+  {
+    "count": 1398,
+    "cat": "计数",
+    "kanji": "三つ",
+    "kana": "みっつ",
+    "phonetic": "3个（つ）",
+    "en": "3 (general counter)",
+    "cn": "3个（つ）",
+    "roma": "mittsu"
+  },
+  {
+    "count": 1397,
+    "cat": "计数",
+    "kanji": "四つ",
+    "kana": "よっつ",
+    "phonetic": "4个（つ）",
+    "en": "4 (general counter)",
+    "cn": "4个（つ）",
+    "roma": "yottsu"
+  },
+  {
+    "count": 1396,
+    "cat": "计数",
+    "kanji": "五つ",
+    "kana": "いつつ",
+    "phonetic": "5个（つ）",
+    "en": "5 (general counter)",
+    "cn": "5个（つ）",
+    "roma": "itsutsu"
+  },
+  {
+    "count": 1395,
+    "cat": "计数",
+    "kanji": "六つ",
+    "kana": "むっつ",
+    "phonetic": "6个（つ）",
+    "en": "6 (general counter)",
+    "cn": "6个（つ）",
+    "roma": "muttsu"
+  },
+  {
+    "count": 1394,
+    "cat": "计数",
+    "kanji": "七つ",
+    "kana": "ななつ",
+    "phonetic": "7个（つ）",
+    "en": "7 (general counter)",
+    "cn": "7个（つ）",
+    "roma": "nanatsu"
+  },
+  {
+    "count": 1393,
+    "cat": "计数",
+    "kanji": "八つ",
+    "kana": "やっつ",
+    "phonetic": "8个（つ）",
+    "en": "8 (general counter)",
+    "cn": "8个（つ）",
+    "roma": "yattsu"
+  },
+  {
+    "count": 1392,
+    "cat": "计数",
+    "kanji": "九つ",
+    "kana": "ここのつ",
+    "phonetic": "9个（つ）",
+    "en": "9 (general counter)",
+    "cn": "9个（つ）",
+    "roma": "kokonotsu"
+  },
+  {
+    "count": 1391,
+    "cat": "计数",
+    "kanji": "十（つ）",
+    "kana": "とお",
+    "phonetic": "10个（つ）",
+    "en": "10 (general counter)",
+    "cn": "10个（つ）",
+    "roma": "too"
+  },
+  {
+    "count": 1389,
+    "cat": "计数",
+    "kanji": "いくつ",
+    "kana": "いくつ",
+    "phonetic": "几个（いくつ）",
+    "en": "how many",
+    "cn": "几个（いくつ）",
+    "roma": "ikutsu"
+  },
+  {
+    "count": 1380,
+    "cat": "计数",
+    "kanji": "一人",
+    "kana": "ひとり",
+    "phonetic": "1人",
+    "en": "1 people",
+    "cn": "1人",
+    "roma": "hitori"
+  },
+  {
+    "count": 1379,
+    "cat": "计数",
+    "kanji": "二人",
+    "kana": "ふたり",
+    "phonetic": "2人",
+    "en": "2 people",
+    "cn": "2人",
+    "roma": "futari"
+  },
+  {
+    "count": 1378,
+    "cat": "计数",
+    "kanji": "三人",
+    "kana": "さんにん",
+    "phonetic": "3人",
+    "en": "3 people",
+    "cn": "3人",
+    "roma": "sannin"
+  },
+  {
+    "count": 1377,
+    "cat": "计数",
+    "kanji": "四人",
+    "kana": "よにん",
+    "phonetic": "4人",
+    "en": "4 people",
+    "cn": "4人",
+    "roma": "yonin"
+  },
+  {
+    "count": 1376,
+    "cat": "计数",
+    "kanji": "五人",
+    "kana": "ごにん",
+    "phonetic": "5人",
+    "en": "5 people",
+    "cn": "5人",
+    "roma": "gonin"
+  },
+  {
+    "count": 1375,
+    "cat": "计数",
+    "kanji": "六人",
+    "kana": "ろくにん",
+    "phonetic": "6人",
+    "en": "6 people",
+    "cn": "6人",
+    "roma": "rokunin"
+  },
+  {
+    "count": 1374,
+    "cat": "计数",
+    "kanji": "七人",
+    "kana": "しちにん",
+    "phonetic": "7人",
+    "en": "7 people",
+    "cn": "7人",
+    "roma": "shichinin"
+  },
+  {
+    "count": 1373,
+    "cat": "计数",
+    "kanji": "八人",
+    "kana": "はちにん",
+    "phonetic": "8人",
+    "en": "8 people",
+    "cn": "8人",
+    "roma": "hachinin"
+  },
+  {
+    "count": 1372,
+    "cat": "计数",
+    "kanji": "九人",
+    "kana": "きゅうにん",
+    "phonetic": "9人",
+    "en": "9 people",
+    "cn": "9人",
+    "roma": "kyuunin"
+  },
+  {
+    "count": 1371,
+    "cat": "计数",
+    "kanji": "十人",
+    "kana": "じゅうにん",
+    "phonetic": "10人",
+    "en": "10 people",
+    "cn": "10人",
+    "roma": "juunin"
+  },
+  {
+    "count": 1365,
+    "cat": "计数",
+    "kanji": "一回",
+    "kana": "いっかい",
+    "phonetic": "1次",
+    "en": "1 times",
+    "cn": "1次",
+    "roma": "ikkai"
+  },
+  {
+    "count": 1364,
+    "cat": "计数",
+    "kanji": "二回",
+    "kana": "にかい",
+    "phonetic": "2次",
+    "en": "2 times",
+    "cn": "2次",
+    "roma": "nikai"
+  },
+  {
+    "count": 1363,
+    "cat": "计数",
+    "kanji": "三回",
+    "kana": "さんかい",
+    "phonetic": "3次",
+    "en": "3 times",
+    "cn": "3次",
+    "roma": "sankai"
+  },
+  {
+    "count": 1362,
+    "cat": "计数",
+    "kanji": "五回",
+    "kana": "ごかい",
+    "phonetic": "5次",
+    "en": "5 times",
+    "cn": "5次",
+    "roma": "gokai"
+  },
+  {
+    "count": 1361,
+    "cat": "计数",
+    "kanji": "十回",
+    "kana": "じゅっかい",
+    "phonetic": "10次",
+    "en": "10 times",
+    "cn": "10次",
+    "roma": "jukkai"
+  },
+  {
+    "count": 1355,
+    "cat": "计数",
+    "kanji": "一個",
+    "kana": "いっこ",
+    "phonetic": "1个（個）",
+    "en": "1 piece",
+    "cn": "1个（個）",
+    "roma": "ikko"
+  },
+  {
+    "count": 1354,
+    "cat": "计数",
+    "kanji": "二個",
+    "kana": "にこ",
+    "phonetic": "2个（個）",
+    "en": "2 pieces",
+    "cn": "2个（個）",
+    "roma": "niko"
+  },
+  {
+    "count": 1353,
+    "cat": "计数",
+    "kanji": "三個",
+    "kana": "さんこ",
+    "phonetic": "3个（個）",
+    "en": "3 pieces",
+    "cn": "3个（個）",
+    "roma": "sanko"
+  },
+  {
+    "count": 1352,
+    "cat": "计数",
+    "kanji": "一枚",
+    "kana": "いちまい",
+    "phonetic": "1张（枚）",
+    "en": "1 flat sheet",
+    "cn": "1张（枚）",
+    "roma": "ichimai"
+  },
+  {
+    "count": 1351,
+    "cat": "计数",
+    "kanji": "二枚",
+    "kana": "にまい",
+    "phonetic": "2张（枚）",
+    "en": "2 sheets",
+    "cn": "2张（枚）",
+    "roma": "nimai"
+  },
+  {
+    "count": 1350,
+    "cat": "计数",
+    "kanji": "一冊",
+    "kana": "いっさつ",
+    "phonetic": "1本（书）",
+    "en": "1 book",
+    "cn": "1本（书）",
+    "roma": "issatsu"
+  },
+  {
+    "count": 1349,
+    "cat": "计数",
+    "kanji": "一本",
+    "kana": "いっぽん",
+    "phonetic": "1根/瓶（本）",
+    "en": "1 long obj/bottle",
+    "cn": "1根/瓶（本）",
+    "roma": "ippon"
+  },
+  {
+    "count": 1348,
+    "cat": "计数",
+    "kanji": "二本",
+    "kana": "にほん",
+    "phonetic": "2根/瓶（本）",
+    "en": "2 long objs",
+    "cn": "2根/瓶（本）",
+    "roma": "nihon"
+  },
+  {
+    "count": 1347,
+    "cat": "计数",
+    "kanji": "三本",
+    "kana": "さんぼん",
+    "phonetic": "3根/瓶（本）",
+    "en": "3 long objs",
+    "cn": "3根/瓶（本）",
+    "roma": "sanbon"
+  },
+  {
+    "count": 1346,
+    "cat": "计数",
+    "kanji": "一台",
+    "kana": "いちだい",
+    "phonetic": "1台（车/机器）",
+    "en": "1 machine/car",
+    "cn": "1台（车/机器）",
+    "roma": "ichidai"
+  },
+  {
+    "count": 1345,
+    "cat": "计数",
+    "kanji": "一匹",
+    "kana": "いっぴき",
+    "phonetic": "1只（小动物）",
+    "en": "1 small animal",
+    "cn": "1只（小动物）",
+    "roma": "ippiki"
+  },
+  {
+    "count": 1344,
+    "cat": "计数",
+    "kanji": "一階",
+    "kana": "いっかい",
+    "phonetic": "1楼",
+    "en": "1st floor",
+    "cn": "1楼",
+    "roma": "ikkai"
+  },
+  {
+    "count": 1343,
+    "cat": "计数",
+    "kanji": "二階",
+    "kana": "にかい",
+    "phonetic": "2楼",
+    "en": "2nd floor",
+    "cn": "2楼",
+    "roma": "nikai"
+  },
+  {
+    "count": 1342,
+    "cat": "计数",
+    "kanji": "三階",
+    "kana": "さんがい",
+    "phonetic": "3楼",
+    "en": "3rd floor",
+    "cn": "3楼",
+    "roma": "sangai"
+  },
+  {
+    "count": 1341,
+    "cat": "计数",
+    "kanji": "一杯",
+    "kana": "いっぱい",
+    "phonetic": "1杯",
+    "en": "1 cup/glass",
+    "cn": "1杯",
+    "roma": "ippai"
+  },
+  {
+    "count": 1340,
+    "cat": "计数",
+    "kanji": "一歳",
+    "kana": "いっさい",
+    "phonetic": "1岁",
+    "en": "1 year old",
+    "cn": "1岁",
+    "roma": "issai"
+  },
+  {
+    "count": 1339,
+    "cat": "计数",
+    "kanji": "二十歳",
+    "kana": "はたち",
+    "phonetic": "20岁",
+    "en": "20 years old",
+    "cn": "20岁",
+    "roma": "hatachi"
+  },
+  {
+    "count": 1338,
+    "cat": "计数",
+    "kanji": "一回戦",
+    "kana": "いっかいせん",
+    "phonetic": "第一轮（比赛）",
+    "en": "round 1",
+    "cn": "第一轮（比赛）",
+    "roma": "ikkaisen"
+  },
+  {
+    "count": 1337,
+    "cat": "计数",
+    "kanji": "第",
+    "kana": "だい",
+    "phonetic": "第…（第一）",
+    "en": "ordinal prefix",
+    "cn": "第…（第一）",
+    "roma": "dai"
+  },
+  {
+    "count": 1336,
+    "cat": "计数",
+    "kanji": "第一",
+    "kana": "だいいち",
+    "phonetic": "第一",
+    "en": "first",
+    "cn": "第一",
+    "roma": "daiichi"
+  },
+  {
+    "count": 1335,
+    "cat": "计数",
+    "kanji": "第二",
+    "kana": "だいに",
+    "phonetic": "第二",
+    "en": "second",
+    "cn": "第二",
+    "roma": "daini"
+  },
+  {
+    "count": 1300,
+    "cat": "计量",
+    "kanji": "円",
+    "kana": "えん",
+    "phonetic": "日元（单位）",
+    "en": "yen",
+    "cn": "日元（单位）",
+    "roma": "en"
+  },
+  {
+    "count": 1299,
+    "cat": "计量",
+    "kanji": "メートル",
+    "kana": "メートル",
+    "phonetic": "米（m）",
+    "en": "meter",
+    "cn": "米（m）",
+    "roma": "meetoru"
+  },
+  {
+    "count": 1298,
+    "cat": "计量",
+    "kanji": "キロメートル",
+    "kana": "キロメートル",
+    "phonetic": "千米（km）",
+    "en": "kilometer",
+    "cn": "千米（km）",
+    "roma": "kiromeetoru"
+  },
+  {
+    "count": 1297,
+    "cat": "计量",
+    "kanji": "センチ",
+    "kana": "センチ",
+    "phonetic": "厘米（cm）",
+    "en": "centimeter",
+    "cn": "厘米（cm）",
+    "roma": "senchi"
+  },
+  {
+    "count": 1296,
+    "cat": "计量",
+    "kanji": "ミリ",
+    "kana": "ミリ",
+    "phonetic": "毫米（mm）",
+    "en": "millimeter",
+    "cn": "毫米（mm）",
+    "roma": "miri"
+  },
+  {
+    "count": 1295,
+    "cat": "计量",
+    "kanji": "グラム",
+    "kana": "グラム",
+    "phonetic": "克（g）",
+    "en": "gram",
+    "cn": "克（g）",
+    "roma": "guramu"
+  },
+  {
+    "count": 1294,
+    "cat": "计量",
+    "kanji": "キログラム",
+    "kana": "キログラム",
+    "phonetic": "千克（kg）",
+    "en": "kilogram",
+    "cn": "千克（kg）",
+    "roma": "kiroguramu"
+  },
+  {
+    "count": 1293,
+    "cat": "计量",
+    "kanji": "キロ",
+    "kana": "キロ",
+    "phonetic": "公斤/千米（口语）",
+    "en": "kilo",
+    "cn": "公斤/千米（口语）",
+    "roma": "kiro"
+  },
+  {
+    "count": 1292,
+    "cat": "计量",
+    "kanji": "リットル",
+    "kana": "リットル",
+    "phonetic": "升（L）",
+    "en": "liter",
+    "cn": "升（L）",
+    "roma": "rittoru"
+  },
+  {
+    "count": 1291,
+    "cat": "计量",
+    "kanji": "ミリリットル",
+    "kana": "ミリリットル",
+    "phonetic": "毫升（mL）",
+    "en": "milliliter",
+    "cn": "毫升（mL）",
+    "roma": "miririttoru"
+  },
+  {
+    "count": 1290,
+    "cat": "计量",
+    "kanji": "度",
+    "kana": "ど",
+    "phonetic": "度（温度/角度）",
+    "en": "degree",
+    "cn": "度（温度/角度）",
+    "roma": "do"
+  },
+  {
+    "count": 1289,
+    "cat": "计量",
+    "kanji": "摂氏",
+    "kana": "せっし",
+    "phonetic": "摄氏",
+    "en": "Celsius",
+    "cn": "摄氏",
+    "roma": "sesshi"
+  },
+  {
+    "count": 1288,
+    "cat": "计量",
+    "kanji": "平方メートル",
+    "kana": "へいほうメートル",
+    "phonetic": "平方米（㎡）",
+    "en": "square meter",
+    "cn": "平方米（㎡）",
+    "roma": "heihou meetoru"
+  },
+  {
+    "count": 1287,
+    "cat": "计量",
+    "kanji": "畳",
+    "kana": "じょう",
+    "phonetic": "叠（面积）",
+    "en": "tatami mat area",
+    "cn": "叠（面积）",
+    "roma": "jou"
+  },
+  {
+    "count": 1286,
+    "cat": "计量",
+    "kanji": "パーセント",
+    "kana": "パーセント",
+    "phonetic": "百分之…（%）",
+    "en": "percent",
+    "cn": "百分之…（%）",
+    "roma": "paasento"
+  },
+  {
+    "count": 1285,
+    "cat": "计量",
+    "kanji": "約",
+    "kana": "やく",
+    "phonetic": "大约",
+    "en": "approximately",
+    "cn": "大约",
+    "roma": "yaku"
+  },
+  {
+    "count": 1284,
+    "cat": "计量",
+    "kanji": "以上",
+    "kana": "いじょう",
+    "phonetic": "以上（≥）",
+    "en": "or more",
+    "cn": "以上（≥）",
+    "roma": "ijou"
+  },
+  {
+    "count": 1283,
+    "cat": "计量",
+    "kanji": "以下",
+    "kana": "いか",
+    "phonetic": "以下（≤）",
+    "en": "or less",
+    "cn": "以下（≤）",
+    "roma": "ika"
+  },
+  {
+    "count": 1282,
+    "cat": "计量",
+    "kanji": "未満",
+    "kana": "みまん",
+    "phonetic": "不满（<）",
+    "en": "less than",
+    "cn": "不满（<）",
+    "roma": "miman"
+  },
+  {
+    "count": 1281,
+    "cat": "计量",
+    "kanji": "一キロ",
+    "kana": "いちキロ",
+    "phonetic": "1公斤/1公里",
+    "en": "1 kilo",
+    "cn": "1公斤/1公里",
+    "roma": "ichikiro"
+  },
+  {
+    "count": 1280,
+    "cat": "计量",
+    "kanji": "五百グラム",
+    "kana": "ごひゃくグラム",
+    "phonetic": "500克",
+    "en": "500 g",
+    "cn": "500克",
+    "roma": "gohyakuguramu"
+  },
+  {
+    "count": 1279,
+    "cat": "计量",
+    "kanji": "一リットル",
+    "kana": "いちリットル",
+    "phonetic": "1升",
+    "en": "1 liter",
+    "cn": "1升",
+    "roma": "ichirittoru"
+  },
+  {
+    "count": 1278,
+    "cat": "计量",
+    "kanji": "二メートル",
+    "kana": "にメートル",
+    "phonetic": "2米",
+    "en": "2 meters",
+    "cn": "2米",
+    "roma": "nimeetoru"
+  },
+  {
+    "count": 1277,
+    "cat": "计量",
+    "kanji": "三十度",
+    "kana": "さんじゅうど",
+    "phonetic": "30度",
+    "en": "30 degrees",
+    "cn": "30度",
+    "roma": "sanjuudo"
+  },
+  {
+    "count": 1276,
+    "cat": "计量",
+    "kanji": "百パーセント",
+    "kana": "ひゃくパーセント",
+    "phonetic": "100%",
+    "en": "100 percent",
+    "cn": "100%",
+    "roma": "hyakupasento"
   },
   {
     "count": 1550,
