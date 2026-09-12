@@ -704,9 +704,9 @@
     "cat": "门牌",
     "kanji": "丁目",
     "kana": "ちょうめ",
-    "phonetic": "丁目",
-    "en": "chome",
-    "cn": "丁目",
+    "phonetic": "丁目（街区编号）",
+    "en": "chome (city block section)",
+    "cn": "丁目（街区编号）",
     "roma": "choume"
   },
   {
@@ -848,6 +848,106 @@
     "en": "number 101",
     "cn": "101番",
     "roma": "hyakuichiban"
+  },
+  {
+    "count": 1820,
+    "cat": "门牌",
+    "kanji": "一丁目",
+    "kana": "いっちょうめ",
+    "phonetic": "1丁目",
+    "en": "1-chome",
+    "cn": "1丁目（第1街区）",
+    "roma": "icchoume"
+  },
+  {
+    "count": 1819,
+    "cat": "门牌",
+    "kanji": "二丁目",
+    "kana": "にちょうめ",
+    "phonetic": "2丁目",
+    "en": "2-chome",
+    "cn": "2丁目（第2街区）",
+    "roma": "nichoume"
+  },
+  {
+    "count": 1818,
+    "cat": "门牌",
+    "kanji": "三丁目",
+    "kana": "さんちょうめ",
+    "phonetic": "3丁目",
+    "en": "3-chome",
+    "cn": "3丁目（第3街区）",
+    "roma": "sanchoume"
+  },
+  {
+    "count": 1817,
+    "cat": "门牌",
+    "kanji": "四丁目",
+    "kana": "よんちょうめ",
+    "phonetic": "4丁目",
+    "en": "4-chome",
+    "cn": "4丁目（第4街区）",
+    "roma": "yonchoume"
+  },
+  {
+    "count": 1816,
+    "cat": "门牌",
+    "kanji": "五丁目",
+    "kana": "ごちょうめ",
+    "phonetic": "5丁目",
+    "en": "5-chome",
+    "cn": "5丁目（第5街区）",
+    "roma": "gochoume"
+  },
+  {
+    "count": 1815,
+    "cat": "门牌",
+    "kanji": "六丁目",
+    "kana": "ろくちょうめ",
+    "phonetic": "6丁目",
+    "en": "6-chome",
+    "cn": "6丁目（第6街区）",
+    "roma": "rokuchoume"
+  },
+  {
+    "count": 1814,
+    "cat": "门牌",
+    "kanji": "七丁目",
+    "kana": "ななちょうめ",
+    "phonetic": "7丁目",
+    "en": "7-chome",
+    "cn": "7丁目（第7街区）",
+    "roma": "nanachoume"
+  },
+  {
+    "count": 1813,
+    "cat": "门牌",
+    "kanji": "八丁目",
+    "kana": "はっちょうめ",
+    "phonetic": "8丁目",
+    "en": "8-chome",
+    "cn": "8丁目（第8街区）",
+    "roma": "hacchoume"
+  },
+  {
+    "count": 1812,
+    "cat": "门牌",
+    "kanji": "九丁目",
+    "kana": "きゅうちょうめ",
+    "phonetic": "9丁目",
+    "en": "9-chome",
+    "cn": "9丁目（第9街区）",
+    "roma": "kyuuchoume"
+  },
+  {
+    "count": 1811,
+    "cat": "门牌",
+    "kanji": "十丁目",
+    "kana": "じゅっちょうめ",
+    "phonetic": "10丁目",
+    "en": "10-chome",
+    "cn": "10丁目（第10街区）",
+    "roma": "jucchoume"
   },
   {
     "count": 1925,
