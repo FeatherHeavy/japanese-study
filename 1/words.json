@@ -570,17 +570,7 @@
     "roma": "ichimanichien"
   },
   {
-    "count": 1943,
-    "cat": "电话",
-    "kanji": "〇九〇",
-    "kana": "ゼロきゅうゼロ",
-    "phonetic": "电话例 090",
-    "en": "phone 090",
-    "cn": "电话例 090",
-    "roma": "zerokyuuzero"
-  },
-  {
-    "count": 1850,
+    "count": 1860,
     "cat": "电话",
     "kanji": "〇",
     "kana": "ゼロ",
@@ -590,7 +580,7 @@
     "roma": "zero"
   },
   {
-    "count": 1849,
+    "count": 1859,
     "cat": "电话",
     "kanji": "一",
     "kana": "いち",
@@ -600,7 +590,7 @@
     "roma": "ichi"
   },
   {
-    "count": 1848,
+    "count": 1858,
     "cat": "电话",
     "kanji": "二",
     "kana": "に",
@@ -610,7 +600,7 @@
     "roma": "ni"
   },
   {
-    "count": 1847,
+    "count": 1857,
     "cat": "电话",
     "kanji": "三",
     "kana": "さん",
@@ -620,7 +610,7 @@
     "roma": "san"
   },
   {
-    "count": 1846,
+    "count": 1856,
     "cat": "电话",
     "kanji": "四",
     "kana": "よん",
@@ -630,7 +620,7 @@
     "roma": "yon"
   },
   {
-    "count": 1845,
+    "count": 1855,
     "cat": "电话",
     "kanji": "五",
     "kana": "ご",
@@ -640,7 +630,7 @@
     "roma": "go"
   },
   {
-    "count": 1844,
+    "count": 1854,
     "cat": "电话",
     "kanji": "六",
     "kana": "ろく",
@@ -650,7 +640,7 @@
     "roma": "roku"
   },
   {
-    "count": 1843,
+    "count": 1853,
     "cat": "电话",
     "kanji": "七",
     "kana": "なな",
@@ -660,7 +650,7 @@
     "roma": "nana"
   },
   {
-    "count": 1842,
+    "count": 1852,
     "cat": "电话",
     "kanji": "八",
     "kana": "はち",
@@ -670,7 +660,7 @@
     "roma": "hachi"
   },
   {
-    "count": 1841,
+    "count": 1851,
     "cat": "电话",
     "kanji": "九",
     "kana": "きゅう",
@@ -678,6 +668,16 @@
     "en": "dial 9",
     "cn": "拨号 9",
     "roma": "kyuu"
+  },
+  {
+    "count": 1845,
+    "cat": "电话",
+    "kanji": "〇九〇",
+    "kana": "ゼロきゅうゼロ",
+    "phonetic": "电话例 090",
+    "en": "phone 090",
+    "cn": "电话例 090",
+    "roma": "zerokyuuzero"
   },
   {
     "count": 1942,
