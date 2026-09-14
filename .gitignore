@@ -3,3 +3,8 @@
 __pycache__/
 .idea/
 .vscode/
+
+.venv-xlsx/
+*.xlsx
+*.aiff
+jiko_shokai_kyoko.m4a
